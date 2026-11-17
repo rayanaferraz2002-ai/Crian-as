@@ -22,83 +22,83 @@
    "clipe": "MVI_9205.MP4",
    "entrada_s": 1.0,
    "batidas": 4,
-   "motivo": "Lousa 'Café Colonial' sendo escrita: apresenta o lugar, como a fachada com título da referência."
+   "motivo": "Lousa 'Café Colonial' sendo escrita: apresenta o café colonial."
   },
   {
    "id": "02",
-   "cena": "Detalhes (intro)",
-   "clipe": "MVI_9164.MP4",
-   "entrada_s": 0.0,
-   "batidas": 4,
-   "motivo": "Travelling de cima sobre pratos (pão, frutas, frios): equivale ao plano de mesa vista de cima da referência."
+   "cena": "Mesa completa",
+   "clipe": "MVI_9187.MP4",
+   "entrada_s": 0.3,
+   "batidas": 5,
+   "motivo": "Mesa completa posta (suco, café, pães, frios, frutas), nítida, com o salão ao fundo: mostra tudo o que vem antes dos detalhes."
   },
   {
    "id": "03",
-   "cena": "Detalhes (intro)",
-   "clipe": "MVI_9149.MP4",
-   "entrada_s": 3.1,
+   "cena": "Elementos da mesa",
+   "clipe": "MVI_9164.MP4",
+   "entrada_s": 0.0,
    "batidas": 4,
-   "motivo": "Café saindo da máquina na xícara (trecho já em foco; antes de 3 s está desfocado): equivale ao 'leite no café' da referência."
+   "motivo": "Travelling de cima passando pelos pratos: começa a apresentar o que está na mesa."
   },
   {
    "id": "04",
-   "cena": "Detalhes (intro)",
-   "clipe": "MVI_9167.MP4",
-   "entrada_s": 0.3,
-   "batidas": 4,
-   "motivo": "Café com leite visto de cima, espuma em movimento."
-  },
-  {
-   "id": "05",
-   "cena": "Detalhes (subida)",
-   "clipe": "MVI_9117.MP4",
-   "entrada_s": 3.6,
-   "batidas": 4,
-   "motivo": "Pegador de mel entra e escorre sobre o prato de frutas e queijo."
-  },
-  {
-   "id": "06",
-   "cena": "Detalhes (subida)",
-   "clipe": "MVI_9111.MP4",
-   "entrada_s": 4.55,
-   "batidas": 4,
-   "motivo": "Bolo de fubá com goiabada: câmera passa pelo bolo e a fatia é levantada no fim (ação de servir, como o corte do prato na referência). Antes de 4,5 s há mão desfocada no primeiro plano."
-  },
-  {
-   "id": "07",
-   "cena": "Detalhes (clímax)",
-   "clipe": "MVI_9115.MP4",
-   "entrada_s": 1.4,
-   "batidas": 4,
-   "motivo": "Corte depois do drop: pegador tira a melancia da travessa de frutas (ação de servir, nítido 1,2–3,5 s)."
-  },
-  {
-   "id": "08",
-   "cena": "Detalhes (clímax)",
-   "clipe": "MVI_9099.MP4",
-   "entrada_s": 1.5,
-   "batidas": 3,
-   "motivo": "Take curto em close: queijos com rosa de tomate (trecho mais nítido do clipe)."
-  },
-  {
-   "id": "09",
-   "cena": "Detalhes (clímax)",
+   "cena": "Elementos da mesa",
    "clipe": "MVI_9120.MP4",
    "entrada_s": 5.0,
    "batidas": 4,
-   "motivo": "Câmera desce da jarra de suco para os pratos (pão, frios, melancia): prepara o plano aberto final."
+   "motivo": "Câmera desce da jarra de suco para os pratos de pão, frios e frutas."
+  },
+  {
+   "id": "05",
+   "cena": "Elementos da mesa",
+   "clipe": "MVI_9149.MP4",
+   "entrada_s": 3.1,
+   "batidas": 3,
+   "motivo": "Café saindo da máquina na xícara (trecho em foco)."
+  },
+  {
+   "id": "06",
+   "cena": "Elementos da mesa",
+   "clipe": "MVI_9167.MP4",
+   "entrada_s": 0.3,
+   "batidas": 4,
+   "motivo": "Café com leite cremoso visto de cima."
+  },
+  {
+   "id": "07",
+   "cena": "Elementos — vontade de comer",
+   "clipe": "MVI_9115.MP4",
+   "entrada_s": 1.4,
+   "batidas": 4,
+   "motivo": "Logo depois que a música acelera: pegador tira a melancia suculenta da travessa."
+  },
+  {
+   "id": "08",
+   "cena": "Elementos — vontade de comer",
+   "clipe": "MVI_9099.MP4",
+   "entrada_s": 1.5,
+   "batidas": 3,
+   "motivo": "Close dos queijos com rosa de tomate."
+  },
+  {
+   "id": "09",
+   "cena": "Elementos — vontade de comer",
+   "clipe": "MVI_9111.MP4",
+   "entrada_s": 4.55,
+   "batidas": 4,
+   "motivo": "Bolo de fubá com goiabada; a fatia é levantada no fim do plano."
   },
   {
    "id": "10",
    "cena": "Fechamento",
-   "clipe": "MVI_9187.MP4",
-   "entrada_s": 2.15,
+   "clipe": "MVI_9117.MP4",
+   "entrada_s": 3.6,
    "batidas": 8,
+   "motivo": "Mel escorrendo sobre frutas e queijo: o detalhe mais apetitoso fecha o vídeo, com fade.",
    "transicao_saida": {
     "tipo": "Fade to Black",
     "frames": 12
-   },
-   "motivo": "Mesa posta nítida e o foco passa para as pessoas tomando café ao fundo: plano aberto final com fade, como na referência."
+   }
   }
  ],
  "relatorio": {
@@ -185,11 +185,25 @@
   ],
   "roteiro": [
    [
-    "Única",
-    "Café da manhã do Terral",
-    "Cinematográfico, takes curtos",
-    "Não definida → ~20 s (sua decisão)",
-    "Nenhuma (só música)"
+    "1",
+    "Lousa 'Café Colonial'",
+    "Abertura",
+    "~2 s",
+    "Música"
+   ],
+   [
+    "2",
+    "Mesa completa",
+    "Logo após a lousa (seu ajuste)",
+    "~2,3 s",
+    "Música"
+   ],
+   [
+    "3",
+    "Elementos da mesa, um a um",
+    "Apresentar o que está na mesa e dar vontade de comer (seu ajuste); takes curtos",
+    "~15,5 s",
+    "Música"
    ]
   ],
   "referencia": [
@@ -199,7 +213,7 @@
    "Estrutura: fachada com título → mesa vista de cima → leite no café → corte do prato → mexendo o café → mesa em plano aberto.",
    "Título na tela ('Sunday Brunch…') nos primeiros 4 s: não reproduzido (sua decisão: sem texto)."
   ],
-  "ritmo": "10 planos, 1 por clipe (sem repetição). Intro: 4 batidas (1,86 s) por plano. Depois do drop: 3–4 batidas, com take curto de 3 batidas no meio. Final: 8 batidas (mesa + passagem de foco) com fade.",
+  "ritmo": "10 planos, 1 por clipe. Lousa 4 batidas → mesa completa 5 → elementos com 3–4 batidas. A parte mais rápida da música começa no plano 07 (melancia); o final tem 8 batidas (mel escorrendo) com fade.",
   "descartados": [
    [
     "MVI_9149 0–3,0 s",
@@ -216,10 +230,6 @@
    [
     "MVI_9205 0–0,9 s",
     "Câmera ajustando, quadro instável."
-   ],
-   [
-    "MVI_9187 0–3,5 s",
-    "Mesa nítida mas sem a passagem de foco; o trecho escolhido contém a mesa e termina nas pessoas."
    ],
    [
     "MVI_9117 0–3,5 s",
@@ -240,13 +250,21 @@
    [
     "Versão anterior (v1)",
     "Repetia 5 clipes (9164, 9117, 9167, 9149, 9205). Substituídos pelos 3 novos + plano final mais longo. v1 salva em projeto_v1.json do trabalho."
+   ],
+   [
+    "MVI_9187 3,5 s → fim",
+    "O foco passa para as pessoas; na nova ordem a mesa precisa estar nítida."
+   ],
+   [
+    "Versão v2",
+    "Ordem anterior (mesa no fim). Salva em projeto_v2.json do trabalho."
    ]
   ],
   "premissas": [
-   "Duração ~20 s, sem texto, abertura com a lousa e fechamento com a mesa posta: decisões suas.",
+   "Ordem pedida por você: lousa → mesa completa → elementos (apresentação, vontade de comer). Duração ~20 s, sem texto.",
    "Formato: a regra pede a resolução/fps da referência (720×1280, 30 fps). Usei 9:16 (mesma proporção) em 1080×1920 e 23,976 fps, porque a referência é um download do Pinterest em baixa resolução, e passar os clipes de 23,976 para 30 fps faria a imagem trepidar. Para seguir a referência à risca, troque fps_num/fps_den/largura/altura no projeto.json e rode de novo.",
-   "Sem repetição de clipe (seu pedido). Com 10 clipes para 20 s, os planos ficaram um pouco mais longos (média 2 s) que os da referência (1,46 s); o plano final tem 3,7 s para caber a passagem de foco inteira.",
-   "Trecho da música: 1,625 s → 21,73 s (começa num tempo forte). O drop (12,84 s) cai no corte bolo → melancia: a fatia sobe no fim do plano 06 e o pegador entra no 07; os takes mais curtos ficam na parte de maior energia.",
+   "Sem repetição de clipe (seu pedido). Com 10 clipes para 20 s, os planos ficaram um pouco mais longos (média 2 s) que os da referência (1,46 s); o plano final (mel) tem 3,7 s para fechar com calma no fade.",
+   "Trecho da música 1,625 → 21,73 s. A parte mais rápida (a partir de 12,84 s) cai no plano 07 (melancia); os closes mais apetitosos (melancia, queijos, bolo, mel) ficam nela.",
    "Duração final 20,10 s = 43 batidas (o mais perto de 20 s na grade de batidas).",
    "Sem velocidade, zoom ou cor aplicados no XML; sugestões no checklist.",
    "Originais intocados (somente leitura); trabalho em cópias/proxies 720p."
@@ -255,12 +273,12 @@
    [
     "todos",
     "Câmera lenta (opcional)",
-    "'Cinematográfico': se quiser, 80–90% de velocidade nos planos 03, 07 e 10, ajustando a duração para manter o corte na batida. Não aplicado."
+    "'Cinematográfico': se quiser, 80–90% de velocidade nos planos 05, 07 e 10, ajustando a duração para manter o corte na batida. Não aplicado."
    ],
    [
     "todos",
     "Cor",
-    "MVI_9149 (plano 03) está bem mais escuro (luminância ~50) que os de mesa (~115–140). Em Lumetri: +0,5 a +0,8 de exposição nele, ou um look quente único em toda a sequência (camada de ajuste)."
+    "MVI_9149 (plano 05) está bem mais escuro (luminância ~50) que os de mesa (~115–140). Em Lumetri: +0,5 a +0,8 de exposição nele, ou um look quente único em toda a sequência (camada de ajuste)."
    ]
   ]
  }

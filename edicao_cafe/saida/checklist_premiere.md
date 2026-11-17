@@ -14,9 +14,9 @@
 | 00:00:19:14 → 00:00:20:02 | Fade para preto | 12 quadros no fim do último plano (se não vier, Dip to Black). |
 | 00:00:18:14 → 00:00:20:02 | Fade-out da música | Constant Power no fim de A1/A2 (se não vier, aplique). |
 | — | Áudio dos clipes | Não incluído (só música). |
-| 00:00:00:00 → 00:00:20:02 | Câmera lenta (opcional) | 'Cinematográfico': se quiser, 80–90% de velocidade nos planos 03, 07 e 10, ajustando a duração para manter o corte na batida. Não aplicado. |
-| 00:00:00:00 → 00:00:20:02 | Cor | MVI_9149 (plano 03) está bem mais escuro (luminância ~50) que os de mesa (~115–140). Em Lumetri: +0,5 a +0,8 de exposição nele, ou um look quente único em toda a sequência (camada de ajuste). |
-| 00:00:03:17 → 00:00:05:14 | Cor plano 03 | MVI_9149 escuro: subir exposição (ver item Cor). |
+| 00:00:00:00 → 00:00:20:02 | Câmera lenta (opcional) | 'Cinematográfico': se quiser, 80–90% de velocidade nos planos 05, 07 e 10, ajustando a duração para manter o corte na batida. Não aplicado. |
+| 00:00:00:00 → 00:00:20:02 | Cor | MVI_9149 (plano 05) está bem mais escuro (luminância ~50) que os de mesa (~115–140). Em Lumetri: +0,5 a +0,8 de exposição nele, ou um look quente único em toda a sequência (camada de ajuste). |
+| 00:00:07:23 → 00:00:09:08 | Cor plano 05 | MVI_9149 escuro: subir exposição (ver item Cor). |
 | — | Velocidade | 100% em todos (nada aplicado). |
 | — | Textos | Nenhum. Sem .srt. |
 

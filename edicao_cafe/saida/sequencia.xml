@@ -123,21 +123,116 @@
             <comments />
             <marker>
               <name>Cena Abertura</name>
-              <comment>Lousa 'Café Colonial' sendo escrita: apresenta o lugar, como a fachada com título da referência.</comment>
+              <comment>Lousa 'Café Colonial' sendo escrita: apresenta o café colonial.</comment>
               <in>24</in>
               <out>-1</out>
             </marker>
           </clipitem>
           <clipitem id="clipitem-02">
-            <name>CenaDetalhes (intro)_02_MVI_9164.MP4</name>
+            <name>CenaMesa completa_02_MVI_9187.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>143</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>44</start>
+            <end>100</end>
+            <in>7</in>
+            <out>63</out>
+            <file id="file-MVI_9187.MP4">
+              <name>MVI_9187.MP4</name>
+              <pathurl>file://localhost/Terral_material/MVI_9187.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>143</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena Mesa completa</name>
+              <comment>Mesa completa posta (suco, café, pães, frios, frutas), nítida, com o salão ao fundo: mostra tudo o que vem antes dos detalhes.</comment>
+              <in>7</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <clipitem id="clipitem-03">
+            <name>CenaElementos da mesa_03_MVI_9164.MP4</name>
             <enabled>TRUE</enabled>
             <duration>189</duration>
             <rate>
               <timebase>24</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>44</start>
-            <end>89</end>
+            <start>100</start>
+            <end>145</end>
             <in>0</in>
             <out>45</out>
             <file id="file-MVI_9164.MP4">
@@ -217,24 +312,119 @@
             </sourcetrack>
             <comments />
             <marker>
-              <name>Cena Detalhes (intro)</name>
-              <comment>Travelling de cima sobre pratos (pão, frutas, frios): equivale ao plano de mesa vista de cima da referência.</comment>
+              <name>Cena Elementos da mesa</name>
+              <comment>Travelling de cima passando pelos pratos: começa a apresentar o que está na mesa.</comment>
               <in>0</in>
               <out>-1</out>
             </marker>
           </clipitem>
-          <clipitem id="clipitem-03">
-            <name>CenaDetalhes (intro)_03_MVI_9149.MP4</name>
+          <clipitem id="clipitem-04">
+            <name>CenaElementos da mesa_04_MVI_9120.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>230</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>145</start>
+            <end>191</end>
+            <in>120</in>
+            <out>166</out>
+            <file id="file-MVI_9120.MP4">
+              <name>MVI_9120.MP4</name>
+              <pathurl>file://localhost/Terral_material/MVI_9120.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>230</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena Elementos da mesa</name>
+              <comment>Câmera desce da jarra de suco para os pratos de pão, frios e frutas.</comment>
+              <in>120</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <clipitem id="clipitem-05">
+            <name>CenaElementos da mesa_05_MVI_9149.MP4</name>
             <enabled>TRUE</enabled>
             <duration>222</duration>
             <rate>
               <timebase>24</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>89</start>
-            <end>134</end>
+            <start>191</start>
+            <end>224</end>
             <in>74</in>
-            <out>119</out>
+            <out>107</out>
             <file id="file-MVI_9149.MP4">
               <name>MVI_9149.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9149.MP4</pathurl>
@@ -312,22 +502,22 @@
             </sourcetrack>
             <comments />
             <marker>
-              <name>Cena Detalhes (intro)</name>
-              <comment>Café saindo da máquina na xícara (trecho já em foco; antes de 3 s está desfocado): equivale ao 'leite no café' da referência.</comment>
+              <name>Cena Elementos da mesa</name>
+              <comment>Café saindo da máquina na xícara (trecho em foco).</comment>
               <in>74</in>
               <out>-1</out>
             </marker>
           </clipitem>
-          <clipitem id="clipitem-04">
-            <name>CenaDetalhes (intro)_04_MVI_9167.MP4</name>
+          <clipitem id="clipitem-06">
+            <name>CenaElementos da mesa_06_MVI_9167.MP4</name>
             <enabled>TRUE</enabled>
             <duration>105</duration>
             <rate>
               <timebase>24</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>134</start>
-            <end>179</end>
+            <start>224</start>
+            <end>269</end>
             <in>7</in>
             <out>52</out>
             <file id="file-MVI_9167.MP4">
@@ -407,204 +597,14 @@
             </sourcetrack>
             <comments />
             <marker>
-              <name>Cena Detalhes (intro)</name>
-              <comment>Café com leite visto de cima, espuma em movimento.</comment>
+              <name>Cena Elementos da mesa</name>
+              <comment>Café com leite cremoso visto de cima.</comment>
               <in>7</in>
               <out>-1</out>
             </marker>
           </clipitem>
-          <clipitem id="clipitem-05">
-            <name>CenaDetalhes (subida)_05_MVI_9117.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>264</duration>
-            <rate>
-              <timebase>24</timebase>
-              <ntsc>TRUE</ntsc>
-            </rate>
-            <start>179</start>
-            <end>224</end>
-            <in>86</in>
-            <out>131</out>
-            <file id="file-MVI_9117.MP4">
-              <name>MVI_9117.MP4</name>
-              <pathurl>file://localhost/Terral_material/MVI_9117.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>264</duration>
-              <timecode>
-                <rate>
-                  <timebase>24</timebase>
-                  <ntsc>TRUE</ntsc>
-                </rate>
-                <string>00:00:00:00</string>
-                <frame>0</frame>
-                <displayformat>NDF</displayformat>
-              </timecode>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <samplecharacteristics>
-                    <depth>16</depth>
-                    <samplerate>48000</samplerate>
-                  </samplecharacteristics>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter authoringApp="PremierePro">
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>100</value>
-                </parameter>
-                <parameter authoringApp="PremierePro">
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>-90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-            <sourcetrack>
-              <mediatype>video</mediatype>
-              <trackindex>1</trackindex>
-            </sourcetrack>
-            <comments />
-            <marker>
-              <name>Cena Detalhes (subida)</name>
-              <comment>Pegador de mel entra e escorre sobre o prato de frutas e queijo.</comment>
-              <in>86</in>
-              <out>-1</out>
-            </marker>
-          </clipitem>
-          <clipitem id="clipitem-06">
-            <name>CenaDetalhes (subida)_06_MVI_9111.MP4</name>
-            <enabled>TRUE</enabled>
-            <duration>179</duration>
-            <rate>
-              <timebase>24</timebase>
-              <ntsc>TRUE</ntsc>
-            </rate>
-            <start>224</start>
-            <end>269</end>
-            <in>109</in>
-            <out>154</out>
-            <file id="file-MVI_9111.MP4">
-              <name>MVI_9111.MP4</name>
-              <pathurl>file://localhost/Terral_material/MVI_9111.MP4</pathurl>
-              <rate>
-                <timebase>24</timebase>
-                <ntsc>TRUE</ntsc>
-              </rate>
-              <duration>179</duration>
-              <timecode>
-                <rate>
-                  <timebase>24</timebase>
-                  <ntsc>TRUE</ntsc>
-                </rate>
-                <string>00:00:00:00</string>
-                <frame>0</frame>
-                <displayformat>NDF</displayformat>
-              </timecode>
-              <media>
-                <video>
-                  <samplecharacteristics>
-                    <rate>
-                      <timebase>24</timebase>
-                      <ntsc>TRUE</ntsc>
-                    </rate>
-                    <width>1920</width>
-                    <height>1080</height>
-                    <anamorphic>FALSE</anamorphic>
-                    <pixelaspectratio>square</pixelaspectratio>
-                    <fielddominance>none</fielddominance>
-                  </samplecharacteristics>
-                </video>
-                <audio>
-                  <samplecharacteristics>
-                    <depth>16</depth>
-                    <samplerate>48000</samplerate>
-                  </samplecharacteristics>
-                  <channelcount>2</channelcount>
-                </audio>
-              </media>
-            </file>
-            <filter>
-              <effect>
-                <name>Basic Motion</name>
-                <effectid>basic</effectid>
-                <effectcategory>motion</effectcategory>
-                <effecttype>motion</effecttype>
-                <mediatype>video</mediatype>
-                <parameter authoringApp="PremierePro">
-                  <parameterid>scale</parameterid>
-                  <name>Scale</name>
-                  <valuemin>0</valuemin>
-                  <valuemax>1000</valuemax>
-                  <value>100</value>
-                </parameter>
-                <parameter authoringApp="PremierePro">
-                  <parameterid>rotation</parameterid>
-                  <name>Rotation</name>
-                  <valuemin>-8640</valuemin>
-                  <valuemax>8640</valuemax>
-                  <value>-90</value>
-                </parameter>
-                <parameter>
-                  <parameterid>center</parameterid>
-                  <name>Center</name>
-                  <value>
-                    <horiz>0</horiz>
-                    <vert>0</vert>
-                  </value>
-                </parameter>
-              </effect>
-            </filter>
-            <sourcetrack>
-              <mediatype>video</mediatype>
-              <trackindex>1</trackindex>
-            </sourcetrack>
-            <comments />
-            <marker>
-              <name>Cena Detalhes (subida)</name>
-              <comment>Bolo de fubá com goiabada: câmera passa pelo bolo e a fatia é levantada no fim (ação de servir, como o corte do prato na referência). Antes de 4,5 s há mão desfocada no primeiro plano.</comment>
-              <in>109</in>
-              <out>-1</out>
-            </marker>
-          </clipitem>
           <clipitem id="clipitem-07">
-            <name>CenaDetalhes (clímax)_07_MVI_9115.MP4</name>
+            <name>CenaElementos — vontade de comer_07_MVI_9115.MP4</name>
             <enabled>TRUE</enabled>
             <duration>189</duration>
             <rate>
@@ -692,14 +692,14 @@
             </sourcetrack>
             <comments />
             <marker>
-              <name>Cena Detalhes (clímax)</name>
-              <comment>Corte depois do drop: pegador tira a melancia da travessa de frutas (ação de servir, nítido 1,2–3,5 s).</comment>
+              <name>Cena Elementos — vontade de comer</name>
+              <comment>Logo depois que a música acelera: pegador tira a melancia suculenta da travessa.</comment>
               <in>34</in>
               <out>-1</out>
             </marker>
           </clipitem>
           <clipitem id="clipitem-08">
-            <name>CenaDetalhes (clímax)_08_MVI_9099.MP4</name>
+            <name>CenaElementos — vontade de comer_08_MVI_9099.MP4</name>
             <enabled>TRUE</enabled>
             <duration>75</duration>
             <rate>
@@ -787,32 +787,32 @@
             </sourcetrack>
             <comments />
             <marker>
-              <name>Cena Detalhes (clímax)</name>
-              <comment>Take curto em close: queijos com rosa de tomate (trecho mais nítido do clipe).</comment>
+              <name>Cena Elementos — vontade de comer</name>
+              <comment>Close dos queijos com rosa de tomate.</comment>
               <in>36</in>
               <out>-1</out>
             </marker>
           </clipitem>
           <clipitem id="clipitem-09">
-            <name>CenaDetalhes (clímax)_09_MVI_9120.MP4</name>
+            <name>CenaElementos — vontade de comer_09_MVI_9111.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>230</duration>
+            <duration>179</duration>
             <rate>
               <timebase>24</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
             <start>348</start>
             <end>391</end>
-            <in>120</in>
-            <out>163</out>
-            <file id="file-MVI_9120.MP4">
-              <name>MVI_9120.MP4</name>
-              <pathurl>file://localhost/Terral_material/MVI_9120.MP4</pathurl>
+            <in>109</in>
+            <out>152</out>
+            <file id="file-MVI_9111.MP4">
+              <name>MVI_9111.MP4</name>
+              <pathurl>file://localhost/Terral_material/MVI_9111.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>230</duration>
+              <duration>179</duration>
               <timecode>
                 <rate>
                   <timebase>24</timebase>
@@ -882,32 +882,32 @@
             </sourcetrack>
             <comments />
             <marker>
-              <name>Cena Detalhes (clímax)</name>
-              <comment>Câmera desce da jarra de suco para os pratos (pão, frios, melancia): prepara o plano aberto final.</comment>
-              <in>120</in>
+              <name>Cena Elementos — vontade de comer</name>
+              <comment>Bolo de fubá com goiabada; a fatia é levantada no fim do plano.</comment>
+              <in>109</in>
               <out>-1</out>
             </marker>
           </clipitem>
           <clipitem id="clipitem-10">
-            <name>CenaFechamento_10_MVI_9187.MP4</name>
+            <name>CenaFechamento_10_MVI_9117.MP4</name>
             <enabled>TRUE</enabled>
-            <duration>143</duration>
+            <duration>264</duration>
             <rate>
               <timebase>24</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
             <start>391</start>
             <end>482</end>
-            <in>52</in>
-            <out>143</out>
-            <file id="file-MVI_9187.MP4">
-              <name>MVI_9187.MP4</name>
-              <pathurl>file://localhost/Terral_material/MVI_9187.MP4</pathurl>
+            <in>86</in>
+            <out>177</out>
+            <file id="file-MVI_9117.MP4">
+              <name>MVI_9117.MP4</name>
+              <pathurl>file://localhost/Terral_material/MVI_9117.MP4</pathurl>
               <rate>
                 <timebase>24</timebase>
                 <ntsc>TRUE</ntsc>
               </rate>
-              <duration>143</duration>
+              <duration>264</duration>
               <timecode>
                 <rate>
                   <timebase>24</timebase>
@@ -978,8 +978,8 @@
             <comments />
             <marker>
               <name>Cena Fechamento</name>
-              <comment>Mesa posta nítida e o foco passa para as pessoas tomando café ao fundo: plano aberto final com fade, como na referência.</comment>
-              <in>52</in>
+              <comment>Mel escorrendo sobre frutas e queijo: o detalhe mais apetitoso fecha o vídeo, com fade.</comment>
+              <in>86</in>
               <out>-1</out>
             </marker>
           </clipitem>

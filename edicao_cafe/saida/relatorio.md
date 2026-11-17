@@ -27,7 +27,9 @@ Clipes 1920×1080 23,976 fps gravados com câmera deitada (conteúdo vertical): 
 
 | Cena | Direção de imagem | Direção de edição | Duração | Áudio/fala |
 |---|---|---|---|---|
-| Única | Café da manhã do Terral | Cinematográfico, takes curtos | Não definida → ~20 s (sua decisão) | Nenhuma (só música) |
+| 1 | Lousa 'Café Colonial' | Abertura | ~2 s | Música |
+| 2 | Mesa completa | Logo após a lousa (seu ajuste) | ~2,3 s | Música |
+| 3 | Elementos da mesa, um a um | Apresentar o que está na mesa e dar vontade de comer (seu ajuste); takes curtos | ~15,5 s | Música |
 
 ## Passo 2 — Referência
 
@@ -48,19 +50,19 @@ Clipes 1920×1080 23,976 fps gravados com câmera deitada (conteúdo vertical): 
 
 | # | Cena | Arquivo original | Entrada → saída (fonte) | Timeline | Batidas | Motivo | Nitidez/mov./lum. |
 |---|---|---|---|---|---|---|---|
-| 01 | Abertura | MVI_9205.MP4 | 1.00 → 2.84 s | 00:00:00:00 → 00:00:01:20 | 4 | Lousa 'Café Colonial' sendo escrita: apresenta o lugar, como a fachada com título da referência. | 1039.9/3.23/78.5 |
-| 02 | Detalhes (intro) | MVI_9164.MP4 | 0.00 → 1.88 s | 00:00:01:20 → 00:00:03:17 | 4 | Travelling de cima sobre pratos (pão, frutas, frios): equivale ao plano de mesa vista de cima da referência. | 144.3/6.85/127.8 |
-| 03 | Detalhes (intro) | MVI_9149.MP4 | 3.10 → 4.96 s | 00:00:03:17 → 00:00:05:14 | 4 | Café saindo da máquina na xícara (trecho já em foco; antes de 3 s está desfocado): equivale ao 'leite no café' da referência. | 430.8/1.92/50.2 |
-| 04 | Detalhes (intro) | MVI_9167.MP4 | 0.30 → 2.17 s | 00:00:05:14 → 00:00:07:11 | 4 | Café com leite visto de cima, espuma em movimento. | 120.9/5.39/114.3 |
-| 05 | Detalhes (subida) | MVI_9117.MP4 | 3.60 → 5.46 s | 00:00:07:11 → 00:00:09:08 | 4 | Pegador de mel entra e escorre sobre o prato de frutas e queijo. | 141.3/4.18/135.4 |
-| 06 | Detalhes (subida) | MVI_9111.MP4 | 4.55 → 6.42 s | 00:00:09:08 → 00:00:11:05 | 4 | Bolo de fubá com goiabada: câmera passa pelo bolo e a fatia é levantada no fim (ação de servir, como o corte do prato na referência). Antes de 4,5 s há mão desfocada no primeiro plano. | 104.9/6.47/122.0 |
-| 07 | Detalhes (clímax) | MVI_9115.MP4 | 1.40 → 3.34 s | 00:00:11:05 → 00:00:13:03 | 4 | Corte depois do drop: pegador tira a melancia da travessa de frutas (ação de servir, nítido 1,2–3,5 s). | 89.1/9.67/152.1 |
-| 08 | Detalhes (clímax) | MVI_9099.MP4 | 1.50 → 2.88 s | 00:00:13:03 → 00:00:14:12 | 3 | Take curto em close: queijos com rosa de tomate (trecho mais nítido do clipe). | 39.6/3.01/103.6 |
-| 09 | Detalhes (clímax) | MVI_9120.MP4 | 5.00 → 6.80 s | 00:00:14:12 → 00:00:16:07 | 4 | Câmera desce da jarra de suco para os pratos (pão, frios, melancia): prepara o plano aberto final. | 32.3/6.42/136.5 |
-| 10 | Fechamento | MVI_9187.MP4 | 2.15 → 5.96 s | 00:00:16:07 → 00:00:20:02 | 8 | Mesa posta nítida e o foco passa para as pessoas tomando café ao fundo: plano aberto final com fade, como na referência. | 151.7/4.06/129.4 |
+| 01 | Abertura | MVI_9205.MP4 | 1.00 → 2.84 s | 00:00:00:00 → 00:00:01:20 | 4 | Lousa 'Café Colonial' sendo escrita: apresenta o café colonial. | 1039.9/3.23/78.5 |
+| 02 | Mesa completa | MVI_9187.MP4 | 0.30 → 2.63 s | 00:00:01:20 → 00:00:04:04 | 5 | Mesa completa posta (suco, café, pães, frios, frutas), nítida, com o salão ao fundo: mostra tudo o que vem antes dos detalhes. | 144.8/3.93/130.4 |
+| 03 | Elementos da mesa | MVI_9164.MP4 | 0.00 → 1.88 s | 00:00:04:04 → 00:00:06:01 | 4 | Travelling de cima passando pelos pratos: começa a apresentar o que está na mesa. | 144.3/6.85/127.8 |
+| 04 | Elementos da mesa | MVI_9120.MP4 | 5.00 → 6.92 s | 00:00:06:01 → 00:00:07:23 | 4 | Câmera desce da jarra de suco para os pratos de pão, frios e frutas. | 32.5/6.48/136.1 |
+| 05 | Elementos da mesa | MVI_9149.MP4 | 3.10 → 4.46 s | 00:00:07:23 → 00:00:09:08 | 3 | Café saindo da máquina na xícara (trecho em foco). | 424.5/1.95/50.2 |
+| 06 | Elementos da mesa | MVI_9167.MP4 | 0.30 → 2.17 s | 00:00:09:08 → 00:00:11:05 | 4 | Café com leite cremoso visto de cima. | 120.9/5.39/114.3 |
+| 07 | Elementos — vontade de comer | MVI_9115.MP4 | 1.40 → 3.34 s | 00:00:11:05 → 00:00:13:03 | 4 | Logo depois que a música acelera: pegador tira a melancia suculenta da travessa. | 89.1/9.67/152.1 |
+| 08 | Elementos — vontade de comer | MVI_9099.MP4 | 1.50 → 2.88 s | 00:00:13:03 → 00:00:14:12 | 3 | Close dos queijos com rosa de tomate. | 39.6/3.01/103.6 |
+| 09 | Elementos — vontade de comer | MVI_9111.MP4 | 4.55 → 6.34 s | 00:00:14:12 → 00:00:16:07 | 4 | Bolo de fubá com goiabada; a fatia é levantada no fim do plano. | 111.3/6.1/121.5 |
+| 10 | Fechamento | MVI_9117.MP4 | 3.60 → 7.38 s | 00:00:16:07 → 00:00:20:02 | 8 | Mel escorrendo sobre frutas e queijo: o detalhe mais apetitoso fecha o vídeo, com fade. | 151.7/3.6/135.4 |
 
 Duração 20.103 s (482 quadros), 10 planos, média 2.01 s (mín 1.38, máx 3.80).
-10 planos, 1 por clipe (sem repetição). Intro: 4 batidas (1,86 s) por plano. Depois do drop: 3–4 batidas, com take curto de 3 batidas no meio. Final: 8 batidas (mesa + passagem de foco) com fade.
+10 planos, 1 por clipe. Lousa 4 batidas → mesa completa 5 → elementos com 3–4 batidas. A parte mais rápida da música começa no plano 07 (melancia); o final tem 8 batidas (mel escorrendo) com fade.
 Transições: corte seco na batida; 10: Fade to Black 12 quadros. Fade-out da música 1.5 s.
 
 ## Descartados
@@ -71,19 +73,20 @@ Transições: corte seco na batida; 10: Fade to Black 12 quadros. Fade-out da m�
 | MVI_9111 0–4,5 s | Mão desfocada em primeiro plano; quadro poluído. |
 | MVI_9111 6,5 s → fim | Fatia sai do quadro; plano vazio. |
 | MVI_9205 0–0,9 s | Câmera ajustando, quadro instável. |
-| MVI_9187 0–3,5 s | Mesa nítida mas sem a passagem de foco; o trecho escolhido contém a mesa e termina nas pessoas. |
 | MVI_9117 0–3,5 s | Prato parado, sem mel (menos ação). |
 | MVI_9115 4,0 s → fim | Melancia já saiu do quadro; travessa parada e desfocada no fim. |
 | MVI_9120 0–4,5 s | Jarra parada; o trecho com movimento para os pratos é mais forte. |
 | MVI_9099 0–1,5 s | Menos nítido que o fim do clipe. |
 | Versão anterior (v1) | Repetia 5 clipes (9164, 9117, 9167, 9149, 9205). Substituídos pelos 3 novos + plano final mais longo. v1 salva em projeto_v1.json do trabalho. |
+| MVI_9187 3,5 s → fim | O foco passa para as pessoas; na nova ordem a mesa precisa estar nítida. |
+| Versão v2 | Ordem anterior (mesa no fim). Salva em projeto_v2.json do trabalho. |
 
 ## Premissas
 
-1. Duração ~20 s, sem texto, abertura com a lousa e fechamento com a mesa posta: decisões suas.
+1. Ordem pedida por você: lousa → mesa completa → elementos (apresentação, vontade de comer). Duração ~20 s, sem texto.
 2. Formato: a regra pede a resolução/fps da referência (720×1280, 30 fps). Usei 9:16 (mesma proporção) em 1080×1920 e 23,976 fps, porque a referência é um download do Pinterest em baixa resolução, e passar os clipes de 23,976 para 30 fps faria a imagem trepidar. Para seguir a referência à risca, troque fps_num/fps_den/largura/altura no projeto.json e rode de novo.
-3. Sem repetição de clipe (seu pedido). Com 10 clipes para 20 s, os planos ficaram um pouco mais longos (média 2 s) que os da referência (1,46 s); o plano final tem 3,7 s para caber a passagem de foco inteira.
-4. Trecho da música: 1,625 s → 21,73 s (começa num tempo forte). O drop (12,84 s) cai no corte bolo → melancia: a fatia sobe no fim do plano 06 e o pegador entra no 07; os takes mais curtos ficam na parte de maior energia.
+3. Sem repetição de clipe (seu pedido). Com 10 clipes para 20 s, os planos ficaram um pouco mais longos (média 2 s) que os da referência (1,46 s); o plano final (mel) tem 3,7 s para fechar com calma no fade.
+4. Trecho da música 1,625 → 21,73 s. A parte mais rápida (a partir de 12,84 s) cai no plano 07 (melancia); os closes mais apetitosos (melancia, queijos, bolo, mel) ficam nela.
 5. Duração final 20,10 s = 43 batidas (o mais perto de 20 s na grade de batidas).
 6. Sem velocidade, zoom ou cor aplicados no XML; sugestões no checklist.
 7. Originais intocados (somente leitura); trabalho em cópias/proxies 720p.

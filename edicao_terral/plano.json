@@ -1,0 +1,219 @@
+{
+ "config": {
+  "fps_num": 24000,
+  "fps_den": 1001,
+  "largura": 1080,
+  "altura": 1920,
+  "duracao_alvo_s": 20.0,
+  "rotacao_fonte_graus": -90,
+  "musica": {
+   "arquivo": "Drop Top Summer (Instrumental).mp4",
+   "inicio_s": 13.932,
+   "fade_out_s": 1.5,
+   "fade_video_frames": 12
+  },
+  "originais_dir": "/home/user/material_drive",
+  "duracao_final_f": 480,
+  "duracao_final_s": 20.02,
+  "bpm": 129.2
+ },
+ "planos": [
+  {
+   "id": "A",
+   "cena": 2,
+   "clipe": "MVI_9197.MP4",
+   "entrada_s": 0.15,
+   "batidas": 4,
+   "transicao_saida": {
+    "tipo": "Cross Dissolve",
+    "frames": 4
+   },
+   "motivo": "Perfil @terralgastrobar no Instagram; dedo vai até o link da bio. Abre a ação do pedido.",
+   "timeline_in_f": 0,
+   "timeline_out_f": 46,
+   "fonte_in_f": 4,
+   "fonte_out_f": 50,
+   "fonte_saida_s": 2.085,
+   "timeline_in_tc": "00:00:00:00",
+   "timeline_out_tc": "00:00:01:22",
+   "batida_musica_s": 13.932,
+   "qualidade": {
+    "nitidez_laplaciano": 1603.0,
+    "movimento_medio": 8.69,
+    "luminancia_media": 114.3
+   }
+  },
+  {
+   "id": "B",
+   "cena": 2,
+   "clipe": "MVI_9197.MP4",
+   "entrada_s": 6.05,
+   "batidas": 4,
+   "motivo": "Tela 'Carregando' vira o cardápio próprio do Terral (Destaques/10% de desconto).",
+   "timeline_in_f": 46,
+   "timeline_out_f": 91,
+   "fonte_in_f": 145,
+   "fonte_out_f": 190,
+   "fonte_saida_s": 7.925,
+   "timeline_in_tc": "00:00:01:22",
+   "timeline_out_tc": "00:00:03:19",
+   "batida_musica_s": 15.836,
+   "qualidade": {
+    "nitidez_laplaciano": 1097.7,
+    "movimento_medio": 7.67,
+    "luminancia_media": 70.4
+   }
+  },
+  {
+   "id": "C",
+   "cena": 2,
+   "clipe": "MVI_9197.MP4",
+   "entrada_s": 9.0,
+   "batidas": 5,
+   "motivo": "Rolagem do cardápio com fotos dos pratos; foco bom, mão estável.",
+   "timeline_in_f": 91,
+   "timeline_out_f": 148,
+   "fonte_in_f": 216,
+   "fonte_out_f": 273,
+   "fonte_saida_s": 11.386,
+   "timeline_in_tc": "00:00:03:19",
+   "timeline_out_tc": "00:00:06:04",
+   "batida_musica_s": 17.717,
+   "qualidade": {
+    "nitidez_laplaciano": 1226.9,
+    "movimento_medio": 9.91,
+    "luminancia_media": 70.3
+   }
+  },
+  {
+   "id": "D",
+   "cena": 2,
+   "clipe": "MVI_9197.MP4",
+   "entrada_s": 19.7,
+   "batidas": 3,
+   "motivo": "Abre o prato (Risoto de Mignon com Funghi): fecha a cena do pedido com comida em destaque, antes do drop.",
+   "timeline_in_f": 148,
+   "timeline_out_f": 182,
+   "fonte_in_f": 472,
+   "fonte_out_f": 506,
+   "fonte_saida_s": 21.104,
+   "timeline_in_tc": "00:00:06:04",
+   "timeline_out_tc": "00:00:07:14",
+   "batida_musica_s": 20.108,
+   "qualidade": {
+    "nitidez_laplaciano": 646.1,
+    "movimento_medio": 3.76,
+    "luminancia_media": 81.3
+   }
+  },
+  {
+   "id": "F",
+   "cena": 3,
+   "clipe": "MVI_9200.MP4",
+   "entrada_s": 1.4,
+   "batidas": 5,
+   "motivo": "Sacola Terral entra em quadro e é pousada no balcão (lateral). Corte cai no drop da música.",
+   "timeline_in_f": 182,
+   "timeline_out_f": 238,
+   "fonte_in_f": 34,
+   "fonte_out_f": 90,
+   "fonte_saida_s": 3.754,
+   "timeline_in_tc": "00:00:07:14",
+   "timeline_out_tc": "00:00:09:22",
+   "batida_musica_s": 21.525,
+   "qualidade": {
+    "nitidez_laplaciano": 120.1,
+    "movimento_medio": 3.55,
+    "luminancia_media": 63.0
+   }
+  },
+  {
+   "id": "G",
+   "cena": 3,
+   "clipe": "MVI_9199.MP4",
+   "entrada_s": 7.05,
+   "batidas": 6,
+   "motivo": "Corte na ação: sacola pousada de frente, logo nítido.",
+   "timeline_in_f": 238,
+   "timeline_out_f": 303,
+   "fonte_in_f": 169,
+   "fonte_out_f": 234,
+   "fonte_saida_s": 9.76,
+   "timeline_in_tc": "00:00:09:22",
+   "timeline_out_tc": "00:00:12:15",
+   "batida_musica_s": 23.87,
+   "qualidade": {
+    "nitidez_laplaciano": 205.0,
+    "movimento_medio": 3.05,
+    "luminancia_media": 67.5
+   }
+  },
+  {
+   "id": "H",
+   "cena": 4,
+   "clipe": "MVI_9200.MP4",
+   "entrada_s": 3.8,
+   "batidas": 7,
+   "motivo": "Mãos dobrando/fechando a boca da sacola ('embalagem sendo fechada').",
+   "timeline_in_f": 303,
+   "timeline_out_f": 382,
+   "fonte_in_f": 91,
+   "fonte_out_f": 170,
+   "fonte_saida_s": 7.09,
+   "timeline_in_tc": "00:00:12:15",
+   "timeline_out_tc": "00:00:15:22",
+   "batida_musica_s": 26.564,
+   "qualidade": {
+    "nitidez_laplaciano": 170.9,
+    "movimento_medio": 2.67,
+    "luminancia_media": 64.6
+   }
+  },
+  {
+   "id": "I",
+   "cena": 4,
+   "clipe": "MVI_9201.MP4",
+   "entrada_s": 0.3,
+   "batidas": 6,
+   "motivo": "Sacola fechada em destaque e entregue a outra pessoa (recebimento). Clímax da música.",
+   "timeline_in_f": 382,
+   "timeline_out_f": 447,
+   "fonte_in_f": 7,
+   "fonte_out_f": 72,
+   "fonte_saida_s": 3.003,
+   "timeline_in_tc": "00:00:15:22",
+   "timeline_out_tc": "00:00:18:15",
+   "batida_musica_s": 29.861,
+   "qualidade": {
+    "nitidez_laplaciano": 89.5,
+    "movimento_medio": 4.52,
+    "luminancia_media": 83.8
+   }
+  },
+  {
+   "id": "K",
+   "cena": 4,
+   "clipe": "MVI_9199.MP4",
+   "entrada_s": 9.85,
+   "batidas": 3,
+   "transicao_saida": {
+    "tipo": "Fade to Black",
+    "frames": 12
+   },
+   "motivo": "Pack shot final da sacola com logo; sem material de consumo (cena 5), fecha na marca.",
+   "timeline_in_f": 447,
+   "timeline_out_f": 480,
+   "fonte_in_f": 236,
+   "fonte_out_f": 269,
+   "fonte_saida_s": 11.22,
+   "timeline_in_tc": "00:00:18:15",
+   "timeline_out_tc": "00:00:20:00",
+   "batida_musica_s": 32.578,
+   "qualidade": {
+    "nitidez_laplaciano": 215.2,
+    "movimento_medio": 1.44,
+    "luminancia_media": 68.2
+   }
+  }
+ ]
+}

@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="4">
+  <sequence id="sequence-1">
+    <name>Terral_delivery_9x16_20s</name>
+    <duration>480</duration>
+    <rate>
+      <timebase>24</timebase>
+      <ntsc>TRUE</ntsc>
+    </rate>
+    <timecode>
+      <rate>
+        <timebase>24</timebase>
+        <ntsc>TRUE</ntsc>
+      </rate>
+      <string>00:00:00:00</string>
+      <frame>0</frame>
+      <displayformat>NDF</displayformat>
+    </timecode>
+    <media>
+      <video>
+        <format>
+          <samplecharacteristics>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <width>1080</width>
+            <height>1920</height>
+            <anamorphic>FALSE</anamorphic>
+            <pixelaspectratio>square</pixelaspectratio>
+            <fielddominance>none</fielddominance>
+          </samplecharacteristics>
+        </format>
+        <track>
+          <clipitem id="clipitem-A">
+            <name>Cena2_A_MVI_9197.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>581</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>46</end>
+            <in>4</in>
+            <out>50</out>
+            <file id="file-MVI_9197.MP4">
+              <name>MVI_9197.MP4</name>
+              <pathurl>file://localhost/Terral_material/MVI_9197.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>581</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena 2</name>
+              <comment>Perfil @terralgastrobar no Instagram; dedo vai até o link da bio. Abre a ação do pedido.</comment>
+              <in>4</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <transitionitem>
+            <start>44</start>
+            <end>48</end>
+            <alignment>center</alignment>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <effect>
+              <name>Cross Dissolve</name>
+              <effectid>Cross Dissolve</effectid>
+              <effectcategory>Dissolve</effectcategory>
+              <effecttype>transition</effecttype>
+              <mediatype>video</mediatype>
+              <wipecode>0</wipecode>
+              <wipeaccuracy>100</wipeaccuracy>
+              <startratio>0</startratio>
+              <endratio>1</endratio>
+              <reverse>FALSE</reverse>
+            </effect>
+          </transitionitem>
+          <clipitem id="clipitem-B">
+            <name>Cena2_B_MVI_9197.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>581</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>46</start>
+            <end>91</end>
+            <in>145</in>
+            <out>190</out>
+            <file id="file-MVI_9197.MP4" />
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena 2</name>
+              <comment>Tela 'Carregando' vira o cardápio próprio do Terral (Destaques/10% de desconto).</comment>
+              <in>145</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <clipitem id="clipitem-C">
+            <name>Cena2_C_MVI_9197.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>581</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>91</start>
+            <end>148</end>
+            <in>216</in>
+            <out>273</out>
+            <file id="file-MVI_9197.MP4" />
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena 2</name>
+              <comment>Rolagem do cardápio com fotos dos pratos; foco bom, mão estável.</comment>
+              <in>216</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <clipitem id="clipitem-D">
+            <name>Cena2_D_MVI_9197.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>581</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>148</start>
+            <end>182</end>
+            <in>472</in>
+            <out>506</out>
+            <file id="file-MVI_9197.MP4" />
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena 2</name>
+              <comment>Abre o prato (Risoto de Mignon com Funghi): fecha a cena do pedido com comida em destaque, antes do drop.</comment>
+              <in>472</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <clipitem id="clipitem-F">
+            <name>Cena3_F_MVI_9200.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>258</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>182</start>
+            <end>238</end>
+            <in>34</in>
+            <out>90</out>
+            <file id="file-MVI_9200.MP4">
+              <name>MVI_9200.MP4</name>
+              <pathurl>file://localhost/Terral_material/MVI_9200.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>258</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena 3</name>
+              <comment>Sacola Terral entra em quadro e é pousada no balcão (lateral). Corte cai no drop da música.</comment>
+              <in>34</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <clipitem id="clipitem-G">
+            <name>Cena3_G_MVI_9199.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>273</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>238</start>
+            <end>303</end>
+            <in>169</in>
+            <out>234</out>
+            <file id="file-MVI_9199.MP4">
+              <name>MVI_9199.MP4</name>
+              <pathurl>file://localhost/Terral_material/MVI_9199.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>273</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena 3</name>
+              <comment>Corte na ação: sacola pousada de frente, logo nítido.</comment>
+              <in>169</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <clipitem id="clipitem-H">
+            <name>Cena4_H_MVI_9200.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>258</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>303</start>
+            <end>382</end>
+            <in>91</in>
+            <out>170</out>
+            <file id="file-MVI_9200.MP4" />
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena 4</name>
+              <comment>Mãos dobrando/fechando a boca da sacola ('embalagem sendo fechada').</comment>
+              <in>91</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <clipitem id="clipitem-I">
+            <name>Cena4_I_MVI_9201.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>101</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>382</start>
+            <end>447</end>
+            <in>7</in>
+            <out>72</out>
+            <file id="file-MVI_9201.MP4">
+              <name>MVI_9201.MP4</name>
+              <pathurl>file://localhost/Terral_material/MVI_9201.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>101</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1920</width>
+                    <height>1080</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena 4</name>
+              <comment>Sacola fechada em destaque e entregue a outra pessoa (recebimento). Clímax da música.</comment>
+              <in>7</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <clipitem id="clipitem-K">
+            <name>Cena4_K_MVI_9199.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>273</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>447</start>
+            <end>480</end>
+            <in>236</in>
+            <out>269</out>
+            <file id="file-MVI_9199.MP4" />
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>rotation</parameterid>
+                  <name>Rotation</name>
+                  <valuemin>-8640</valuemin>
+                  <valuemax>8640</valuemax>
+                  <value>-90</value>
+                </parameter>
+                <parameter>
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+            <sourcetrack>
+              <mediatype>video</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <comments />
+            <marker>
+              <name>Cena 4</name>
+              <comment>Pack shot final da sacola com logo; sem material de consumo (cena 5), fecha na marca.</comment>
+              <in>236</in>
+              <out>-1</out>
+            </marker>
+          </clipitem>
+          <transitionitem>
+            <start>468</start>
+            <end>480</end>
+            <alignment>end-black</alignment>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <effect>
+              <name>Cross Dissolve</name>
+              <effectid>Cross Dissolve</effectid>
+              <effectcategory>Dissolve</effectcategory>
+              <effecttype>transition</effecttype>
+              <mediatype>video</mediatype>
+              <wipecode>0</wipecode>
+              <wipeaccuracy>100</wipeaccuracy>
+              <startratio>0</startratio>
+              <endratio>1</endratio>
+              <reverse>FALSE</reverse>
+            </effect>
+          </transitionitem>
+        </track>
+      </video>
+      <audio>
+        <numOutputChannels>2</numOutputChannels>
+        <format>
+          <samplecharacteristics>
+            <depth>16</depth>
+            <samplerate>48000</samplerate>
+          </samplecharacteristics>
+        </format>
+        <track>
+          <clipitem id="clipitem-musica-1">
+            <name>Drop Top Summer (Instrumental).mp4</name>
+            <enabled>TRUE</enabled>
+            <duration>4504</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>480</end>
+            <in>334</in>
+            <out>814</out>
+            <file id="file-Drop_Top_Summer_Instrumental.mp4">
+              <name>Drop Top Summer (Instrumental).mp4</name>
+              <pathurl>file://localhost/Terral_material/Drop%20Top%20Summer%20%28Instrumental%29.mp4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>4504</duration>
+              <timecode>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>TRUE</ntsc>
+                </rate>
+                <string>00:00:00:00</string>
+                <frame>0</frame>
+                <displayformat>NDF</displayformat>
+              </timecode>
+              <media>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <link>
+              <linkclipref>clipitem-musica-1</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-musica-2</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <transitionitem>
+            <start>444</start>
+            <end>480</end>
+            <alignment>end-black</alignment>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <effect>
+              <name>Cross Fade (+3dB)</name>
+              <effectid>KGAudioTransCrossFade3dB</effectid>
+              <effectcategory />
+              <effecttype>transition</effecttype>
+              <mediatype>audio</mediatype>
+              <wipecode>0</wipecode>
+              <wipeaccuracy>100</wipeaccuracy>
+              <startratio>0</startratio>
+              <endratio>1</endratio>
+              <reverse>FALSE</reverse>
+            </effect>
+          </transitionitem>
+          <outputchannelindex>1</outputchannelindex>
+        </track>
+        <track>
+          <clipitem id="clipitem-musica-2">
+            <name>Drop Top Summer (Instrumental).mp4</name>
+            <enabled>TRUE</enabled>
+            <duration>4504</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>480</end>
+            <in>334</in>
+            <out>814</out>
+            <file id="file-Drop_Top_Summer_Instrumental.mp4" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <link>
+              <linkclipref>clipitem-musica-1</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+            <link>
+              <linkclipref>clipitem-musica-2</linkclipref>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+              <clipindex>1</clipindex>
+            </link>
+          </clipitem>
+          <transitionitem>
+            <start>444</start>
+            <end>480</end>
+            <alignment>end-black</alignment>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <effect>
+              <name>Cross Fade (+3dB)</name>
+              <effectid>KGAudioTransCrossFade3dB</effectid>
+              <effectcategory />
+              <effecttype>transition</effecttype>
+              <mediatype>audio</mediatype>
+              <wipecode>0</wipecode>
+              <wipeaccuracy>100</wipeaccuracy>
+              <startratio>0</startratio>
+              <endratio>1</endratio>
+              <reverse>FALSE</reverse>
+            </effect>
+          </transitionitem>
+          <outputchannelindex>2</outputchannelindex>
+        </track>
+      </audio>
+    </media>
+  </sequence>
+</xmeml>

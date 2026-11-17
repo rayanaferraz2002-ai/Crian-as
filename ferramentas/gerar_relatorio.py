@@ -29,26 +29,29 @@ L += ["", f"Duração {cfg['duracao_final_s']} s ({fim} quadros), {len(ps)} plan
       "", "## Descartados", ""] + tab(["Trecho", "Motivo"], R["descartados"]) + ["", "## Premissas", ""]
 L += [f"{i}. {x}" for i, x in enumerate(R["premissas"], 1)]
 open(os.path.join(outd, "relatorio.md"), "w").write("\n".join(L) + "\n")
-nomes = sorted({p["clipe"] for p in ps} | {cfg["musica"]["arquivo"]})
+nomes = sorted({p["clipe"] for p in ps} | {cfg["musica"]["arquivo"]} | ({P["locucao"]["arquivo"]} if P.get("locucao") else set())
+               | {s["arquivo"] for s in P.get("sobreposicoes", [])})
+tem_leg = os.path.exists(os.path.join(outd, "legendas.srt"))
 C = ["# Checklist — Premiere", "", "## Importar", "",
-     "1. Ponha numa pasta os originais: " + ", ".join(f"`{n}`" for n in nomes) + ".",
+     "1. Ponha TODOS numa mesma pasta (mesmo que no Drive estejam em pastas diferentes): " + ", ".join(f"`{n}`" for n in nomes) + ".",
      "2. Arquivo → Importar → `sequencia.xml`. Na janela “Link Media”, aponte para essa pasta (os demais são achados pelo nome).",
      f"3. Confira a sequência `{cfg.get('nome_sequencia','')}`: {cfg['largura']}×{cfg['altura']}, {FPS:.3f} fps, {tc(fim)}.", "",
      "## Conferir / aplicar", ""]
-rows = [[f"{tc(0)} → {tc(fim)}", "Rotação", f"XML aplica Rotação {cfg['rotacao_fonte_graus']}° e Escala 100 em todos. Se algum vier deitado/invertido, corrija em Controles de Efeito → Movimento."]]
+rows = [[f"{tc(0)} → {tc(fim)}", "Rotação", f"XML aplica Rotação {cfg['rotacao_fonte_graus']}° e Escala " + ("automática (preenche o quadro)" if cfg.get("escala_auto") else "100") + " em todos. Se algum vier deitado/invertido, corrija em Controles de Efeito → Movimento."]]
 for i, p in enumerate(ps):
     t = p.get("transicao_saida", {})
     if t.get("tipo") == "Cross Dissolve": rows.append([ps[i + 1]["timeline_in_tc"], "Fusão", f"Cross Dissolve {t['frames']} quadros centrado no corte."])
     if t.get("tipo") == "Fade to Black": rows.append([f"{tc(p['timeline_out_f'] - t['frames'])} → {tc(fim)}", "Fade para preto", f"{t['frames']} quadros no fim do último plano (se não vier, Dip to Black)."])
 rows.append([f"{tc(fim - int(round(cfg['musica']['fade_out_s'] * FPS)))} → {tc(fim)}", "Fade-out da música", "Constant Power no fim de A1/A2 (se não vier, aplique)."])
-rows.append(["—", "Áudio dos clipes", "Não incluído (só música)."])
+rows.append(["—", "Áudio dos clipes", "Não incluído (só música" + (" e locução na A3)." if P.get("locucao") else ").")])
 for tcx, item, instr in R.get("checklist_extra", []):
     alvo = [p for p in ps if p["clipe"] in instr or p["id"] in instr.split()]
     rows.append([tcx if tcx != "todos" else f"{tc(0)} → {tc(fim)}", item, instr])
 for p in ps:
     if p["clipe"] == "MVI_9149.MP4": rows.append([f"{p['timeline_in_tc']} → {p['timeline_out_tc']}", f"Cor plano {p['id']}", "MVI_9149 escuro: subir exposição (ver item Cor)."])
-rows += [["—", "Velocidade", "100% em todos (nada aplicado)."], ["—", "Textos", "Nenhum. Sem .srt."]]
+rows += [["—", "Velocidade", "100% em todos (nada aplicado)."],
+         ["—", "Textos", "Ver itens acima e `legendas.srt`." if tem_leg else "Nenhum. Sem .srt."]]
 C += tab(["Timecode", "Item", "Instrução"], rows) + ["", "## Trocas", "",
-     "Edite `projeto.json` (entrada_s/batidas/clipe de um plano) e rode `bash ../ferramentas/rodar_projeto.sh .`. Para ajuste fino sem perder o resto, edite `plano.json` e rode com `--recalcular`."]
+     "Edite `projeto.json` (entrada_s/batidas/clipe de um plano) e rode o script do projeto (`rodar.sh` na pasta, ou `bash ../ferramentas/rodar_projeto.sh .`). Para ajuste fino sem perder o resto, edite `plano.json` e rode com `--recalcular`."]
 open(os.path.join(outd, "checklist_premiere.md"), "w").write("\n".join(C) + "\n")
 print("ok")

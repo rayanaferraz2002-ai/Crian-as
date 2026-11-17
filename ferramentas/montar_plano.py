@@ -40,14 +40,37 @@ def resolver(cfg, planos, musica, proxies):
                  fonte_in_f=src_in, fonte_out_f=src_out,
                  fonte_saida_s=round(src_out / FPS, 3),
                  timeline_in_tc=tc(tl_in), timeline_out_tc=tc(tl_out),
-                 batida_musica_s=round(float(beats[k - p["batidas"]]), 3))
-        q["qualidade"] = qualidade(os.path.join(proxies, p["clipe"].split(".")[0] + ".mp4"),
+                 batida_musica_s=round(float(beats[k - p["batidas"]]), 3), _k0=k - p["batidas"])
+        q["qualidade"] = qualidade(os.path.join(proxies, p["clipe"].rsplit(".", 1)[0] + ".mp4"),
                                    src_in / FPS, src_out / FPS)
         out.append(q)
     cfg = dict(cfg, duracao_final_f=out[-1]["timeline_out_f"],
                duracao_final_s=round(out[-1]["timeline_out_f"] / FPS, 3),
                bpm=musica["bpm"], musica=dict(cfg["musica"], inicio_s=round(float(beats[j0]), 3)))
-    return {"config": cfg, "planos": out}
+    return {"config": cfg, "planos": out, "_beats": [float(x) for x in beats], "_j0": j0}
+
+def resolver_extras(plano):
+    """Locução (alinhada ao início de um plano) e sobreposições (V2) em quadros da timeline."""
+    cfg = plano["config"]; ps = {p["id"]: p for p in plano["planos"]}
+    loc = cfg.get("locucao")
+    if loc:
+        ref = ps[loc["plano_inicio"]]
+        fala_tl = ref["timeline_in_f"] + fr(loc.get("atraso_fala_s", 0.15))
+        tl_in = fala_tl - fr(loc["fala_inicio_s"] - loc.get("entrada_s", 0))
+        dur = fr(loc["saida_s"] - loc.get("entrada_s", 0))
+        plano["locucao"] = {"arquivo": loc["arquivo"], "timeline_in_f": tl_in, "timeline_out_f": tl_in + dur,
+                            "fonte_in_f": fr(loc.get("entrada_s", 0)), "fonte_out_f": fr(loc.get("entrada_s", 0)) + dur,
+                            "offset_s": round(tl_in / FPS - loc.get("entrada_s", 0), 4)}
+        a = ps[loc["abaixar_musica_de"]]["timeline_in_f"]; b = ps[loc["abaixar_musica_ate"]]["timeline_out_f"]
+        plano["ducking"] = {"de_f": a, "ate_f": b, "ganho_db": loc.get("musica_ganho_db", -14)}
+    sobre = []
+    for s in cfg.get("sobreposicoes", []):
+        ref = ps[s["plano"]]; beats = plano["_beats"]; k0 = ref["_k0"] + s.get("offset_batidas", 0)
+        a = fr(beats[k0] - beats[plano["_j0"]]); b = fr(beats[k0 + s["batidas"]] - beats[plano["_j0"]])
+        sobre.append(dict(s, timeline_in_f=a, timeline_out_f=b, timeline_in_tc=tc(a), timeline_out_tc=tc(b)))
+    if sobre: plano["sobreposicoes"] = sobre
+    for p in plano["planos"]: p.pop("_k0", None)
+    plano.pop("_beats", None); plano.pop("_j0", None)
 
 def tc(f):  # timecode NDF, base = fps arredondado
     b = round(FPS)
@@ -59,10 +82,11 @@ if __name__ == "__main__":
     musica = json.load(open(mus))
     if "--recalcular" in sys.argv and os.path.exists(dst):
         old = json.load(open(dst)); cfg = old["config"]
-        planos = [{k: v for k, v in p.items() if k in ("id","cena","clipe","entrada_s","batidas","transicao_saida","motivo","rotacao_graus")} for p in old["planos"]]
+        planos = [{k: v for k, v in p.items() if k in ("id","cena","clipe","entrada_s","batidas","transicao_saida","motivo","rotacao_graus","texto")} for p in old["planos"]]
     else:
         cfg, planos = proj["config"], proj["planos"]
     plano = resolver(cfg, planos, musica, proxies)
+    resolver_extras(plano)
     json.dump(plano, open(dst, "w"), indent=1, ensure_ascii=False)
     for p in plano["planos"]:
         print(f"{p['id']} c{p['cena']} {p['clipe']} src {p['entrada_s']:.2f}-{p['fonte_saida_s']:.2f} "

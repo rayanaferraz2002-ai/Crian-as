@@ -1,0 +1,32 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legenda,DejaVu Sans,60,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,1,0,0,0,100,100,0,0,1,3.5,1.5,2,90,90,300,1
+Style: Titulo,DejaVu Sans,74,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,1,0,0,0,100,100,0,0,1,4,2,8,80,80,300,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:00.00,00:00:02.87,Titulo,,0,0,0,,Lendo avaliações do meu\Nconsultório no Google
+Dialogue: 0,00:00:02.99,00:00:04.85,Legenda,,0,0,0,,Quero deixar aqui meu carinho
+Dialogue: 0,00:00:04.85,00:00:07.47,Legenda,,0,0,0,,e reconhecimento para minha dentista,
+Dialogue: 0,00:00:07.47,00:00:09.07,Legenda,,0,0,0,,que já cuida do meu sorriso
+Dialogue: 0,00:00:09.07,00:00:10.31,Legenda,,0,0,0,,há mais de 20 anos.
+Dialogue: 0,00:00:10.95,00:00:12.13,Legenda,,0,0,0,,Sempre foi uma
+Dialogue: 0,00:00:12.13,00:00:14.17,Legenda,,0,0,0,,profissional extremamente competente,
+Dialogue: 0,00:00:14.75,00:00:16.95,Legenda,,0,0,0,,dedicada e atenciosa.
+Dialogue: 0,00:00:16.95,00:00:18.17,Legenda,,0,0,0,,Confio tanto no trabalho
+Dialogue: 0,00:00:18.17,00:00:19.67,Legenda,,0,0,0,,dela que hoje minha filha
+Dialogue: 0,00:00:19.67,00:00:21.01,Legenda,,0,0,0,,também é paciente dela.
+Dialogue: 0,00:00:21.53,00:00:23.27,Legenda,,0,0,0,,Mesmo morando na zona sul,
+Dialogue: 0,00:00:23.27,00:00:24.45,Legenda,,0,0,0,,faço questão de ir
+Dialogue: 0,00:00:24.45,00:00:25.85,Legenda,,0,0,0,,até o consultório dela,
+Dialogue: 0,00:00:25.85,00:00:26.73,Legenda,,0,0,0,,porque sei que estou
+Dialogue: 0,00:00:26.73,00:00:27.81,Legenda,,0,0,0,,em ótimas mãos.
+Dialogue: 0,00:00:27.81,00:00:29.75,Legenda,,0,0,0,,Profissionais assim fazem
+Dialogue: 0,00:00:29.75,00:00:30.57,Legenda,,0,0,0,,toda a diferença!
+Dialogue: 0,00:00:30.57,00:00:32.57,Legenda,,0,0,0,,Gratidão por tantos anos
+Dialogue: 0,00:00:32.57,00:00:34.45,Legenda,,0,0,0,,de cuidado e excelência.

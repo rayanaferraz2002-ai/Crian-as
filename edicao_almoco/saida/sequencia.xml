@@ -34,7 +34,7 @@
         </format>
         <track>
           <clipitem id="clipitem-01">
-            <name>CenaAmbiente_01_MVI_9209.MP4</name>
+            <name>MVI_9209.MP4</name>
             <enabled>TRUE</enabled>
             <duration>122</duration>
             <rate>
@@ -45,7 +45,7 @@
             <end>49</end>
             <in>24</in>
             <out>73</out>
-            <file id="file-MVI_9209.MP4">
+            <file id="file-MVI_9209_MP4">
               <name>MVI_9209.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9209.MP4</pathurl>
               <rate>
@@ -120,7 +120,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Ambiente</name>
               <comment>Salão do Terral com a adega iluminada: abre apresentando a casa.</comment>
@@ -129,7 +128,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-02">
-            <name>CenaPrato_02_MVI_9068.MP4</name>
+            <name>MVI_9068.MP4</name>
             <enabled>TRUE</enabled>
             <duration>234</duration>
             <rate>
@@ -140,7 +139,7 @@
             <end>82</end>
             <in>36</in>
             <out>69</out>
-            <file id="file-MVI_9068.MP4">
+            <file id="file-MVI_9068_MP4">
               <name>MVI_9068.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9068.MP4</pathurl>
               <rate>
@@ -215,7 +214,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Prato executivo (bife, fritas, arroz, salada) com o feijão sendo servido.</comment>
@@ -224,7 +222,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-03">
-            <name>CenaPrato_03_MVI_9072.MP4</name>
+            <name>MVI_9072.MP4</name>
             <enabled>TRUE</enabled>
             <duration>90</duration>
             <rate>
@@ -235,7 +233,7 @@
             <end>114</end>
             <in>7</in>
             <out>39</out>
-            <file id="file-MVI_9072.MP4">
+            <file id="file-MVI_9072_MP4">
               <name>MVI_9072.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9072.MP4</pathurl>
               <rate>
@@ -310,7 +308,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Salada com frango vista de cima, muito nítida.</comment>
@@ -319,7 +316,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-04">
-            <name>CenaAmbiente_04_MVI_9152.MP4</name>
+            <name>MVI_9152.MP4</name>
             <enabled>TRUE</enabled>
             <duration>153</duration>
             <rate>
@@ -330,7 +327,7 @@
             <end>164</end>
             <in>12</in>
             <out>62</out>
-            <file id="file-MVI_9152.MP4">
+            <file id="file-MVI_9152_MP4">
               <name>MVI_9152.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9152.MP4</pathurl>
               <rate>
@@ -405,7 +402,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Ambiente</name>
               <comment>Mesa cheia de clientes almoçando e conversando.</comment>
@@ -414,7 +410,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-05">
-            <name>CenaPrato_05_MVI_9069.MP4</name>
+            <name>MVI_9069.MP4</name>
             <enabled>TRUE</enabled>
             <duration>852</duration>
             <rate>
@@ -425,7 +421,7 @@
             <end>197</end>
             <in>12</in>
             <out>45</out>
-            <file id="file-MVI_9069.MP4">
+            <file id="file-MVI_9069_MP4">
               <name>MVI_9069.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9069.MP4</pathurl>
               <rate>
@@ -500,7 +496,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Vinagrete sendo colocado ao lado do bife.</comment>
@@ -509,7 +504,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-06">
-            <name>CenaPrato_06_MVI_9086.MP4</name>
+            <name>MVI_9086.MP4</name>
             <enabled>TRUE</enabled>
             <duration>138</duration>
             <rate>
@@ -520,7 +515,7 @@
             <end>229</end>
             <in>24</in>
             <out>56</out>
-            <file id="file-MVI_9086.MP4">
+            <file id="file-MVI_9086_MP4">
               <name>MVI_9086.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9086.MP4</pathurl>
               <rate>
@@ -595,7 +590,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Faca e garfo cortando o bife acebolado com fritas.</comment>
@@ -604,7 +598,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-07">
-            <name>CenaAmbiente_07_MVI_9153.MP4</name>
+            <name>MVI_9153.MP4</name>
             <enabled>TRUE</enabled>
             <duration>168</duration>
             <rate>
@@ -615,7 +609,7 @@
             <end>278</end>
             <in>0</in>
             <out>49</out>
-            <file id="file-MVI_9153.MP4">
+            <file id="file-MVI_9153_MP4">
               <name>MVI_9153.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9153.MP4</pathurl>
               <rate>
@@ -690,7 +684,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Ambiente</name>
               <comment>Garçom atendendo uma mesa: movimento do serviço.</comment>
@@ -699,7 +692,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-08">
-            <name>CenaPrato_08_MVI_9074.MP4</name>
+            <name>MVI_9074.MP4</name>
             <enabled>TRUE</enabled>
             <duration>143</duration>
             <rate>
@@ -710,7 +703,7 @@
             <end>311</end>
             <in>36</in>
             <out>69</out>
-            <file id="file-MVI_9074.MP4">
+            <file id="file-MVI_9074_MP4">
               <name>MVI_9074.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9074.MP4</pathurl>
               <rate>
@@ -785,7 +778,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Garfo pegando a salada.</comment>
@@ -794,7 +786,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-09">
-            <name>CenaPrato_09_MVI_9081.MP4</name>
+            <name>MVI_9081.MP4</name>
             <enabled>TRUE</enabled>
             <duration>105</duration>
             <rate>
@@ -805,7 +797,7 @@
             <end>343</end>
             <in>22</in>
             <out>54</out>
-            <file id="file-MVI_9081.MP4">
+            <file id="file-MVI_9081_MP4">
               <name>MVI_9081.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9081.MP4</pathurl>
               <rate>
@@ -880,7 +872,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Corte em sequência: a salada chega à boca.</comment>
@@ -889,7 +880,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-10">
-            <name>CenaAmbiente_10_MVI_9161.MP4</name>
+            <name>MVI_9161.MP4</name>
             <enabled>TRUE</enabled>
             <duration>185</duration>
             <rate>
@@ -900,7 +891,7 @@
             <end>392</end>
             <in>134</in>
             <out>183</out>
-            <file id="file-MVI_9161.MP4">
+            <file id="file-MVI_9161_MP4">
               <name>MVI_9161.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9161.MP4</pathurl>
               <rate>
@@ -975,7 +966,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Ambiente</name>
               <comment>Casal almoçando à mesa.</comment>
@@ -984,7 +974,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-11">
-            <name>CenaPrato_11_MVI_9069.MP4</name>
+            <name>MVI_9069.MP4</name>
             <enabled>TRUE</enabled>
             <duration>852</duration>
             <rate>
@@ -995,7 +985,7 @@
             <end>425</end>
             <in>283</in>
             <out>316</out>
-            <file id="file-MVI_9069.MP4" />
+            <file id="file-MVI_9069_MP4" />
             <filter>
               <effect>
                 <name>Basic Motion</name>
@@ -1031,7 +1021,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Farofa sendo servida sobre o arroz.</comment>
@@ -1040,7 +1029,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-12">
-            <name>CenaPrato_12_MVI_9088.MP4</name>
+            <name>MVI_9088.MP4</name>
             <enabled>TRUE</enabled>
             <duration>89</duration>
             <rate>
@@ -1051,7 +1040,7 @@
             <end>458</end>
             <in>7</in>
             <out>40</out>
-            <file id="file-MVI_9088.MP4">
+            <file id="file-MVI_9088_MP4">
               <name>MVI_9088.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9088.MP4</pathurl>
               <rate>
@@ -1126,7 +1115,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Mão pegando batata frita do prato executivo.</comment>
@@ -1135,7 +1123,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-13">
-            <name>CenaAmbiente_13_MVI_9162.MP4</name>
+            <name>MVI_9162.MP4</name>
             <enabled>TRUE</enabled>
             <duration>86</duration>
             <rate>
@@ -1146,7 +1134,7 @@
             <end>507</end>
             <in>0</in>
             <out>49</out>
-            <file id="file-MVI_9162.MP4">
+            <file id="file-MVI_9162_MP4">
               <name>MVI_9162.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9162.MP4</pathurl>
               <rate>
@@ -1221,7 +1209,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Ambiente</name>
               <comment>Plantas pendentes no teto de madeira: respiro de ambiente (sem pessoas, autorizado por você).</comment>
@@ -1230,7 +1217,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-14">
-            <name>CenaPrato_14_MVI_9069.MP4</name>
+            <name>MVI_9069.MP4</name>
             <enabled>TRUE</enabled>
             <duration>852</duration>
             <rate>
@@ -1241,7 +1228,7 @@
             <end>539</end>
             <in>691</in>
             <out>723</out>
-            <file id="file-MVI_9069.MP4" />
+            <file id="file-MVI_9069_MP4" />
             <filter>
               <effect>
                 <name>Basic Motion</name>
@@ -1277,7 +1264,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Garfo e faca cortando o bife, com vinagrete e farofa.</comment>
@@ -1286,7 +1272,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-15">
-            <name>CenaPrato_15_MVI_9074.MP4</name>
+            <name>MVI_9074.MP4</name>
             <enabled>TRUE</enabled>
             <duration>143</duration>
             <rate>
@@ -1297,7 +1283,7 @@
             <end>572</end>
             <in>96</in>
             <out>129</out>
-            <file id="file-MVI_9074.MP4" />
+            <file id="file-MVI_9074_MP4" />
             <filter>
               <effect>
                 <name>Basic Motion</name>
@@ -1333,7 +1319,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Garfo levando a salada (trecho diferente do plano 08).</comment>
@@ -1342,7 +1327,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-16">
-            <name>CenaAmbiente_16_MVI_9152.MP4</name>
+            <name>MVI_9152.MP4</name>
             <enabled>TRUE</enabled>
             <duration>153</duration>
             <rate>
@@ -1353,7 +1338,7 @@
             <end>621</end>
             <in>103</in>
             <out>152</out>
-            <file id="file-MVI_9152.MP4" />
+            <file id="file-MVI_9152_MP4" />
             <filter>
               <effect>
                 <name>Basic Motion</name>
@@ -1389,7 +1374,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Ambiente</name>
               <comment>Garçom passando entre as mesas cheias (trecho diferente do plano 04).</comment>
@@ -1398,7 +1382,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-17">
-            <name>CenaPrato_17_MVI_9072.MP4</name>
+            <name>MVI_9072.MP4</name>
             <enabled>TRUE</enabled>
             <duration>90</duration>
             <rate>
@@ -1409,7 +1393,7 @@
             <end>654</end>
             <in>48</in>
             <out>81</out>
-            <file id="file-MVI_9072.MP4" />
+            <file id="file-MVI_9072_MP4" />
             <filter>
               <effect>
                 <name>Basic Motion</name>
@@ -1445,7 +1429,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Salada com frango de cima (trecho diferente do plano 03): contraste de cor antes do bife final.</comment>
@@ -1454,7 +1437,7 @@
             </marker>
           </clipitem>
           <clipitem id="clipitem-18">
-            <name>CenaPrato_18_MVI_9087.MP4</name>
+            <name>MVI_9087.MP4</name>
             <enabled>TRUE</enabled>
             <duration>111</duration>
             <rate>
@@ -1465,7 +1448,7 @@
             <end>719</end>
             <in>46</in>
             <out>111</out>
-            <file id="file-MVI_9087.MP4">
+            <file id="file-MVI_9087_MP4">
               <name>MVI_9087.MP4</name>
               <pathurl>file://localhost/Terral_material/MVI_9087.MP4</pathurl>
               <rate>
@@ -1540,7 +1523,6 @@
               <mediatype>video</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
-            <comments />
             <marker>
               <name>Cena Prato</name>
               <comment>Bife acebolado com fritas de cima, o plano mais nítido: fecha com fade.</comment>
@@ -1580,7 +1562,7 @@
           </samplecharacteristics>
         </format>
         <track>
-          <clipitem id="clipitem-musica-1">
+          <clipitem id="clipitem-musica-0-1">
             <name>Quanta Saudade (Feels Like Heaven) (Instrumental) (1).mp4</name>
             <enabled>TRUE</enabled>
             <duration>5463</duration>
@@ -1592,7 +1574,7 @@
             <end>719</end>
             <in>217</in>
             <out>936</out>
-            <file id="file-Quanta_Saudade_Feels_Like_Heaven_Instrumental_1.mp4">
+            <file id="file-Quanta_Saudade__Feels_Like_Heaven___Instrumental___1__mp4">
               <name>Quanta Saudade (Feels Like Heaven) (Instrumental) (1).mp4</name>
               <pathurl>file://localhost/Terral_material/Quanta%20Saudade%20%28Feels%20Like%20Heaven%29%20%28Instrumental%29%20%281%29.mp4</pathurl>
               <rate>
@@ -1623,17 +1605,33 @@
               <mediatype>audio</mediatype>
               <trackindex>1</trackindex>
             </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter>
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>1.0</value>
+                </parameter>
+              </effect>
+            </filter>
             <link>
-              <linkclipref>clipitem-musica-1</linkclipref>
+              <linkclipref>clipitem-musica-0-1</linkclipref>
               <mediatype>audio</mediatype>
               <trackindex>1</trackindex>
               <clipindex>1</clipindex>
             </link>
             <link>
-              <linkclipref>clipitem-musica-2</linkclipref>
+              <linkclipref>clipitem-musica-0-2</linkclipref>
               <mediatype>audio</mediatype>
               <trackindex>2</trackindex>
-              <clipindex>1</clipindex>
+              <clipindex>2</clipindex>
             </link>
           </clipitem>
           <transitionitem>
@@ -1660,7 +1658,7 @@
           <outputchannelindex>1</outputchannelindex>
         </track>
         <track>
-          <clipitem id="clipitem-musica-2">
+          <clipitem id="clipitem-musica-0-2">
             <name>Quanta Saudade (Feels Like Heaven) (Instrumental) (1).mp4</name>
             <enabled>TRUE</enabled>
             <duration>5463</duration>
@@ -1672,22 +1670,38 @@
             <end>719</end>
             <in>217</in>
             <out>936</out>
-            <file id="file-Quanta_Saudade_Feels_Like_Heaven_Instrumental_1.mp4" />
+            <file id="file-Quanta_Saudade__Feels_Like_Heaven___Instrumental___1__mp4" />
             <sourcetrack>
               <mediatype>audio</mediatype>
               <trackindex>2</trackindex>
             </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter>
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>1.0</value>
+                </parameter>
+              </effect>
+            </filter>
             <link>
-              <linkclipref>clipitem-musica-1</linkclipref>
+              <linkclipref>clipitem-musica-0-1</linkclipref>
               <mediatype>audio</mediatype>
               <trackindex>1</trackindex>
               <clipindex>1</clipindex>
             </link>
             <link>
-              <linkclipref>clipitem-musica-2</linkclipref>
+              <linkclipref>clipitem-musica-0-2</linkclipref>
               <mediatype>audio</mediatype>
               <trackindex>2</trackindex>
-              <clipindex>1</clipindex>
+              <clipindex>2</clipindex>
             </link>
           </clipitem>
           <transitionitem>

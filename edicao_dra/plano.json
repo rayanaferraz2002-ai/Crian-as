@@ -1,0 +1,544 @@
+{
+ "config": {
+  "nome_sequencia": "Dra_avaliacoes_google_9x16",
+  "fps_num": 30000,
+  "fps_den": 1001,
+  "largura": 1080,
+  "altura": 1920,
+  "rotacao_fonte_graus": 0,
+  "escala_auto": true,
+  "musica": {
+   "arquivo": "Bed Time (Instrumental).mp4",
+   "inicio_s": 2.252,
+   "fade_out_s": 2.0,
+   "fade_video_frames": 15
+  },
+  "originais_dirs": [
+   "/home/user/material_dra/atendendo",
+   "/home/user/material_dra/feitos"
+  ],
+  "originais_dir": "/home/user/material_dra/feitos",
+  "locucao": {
+   "arquivo": "REVIEW.m4a",
+   "plano_inicio": "V01",
+   "fala_inicio_s": 0.66,
+   "atraso_fala_s": 0.15,
+   "entrada_s": 0.0,
+   "saida_s": 33.0,
+   "abaixar_musica_de": "V01",
+   "abaixar_musica_ate": "V19",
+   "musica_ganho_db": -14
+  },
+  "sobreposicoes": [
+   {
+    "id": "PRINT",
+    "arquivo": "PRINT_AVALIACAO_placeholder.png",
+    "plano": "F1",
+    "offset_batidas": 2,
+    "batidas": 4,
+    "instrucao": "Trocar pelo print da avaliação do Google (Substituir clipe → arquivo de imagem). Ajustar Escala para caber ~85% da largura."
+   }
+  ],
+  "legendas": {
+   "max_palavras": 6,
+   "max_dur_s": 2.4,
+   "correcoes": [],
+   "textos": [
+    {
+     "texto": "Lendo avaliações do meu\\Nconsultório no Google",
+     "plano": "T1",
+     "estilo": "Titulo"
+    }
+   ],
+   "correcoes_palavras": [
+    [
+     "diferença",
+     "diferença!"
+    ],
+    [
+     "gratidão",
+     "Gratidão"
+    ]
+   ],
+   "estilo_legenda": "Legenda,DejaVu Sans,60,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,1,0,0,0,100,100,0,0,1,3.5,1.5,2,90,90,300,1",
+   "estilo_titulo": "Titulo,DejaVu Sans,74,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,1,0,0,0,100,100,0,0,1,4,2,8,80,80,300,1"
+  },
+  "duracao_final_f": 1194,
+  "duracao_final_s": 39.84,
+  "bpm": 89.1
+ },
+ "planos": [
+  {
+   "id": "T1",
+   "cena": "1",
+   "clipe": "C0227.MP4",
+   "entrada_s": 0.5,
+   "batidas": 4,
+   "motivo": "Dra. sentada lendo no celular (feito para o vídeo), com o título na tela.",
+   "timeline_in_f": 0,
+   "timeline_out_f": 86,
+   "fonte_in_f": 15,
+   "fonte_out_f": 101,
+   "fonte_saida_s": 3.37,
+   "timeline_in_tc": "00:00:00:00",
+   "timeline_out_tc": "00:00:02:26",
+   "batida_musica_s": 2.252,
+   "qualidade": {
+    "nitidez_laplaciano": 279.3,
+    "movimento_medio": 0.49,
+    "luminancia_media": 113.1
+   }
+  },
+  {
+   "id": "V01",
+   "cena": "2",
+   "clipe": "C0108.MP4",
+   "entrada_s": 0.3,
+   "batidas": 3,
+   "motivo": "Dra. de frente, concentrada no atendimento: 'carinho e reconhecimento para minha dentista'.",
+   "timeline_in_f": 86,
+   "timeline_out_f": 145,
+   "fonte_in_f": 9,
+   "fonte_out_f": 68,
+   "fonte_saida_s": 2.269,
+   "timeline_in_tc": "00:00:02:26",
+   "timeline_out_tc": "00:00:04:25",
+   "batida_musica_s": 5.108,
+   "qualidade": {
+    "nitidez_laplaciano": 115.0,
+    "movimento_medio": 4.13,
+    "luminancia_media": 122.7
+   }
+  },
+  {
+   "id": "V02",
+   "cena": "2",
+   "clipe": "C0110.MP4",
+   "entrada_s": 0.2,
+   "batidas": 2,
+   "motivo": "Mãos com a caneta no sorriso do paciente: 'cuida do meu sorriso'.",
+   "timeline_in_f": 145,
+   "timeline_out_f": 185,
+   "fonte_in_f": 6,
+   "fonte_out_f": 46,
+   "fonte_saida_s": 1.535,
+   "timeline_in_tc": "00:00:04:25",
+   "timeline_out_tc": "00:00:06:05",
+   "batida_musica_s": 7.082,
+   "qualidade": {
+    "nitidez_laplaciano": 91.5,
+    "movimento_medio": 4.4,
+    "luminancia_media": 147.7
+   }
+  },
+  {
+   "id": "V03",
+   "cena": "2",
+   "clipe": "C0100.MP4",
+   "entrada_s": 3.5,
+   "batidas": 3,
+   "motivo": "Luz de fotopolimerização (azul/laranja): detalhe técnico marcante.",
+   "timeline_in_f": 185,
+   "timeline_out_f": 245,
+   "fonte_in_f": 105,
+   "fonte_out_f": 165,
+   "fonte_saida_s": 5.506,
+   "timeline_in_tc": "00:00:06:05",
+   "timeline_out_tc": "00:00:08:05",
+   "batida_musica_s": 8.429,
+   "qualidade": {
+    "nitidez_laplaciano": 103.7,
+    "movimento_medio": 4.34,
+    "luminancia_media": 104.6
+   }
+  },
+  {
+   "id": "V04",
+   "cena": "2",
+   "clipe": "C0080.MP4",
+   "entrada_s": 0.5,
+   "batidas": 2,
+   "motivo": "Dra. trabalhando, olhar atento: 'há mais de 20 anos'.",
+   "timeline_in_f": 245,
+   "timeline_out_f": 285,
+   "fonte_in_f": 15,
+   "fonte_out_f": 55,
+   "fonte_saida_s": 1.835,
+   "timeline_in_tc": "00:00:08:05",
+   "timeline_out_tc": "00:00:09:15",
+   "batida_musica_s": 10.426,
+   "qualidade": {
+    "nitidez_laplaciano": 78.6,
+    "movimento_medio": 3.02,
+    "luminancia_media": 98.1
+   }
+  },
+  {
+   "id": "V05",
+   "cena": "2",
+   "clipe": "C0082.MP4",
+   "entrada_s": 3.0,
+   "batidas": 2,
+   "motivo": "Mãos preparando o instrumento (detalhe).",
+   "timeline_in_f": 285,
+   "timeline_out_f": 325,
+   "fonte_in_f": 90,
+   "fonte_out_f": 130,
+   "fonte_saida_s": 4.338,
+   "timeline_in_tc": "00:00:09:15",
+   "timeline_out_tc": "00:00:10:25",
+   "batida_musica_s": 11.773,
+   "qualidade": {
+    "nitidez_laplaciano": 48.5,
+    "movimento_medio": 2.12,
+    "luminancia_media": 105.6
+   }
+  },
+  {
+   "id": "V06",
+   "cena": "2",
+   "clipe": "C0121.MP4",
+   "entrada_s": 0.0,
+   "batidas": 2,
+   "motivo": "Close da Dra. com o instrumento: 'profissional extremamente competente'.",
+   "timeline_in_f": 325,
+   "timeline_out_f": 365,
+   "fonte_in_f": 0,
+   "fonte_out_f": 40,
+   "fonte_saida_s": 1.335,
+   "timeline_in_tc": "00:00:10:25",
+   "timeline_out_tc": "00:00:12:05",
+   "batida_musica_s": 13.096,
+   "qualidade": {
+    "nitidez_laplaciano": 72.3,
+    "movimento_medio": 4.34,
+    "luminancia_media": 146.0
+   }
+  },
+  {
+   "id": "V07",
+   "cena": "2",
+   "clipe": "C0081.MP4",
+   "entrada_s": 6.5,
+   "batidas": 3,
+   "motivo": "Dra. preparando o material com cuidado: 'dedicada'.",
+   "timeline_in_f": 365,
+   "timeline_out_f": 425,
+   "fonte_in_f": 195,
+   "fonte_out_f": 255,
+   "fonte_saida_s": 8.508,
+   "timeline_in_tc": "00:00:12:05",
+   "timeline_out_tc": "00:00:14:05",
+   "batida_musica_s": 14.42,
+   "qualidade": {
+    "nitidez_laplaciano": 164.1,
+    "movimento_medio": 4.14,
+    "luminancia_media": 125.7
+   }
+  },
+  {
+   "id": "V08",
+   "cena": "2",
+   "clipe": "C0106.MP4",
+   "entrada_s": 0.0,
+   "batidas": 3,
+   "motivo": "Dra. se vira para o paciente: 'atenciosa'.",
+   "timeline_in_f": 425,
+   "timeline_out_f": 485,
+   "fonte_in_f": 0,
+   "fonte_out_f": 60,
+   "fonte_saida_s": 2.002,
+   "timeline_in_tc": "00:00:14:05",
+   "timeline_out_tc": "00:00:16:05",
+   "batida_musica_s": 16.44,
+   "qualidade": {
+    "nitidez_laplaciano": 124.9,
+    "movimento_medio": 2.76,
+    "luminancia_media": 84.1
+   }
+  },
+  {
+   "id": "V09",
+   "cena": "2",
+   "clipe": "C0120.MP4",
+   "entrada_s": 3.4,
+   "batidas": 3,
+   "motivo": "Dra. atendendo com o refletor: 'confio tanto no trabalho dela'.",
+   "timeline_in_f": 485,
+   "timeline_out_f": 544,
+   "fonte_in_f": 102,
+   "fonte_out_f": 161,
+   "fonte_saida_s": 5.372,
+   "timeline_in_tc": "00:00:16:05",
+   "timeline_out_tc": "00:00:18:04",
+   "batida_musica_s": 18.437,
+   "qualidade": {
+    "nitidez_laplaciano": 142.9,
+    "movimento_medio": 3.27,
+    "luminancia_media": 108.5
+   }
+  },
+  {
+   "id": "V10",
+   "cena": "2",
+   "clipe": "C0134.MP4",
+   "entrada_s": 4.0,
+   "batidas": 2,
+   "motivo": "Dra. e auxiliar atendendo juntas.",
+   "timeline_in_f": 544,
+   "timeline_out_f": 585,
+   "fonte_in_f": 120,
+   "fonte_out_f": 161,
+   "fonte_saida_s": 5.372,
+   "timeline_in_tc": "00:00:18:04",
+   "timeline_out_tc": "00:00:19:15",
+   "batida_musica_s": 20.41,
+   "qualidade": {
+    "nitidez_laplaciano": 173.8,
+    "movimento_medio": 5.2,
+    "luminancia_media": 125.9
+   }
+  },
+  {
+   "id": "V11",
+   "cena": "2",
+   "clipe": "C0098.MP4",
+   "entrada_s": 0.5,
+   "batidas": 2,
+   "motivo": "Mãos enluvadas no rosto do paciente: cuidado (frase sobre a filha).",
+   "timeline_in_f": 585,
+   "timeline_out_f": 625,
+   "fonte_in_f": 15,
+   "fonte_out_f": 55,
+   "fonte_saida_s": 1.835,
+   "timeline_in_tc": "00:00:19:15",
+   "timeline_out_tc": "00:00:20:25",
+   "batida_musica_s": 21.78,
+   "qualidade": {
+    "nitidez_laplaciano": 44.0,
+    "movimento_medio": 3.97,
+    "luminancia_media": 111.7
+   }
+  },
+  {
+   "id": "V12",
+   "cena": "2",
+   "clipe": "C0115.MP4",
+   "entrada_s": 1.0,
+   "batidas": 2,
+   "motivo": "Paciente na sala de espera: 'faço questão de ir até o consultório dela'.",
+   "timeline_in_f": 625,
+   "timeline_out_f": 665,
+   "fonte_in_f": 30,
+   "fonte_out_f": 70,
+   "fonte_saida_s": 2.336,
+   "timeline_in_tc": "00:00:20:25",
+   "timeline_out_tc": "00:00:22:05",
+   "batida_musica_s": 23.104,
+   "qualidade": {
+    "nitidez_laplaciano": 67.9,
+    "movimento_medio": 3.2,
+    "luminancia_media": 123.2
+   }
+  },
+  {
+   "id": "V13",
+   "cena": "2",
+   "clipe": "C0119.MP4",
+   "entrada_s": 2.5,
+   "batidas": 3,
+   "motivo": "Parede com o logo do consultório: 'consultório dela'.",
+   "timeline_in_f": 665,
+   "timeline_out_f": 725,
+   "fonte_in_f": 75,
+   "fonte_out_f": 135,
+   "fonte_saida_s": 4.505,
+   "timeline_in_tc": "00:00:22:05",
+   "timeline_out_tc": "00:00:24:05",
+   "batida_musica_s": 24.427,
+   "qualidade": {
+    "nitidez_laplaciano": 398.8,
+    "movimento_medio": 3.66,
+    "luminancia_media": 109.1
+   }
+  },
+  {
+   "id": "V14",
+   "cena": "2",
+   "clipe": "C0150.MP4",
+   "entrada_s": 5.0,
+   "batidas": 2,
+   "motivo": "Mãos firmes segurando o instrumento: 'ótimas mãos'.",
+   "timeline_in_f": 725,
+   "timeline_out_f": 765,
+   "fonte_in_f": 150,
+   "fonte_out_f": 190,
+   "fonte_saida_s": 6.34,
+   "timeline_in_tc": "00:00:24:05",
+   "timeline_out_tc": "00:00:25:15",
+   "batida_musica_s": 26.448,
+   "qualidade": {
+    "nitidez_laplaciano": 84.3,
+    "movimento_medio": 2.11,
+    "luminancia_media": 102.8
+   }
+  },
+  {
+   "id": "V15",
+   "cena": "2",
+   "clipe": "C0088.MP4",
+   "entrada_s": 4.0,
+   "batidas": 2,
+   "motivo": "Dra. atendendo (plano médio).",
+   "timeline_in_f": 765,
+   "timeline_out_f": 814,
+   "fonte_in_f": 120,
+   "fonte_out_f": 169,
+   "fonte_saida_s": 5.639,
+   "timeline_in_tc": "00:00:25:15",
+   "timeline_out_tc": "00:00:27:04",
+   "batida_musica_s": 27.771,
+   "qualidade": {
+    "nitidez_laplaciano": 100.4,
+    "movimento_medio": 5.02,
+    "luminancia_media": 102.6
+   }
+  },
+  {
+   "id": "V16",
+   "cena": "2",
+   "clipe": "C0146.MP4",
+   "entrada_s": 0.0,
+   "batidas": 2,
+   "motivo": "Close da Dra.: 'profissionais assim'.",
+   "timeline_in_f": 814,
+   "timeline_out_f": 855,
+   "fonte_in_f": 0,
+   "fonte_out_f": 41,
+   "fonte_saida_s": 1.368,
+   "timeline_in_tc": "00:00:27:04",
+   "timeline_out_tc": "00:00:28:15",
+   "batida_musica_s": 29.42,
+   "qualidade": {
+    "nitidez_laplaciano": 181.8,
+    "movimento_medio": 3.63,
+    "luminancia_media": 111.4
+   }
+  },
+  {
+   "id": "V17",
+   "cena": "2",
+   "clipe": "C0147.MP4",
+   "entrada_s": 2.0,
+   "batidas": 2,
+   "motivo": "Dra. de perfil, foco no paciente: 'fazem toda a diferença'.",
+   "timeline_in_f": 855,
+   "timeline_out_f": 894,
+   "fonte_in_f": 60,
+   "fonte_out_f": 99,
+   "fonte_saida_s": 3.303,
+   "timeline_in_tc": "00:00:28:15",
+   "timeline_out_tc": "00:00:29:24",
+   "batida_musica_s": 30.766,
+   "qualidade": {
+    "nitidez_laplaciano": 123.3,
+    "movimento_medio": 3.63,
+    "luminancia_media": 97.7
+   }
+  },
+  {
+   "id": "V18",
+   "cena": "2",
+   "clipe": "C0091.MP4",
+   "entrada_s": 4.0,
+   "batidas": 3,
+   "motivo": "Plano aberto da Dra. atendendo: 'gratidão'.",
+   "timeline_in_f": 894,
+   "timeline_out_f": 955,
+   "fonte_in_f": 120,
+   "fonte_out_f": 181,
+   "fonte_saida_s": 6.039,
+   "timeline_in_tc": "00:00:29:24",
+   "timeline_out_tc": "00:00:31:25",
+   "batida_musica_s": 32.09,
+   "qualidade": {
+    "nitidez_laplaciano": 117.8,
+    "movimento_medio": 4.93,
+    "luminancia_media": 103.7
+   }
+  },
+  {
+   "id": "V19",
+   "cena": "2",
+   "clipe": "C0075.MP4",
+   "entrada_s": 7.25,
+   "batidas": 4,
+   "motivo": "Dra. de frente, calma, fechando o depoimento: 'cuidado e excelência'.",
+   "timeline_in_f": 955,
+   "timeline_out_f": 1034,
+   "fonte_in_f": 217,
+   "fonte_out_f": 296,
+   "fonte_saida_s": 9.877,
+   "timeline_in_tc": "00:00:31:25",
+   "timeline_out_tc": "00:00:34:14",
+   "batida_musica_s": 34.11,
+   "qualidade": {
+    "nitidez_laplaciano": 95.0,
+    "movimento_medio": 2.74,
+    "luminancia_media": 95.4
+   }
+  },
+  {
+   "id": "F1",
+   "cena": "3",
+   "clipe": "C0229.MP4",
+   "entrada_s": 0.4,
+   "batidas": 8,
+   "motivo": "Dra. lendo e sorrindo para o celular; o print aparece no meio e ela termina sorrindo.",
+   "transicao_saida": {
+    "tipo": "Fade to Black",
+    "frames": 15
+   },
+   "timeline_in_f": 1034,
+   "timeline_out_f": 1194,
+   "fonte_in_f": 12,
+   "fonte_out_f": 172,
+   "fonte_saida_s": 5.739,
+   "timeline_in_tc": "00:00:34:14",
+   "timeline_out_tc": "00:00:39:24",
+   "batida_musica_s": 36.757,
+   "qualidade": {
+    "nitidez_laplaciano": 277.4,
+    "movimento_medio": 1.02,
+    "luminancia_media": 117.1
+   }
+  }
+ ],
+ "locucao": {
+  "arquivo": "REVIEW.m4a",
+  "timeline_in_f": 70,
+  "timeline_out_f": 1059,
+  "fonte_in_f": 0,
+  "fonte_out_f": 989,
+  "offset_s": 2.3357
+ },
+ "ducking": {
+  "de_f": 86,
+  "ate_f": 1034,
+  "ganho_db": -14
+ },
+ "sobreposicoes": [
+  {
+   "id": "PRINT",
+   "arquivo": "PRINT_AVALIACAO_placeholder.png",
+   "plano": "F1",
+   "offset_batidas": 2,
+   "batidas": 4,
+   "instrucao": "Trocar pelo print da avaliação do Google (Substituir clipe → arquivo de imagem). Ajustar Escala para caber ~85% da largura.",
+   "timeline_in_f": 1074,
+   "timeline_out_f": 1154,
+   "timeline_in_tc": "00:00:35:24",
+   "timeline_out_tc": "00:00:38:14"
+  }
+ ]
+}

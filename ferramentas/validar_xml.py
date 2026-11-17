@@ -16,7 +16,7 @@ files = {f.get("id"): f for f in root.iter("file") if f.find("pathurl") is not N
 vt = seq.find("media/video/track"); clips = vt.findall("clipitem"); prev = 0
 for c in clips:
     s, e, i, o = (int(c.findtext(k)) for k in ("start", "end", "in", "out"))
-    dur = int(c.findtext("duration"))
+    dur = int(c.findtext("duration"))  # em quadros da sequência
     chk(s == prev, f"{c.get('id')}: buraco/sobreposição na timeline ({prev}->{s})"); prev = e
     chk(e - s == o - i, f"{c.get('id')}: duração timeline != fonte")
     chk(0 <= i and o <= dur, f"{c.get('id')}: fora da mídia ({i}-{o} de {dur})")
@@ -32,8 +32,20 @@ for t in vt.findall("transitionitem"):
 for f in files.values():
     chk(f.findtext("pathurl").startswith("file://localhost/"), "pathurl")
     chk("proxies" not in f.findtext("pathurl"), f"proxy referenciado: {f.findtext('name')}")
-for a in seq.findall("media/audio/track/clipitem"):
-    chk(int(a.findtext("end")) == cfg["duracao_final_f"], "áudio com duração da sequência")
+ats = seq.findall("media/audio/track")
+for ti, t in enumerate(ats[:2]):  # música L/R: trechos contíguos cobrindo a sequência
+    cs = t.findall("clipitem"); pos = 0
+    for c in cs:
+        chk(int(c.findtext("start")) == pos, f"música A{ti+1}: buraco em {pos}"); pos = int(c.findtext("end"))
+        chk(int(c.findtext("out")) - int(c.findtext("in")) == int(c.findtext("end")) - int(c.findtext("start")), "música: duração")
+    chk(pos == cfg["duracao_final_f"], f"música A{ti+1} termina em {pos}")
+for t in ats[2:]:
+    for c in t.findall("clipitem"):
+        chk(0 <= int(c.findtext("start")) < int(c.findtext("end")) <= cfg["duracao_final_f"], "locução fora da sequência")
+        chk(int(c.findtext("out")) <= int(c.findtext("duration")), "locução além do arquivo")
+for t in seq.findall("media/video/track")[1:]:
+    for c in t.findall("clipitem"):
+        chk(0 <= int(c.findtext("start")) < int(c.findtext("end")) <= cfg["duracao_final_f"], "V2 fora da sequência")
 try:
     import opentimelineio as otio
     tl = otio.adapters.read_from_file(xml_p, adapter_name="fcp_xml")

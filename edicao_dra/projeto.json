@@ -1,0 +1,390 @@
+{
+ "config": {
+  "nome_sequencia": "Dra_avaliacoes_google_9x16",
+  "fps_num": 30000,
+  "fps_den": 1001,
+  "largura": 1080,
+  "altura": 1920,
+  "rotacao_fonte_graus": 0,
+  "escala_auto": true,
+  "musica": {
+   "arquivo": "Bed Time (Instrumental).mp4",
+   "inicio_s": 2.252,
+   "fade_out_s": 2.0,
+   "fade_video_frames": 15
+  },
+  "originais_dirs": [
+   "/home/user/material_dra/atendendo",
+   "/home/user/material_dra/feitos"
+  ],
+  "originais_dir": "/home/user/material_dra/feitos",
+  "locucao": {
+   "arquivo": "REVIEW.m4a",
+   "plano_inicio": "V01",
+   "fala_inicio_s": 0.66,
+   "atraso_fala_s": 0.15,
+   "entrada_s": 0.0,
+   "saida_s": 33.0,
+   "abaixar_musica_de": "V01",
+   "abaixar_musica_ate": "V19",
+   "musica_ganho_db": -14
+  },
+  "sobreposicoes": [
+   {
+    "id": "PRINT",
+    "arquivo": "PRINT_AVALIACAO_placeholder.png",
+    "plano": "F1",
+    "offset_batidas": 2,
+    "batidas": 4,
+    "instrucao": "Trocar pelo print da avaliação do Google (Substituir clipe → arquivo de imagem). Ajustar Escala para caber ~85% da largura."
+   }
+  ],
+  "legendas": {
+   "max_palavras": 6,
+   "max_dur_s": 2.4,
+   "correcoes": [],
+   "textos": [
+    {
+     "texto": "Lendo avaliações do meu\\Nconsultório no Google",
+     "plano": "T1",
+     "estilo": "Titulo"
+    }
+   ],
+   "correcoes_palavras": [
+    [
+     "diferença",
+     "diferença!"
+    ],
+    [
+     "gratidão",
+     "Gratidão"
+    ]
+   ],
+   "estilo_legenda": "Legenda,DejaVu Sans,60,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,1,0,0,0,100,100,0,0,1,3.5,1.5,2,90,90,300,1",
+   "estilo_titulo": "Titulo,DejaVu Sans,74,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,1,0,0,0,100,100,0,0,1,4,2,8,80,80,300,1"
+  }
+ },
+ "planos": [
+  {
+   "id": "T1",
+   "cena": "1",
+   "clipe": "C0227.MP4",
+   "entrada_s": 0.5,
+   "batidas": 4,
+   "motivo": "Dra. sentada lendo no celular (feito para o vídeo), com o título na tela."
+  },
+  {
+   "id": "V01",
+   "cena": "2",
+   "clipe": "C0108.MP4",
+   "entrada_s": 0.3,
+   "batidas": 3,
+   "motivo": "Dra. de frente, concentrada no atendimento: 'carinho e reconhecimento para minha dentista'."
+  },
+  {
+   "id": "V02",
+   "cena": "2",
+   "clipe": "C0110.MP4",
+   "entrada_s": 0.2,
+   "batidas": 2,
+   "motivo": "Mãos com a caneta no sorriso do paciente: 'cuida do meu sorriso'."
+  },
+  {
+   "id": "V03",
+   "cena": "2",
+   "clipe": "C0100.MP4",
+   "entrada_s": 3.5,
+   "batidas": 3,
+   "motivo": "Luz de fotopolimerização (azul/laranja): detalhe técnico marcante."
+  },
+  {
+   "id": "V04",
+   "cena": "2",
+   "clipe": "C0080.MP4",
+   "entrada_s": 0.5,
+   "batidas": 2,
+   "motivo": "Dra. trabalhando, olhar atento: 'há mais de 20 anos'."
+  },
+  {
+   "id": "V05",
+   "cena": "2",
+   "clipe": "C0082.MP4",
+   "entrada_s": 3.0,
+   "batidas": 2,
+   "motivo": "Mãos preparando o instrumento (detalhe)."
+  },
+  {
+   "id": "V06",
+   "cena": "2",
+   "clipe": "C0121.MP4",
+   "entrada_s": 0.0,
+   "batidas": 2,
+   "motivo": "Close da Dra. com o instrumento: 'profissional extremamente competente'."
+  },
+  {
+   "id": "V07",
+   "cena": "2",
+   "clipe": "C0081.MP4",
+   "entrada_s": 6.5,
+   "batidas": 3,
+   "motivo": "Dra. preparando o material com cuidado: 'dedicada'."
+  },
+  {
+   "id": "V08",
+   "cena": "2",
+   "clipe": "C0106.MP4",
+   "entrada_s": 0.0,
+   "batidas": 3,
+   "motivo": "Dra. se vira para o paciente: 'atenciosa'."
+  },
+  {
+   "id": "V09",
+   "cena": "2",
+   "clipe": "C0120.MP4",
+   "entrada_s": 3.4,
+   "batidas": 3,
+   "motivo": "Dra. atendendo com o refletor: 'confio tanto no trabalho dela'."
+  },
+  {
+   "id": "V10",
+   "cena": "2",
+   "clipe": "C0134.MP4",
+   "entrada_s": 4.0,
+   "batidas": 2,
+   "motivo": "Dra. e auxiliar atendendo juntas."
+  },
+  {
+   "id": "V11",
+   "cena": "2",
+   "clipe": "C0098.MP4",
+   "entrada_s": 0.5,
+   "batidas": 2,
+   "motivo": "Mãos enluvadas no rosto do paciente: cuidado (frase sobre a filha)."
+  },
+  {
+   "id": "V12",
+   "cena": "2",
+   "clipe": "C0115.MP4",
+   "entrada_s": 1.0,
+   "batidas": 2,
+   "motivo": "Paciente na sala de espera: 'faço questão de ir até o consultório dela'."
+  },
+  {
+   "id": "V13",
+   "cena": "2",
+   "clipe": "C0119.MP4",
+   "entrada_s": 2.5,
+   "batidas": 3,
+   "motivo": "Parede com o logo do consultório: 'consultório dela'."
+  },
+  {
+   "id": "V14",
+   "cena": "2",
+   "clipe": "C0150.MP4",
+   "entrada_s": 5.0,
+   "batidas": 2,
+   "motivo": "Mãos firmes segurando o instrumento: 'ótimas mãos'."
+  },
+  {
+   "id": "V15",
+   "cena": "2",
+   "clipe": "C0088.MP4",
+   "entrada_s": 4.0,
+   "batidas": 2,
+   "motivo": "Dra. atendendo (plano médio)."
+  },
+  {
+   "id": "V16",
+   "cena": "2",
+   "clipe": "C0146.MP4",
+   "entrada_s": 0.0,
+   "batidas": 2,
+   "motivo": "Close da Dra.: 'profissionais assim'."
+  },
+  {
+   "id": "V17",
+   "cena": "2",
+   "clipe": "C0147.MP4",
+   "entrada_s": 2.0,
+   "batidas": 2,
+   "motivo": "Dra. de perfil, foco no paciente: 'fazem toda a diferença'."
+  },
+  {
+   "id": "V18",
+   "cena": "2",
+   "clipe": "C0091.MP4",
+   "entrada_s": 4.0,
+   "batidas": 3,
+   "motivo": "Plano aberto da Dra. atendendo: 'gratidão'."
+  },
+  {
+   "id": "V19",
+   "cena": "2",
+   "clipe": "C0075.MP4",
+   "entrada_s": 7.25,
+   "batidas": 4,
+   "motivo": "Dra. de frente, calma, fechando o depoimento: 'cuidado e excelência'."
+  },
+  {
+   "id": "F1",
+   "cena": "3",
+   "clipe": "C0229.MP4",
+   "entrada_s": 0.4,
+   "batidas": 8,
+   "motivo": "Dra. lendo e sorrindo para o celular; o print aparece no meio e ela termina sorrindo.",
+   "transicao_saida": {
+    "tipo": "Fade to Black",
+    "frames": 15
+   }
+  }
+ ],
+ "relatorio": {
+  "titulo": "Dra. — avaliações do Google (depoimento)",
+  "material": [
+   [
+    "roteiro (Google Doc 'AVALIAÇÃO GOOGLE')",
+    "roteiro/",
+    "Exportado como texto; o gdown não baixa Docs, mas a exportação funcionou"
+   ],
+   [
+    "REVIEW.m4a",
+    "locucao/",
+    "Depoimento, 37 s (fala de 0,66 a 32,1 s), mono 48 kHz; enviado depois"
+   ],
+   [
+    "Bed Time (Instrumental).mp4",
+    "musica/",
+    "Só áudio, 181,7 s, 89,1 BPM"
+   ],
+   [
+    "snapinsta-1794935618442.mp4",
+    "referencia/",
+    "Reel 720×1280, 30 fps, 27 s: 'Lendo avaliações da padaria no Google' com locução + legendas"
+   ],
+   [
+    "C0227.MP4 / C0229.MP4",
+    "clipes/ (feitos para o vídeo)",
+    "Dra. sentada lendo no celular (C0229: sorrindo)"
+   ],
+   [
+    "C0074–C0153 (80 arquivos)",
+    "clipes/ (atendendo)",
+    "Sony 4K 23,976 fps, gravados na vertical (rotação no arquivo)"
+   ],
+   [
+    "MVI_1514–1567 (23 arquivos)",
+    "clipes/ (atendendo)",
+    "Canon 1080p 29,97 fps; outro ambiente/uniforme, câmera na mão — não usados"
+   ]
+  ],
+  "nota_material": "Os Sony têm rotação de 90° gravada no arquivo (abrem em pé). Nenhum original foi alterado.",
+  "roteiro_cab": [
+   "Cena",
+   "Direção de imagem",
+   "Direção de edição",
+   "Duração",
+   "Áudio/fala"
+  ],
+  "roteiro": [
+   [
+    "1",
+    "Dra. sentada com o celular na mão lendo",
+    "Texto na tela: 'Lendo avaliações do meu consultório no google'",
+    "Não definida → 2,7 s (4 batidas)",
+    "Música"
+   ],
+   [
+    "2",
+    "Cenas da Dra. atendendo/trabalhando",
+    "VO do depoimento; legendas no estilo da referência",
+    "Tempo da fala → 31,6 s (47 batidas)",
+    "Locução REVIEW.m4a + música baixa (−14 dB)"
+   ],
+   [
+    "3",
+    "Dra. sentada sorrindo para o celular; print aparece; termina sorrindo",
+    "Print na tela (marcador); fade final",
+    "Não definida → 5,4 s (8 batidas)",
+    "Música volta + fade-out"
+   ]
+  ],
+  "referencia": [
+   "27 s, 9:16 (720×1280), 30 fps. Abre com quem está lendo + título grande ('…no Google'), depois locução da avaliação com legenda pequena e planos curtos.",
+   "Cortes ~a cada 0,7–1,4 s (média ~1 s), todos secos; ritmo constante; legenda acompanha a fala.",
+   "A fala da referência é de outra avaliação (padaria) — confirmado por transcrição; usada só como estilo."
+  ],
+  "ritmo": "Cena 2: 19 planos de 2–3 batidas (1,3–2,0 s), mais calmos que a referência por ser um depoimento emotivo e pela música (89 BPM). Os planos acompanham as frases: rosto ('minha dentista'), mãos ('sorriso', 'ótimas mãos'), logo da parede ('consultório dela'), sala de espera ('faço questão de ir').",
+  "descartados": [
+   [
+    "MVI_1514–1567 (Canon)",
+    "Ambiente, uniforme e câmera diferentes (mão, menos nítido); destoariam do restante. Ver premissa 4."
+   ],
+   [
+    "C0089, C0092–C0095, C0111, C0114",
+    "Decoração de Natal / objetos: não é 'Dra. atendendo'."
+   ],
+   [
+    "C0076, C0090, C0101, C0122, C0123",
+    "Detalhes de objetos/janela sem a Dra."
+   ],
+   [
+    "C0097, C0102, C0121 (fim), C0151–C0152",
+    "Outra pessoa no computador/recepção."
+   ],
+   [
+    "C0113 (5 s → fim)",
+    "Câmera vai para a janela."
+   ],
+   [
+    "C0143",
+    "Detalhe de material, pouco nítido (nitidez 8–50)."
+   ],
+   [
+    "C0120 depois de 5,4 s / C0075 depois de 9,9 s",
+    "Fim do arquivo (o validador apontou o primeiro corte além da mídia; corrigido)."
+   ]
+  ],
+  "premissas": [
+   "Locução: REVIEW.m4a (enviado por você). Legendas geradas da fala (transcrição automática, tempo por palavra); o texto bate com o roteiro, exceto 'para minha dentista' (sem 'a'), como foi falado.",
+   "Print da avaliação: não há imagem → marcador PRINT_AVALIACAO_placeholder.png na V2 (decisão sua).",
+   "Formato: 1080×1920, 29,97 fps (decisão sua). Os Sony (23,976) entram com escala 50% (4K → 1080) e rotação 0, porque já têm rotação gravada.",
+   "Canon (MVI) fora: você pediu para escolher só o que combina com a referência; o visual Sony (luz suave, uniforme bege) é o que mais se parece com ela.",
+   "Título: o roteiro escreve 'google' em minúsculas; usei 'Google' (nome próprio). Quebra em 2 linhas.",
+   "Música: trecho 2,25 → 42,1 s (começa num tempo forte); entra mais forte a partir de ~25 s da faixa (≈23 s da timeline, em 'consultório dela'). Volume −14 dB enquanto a locução fala, volta no fim e faz fade de 2 s.",
+   "Duração 39,8 s = cena 1 (4 batidas) + fala (47) + cena 3 (8).",
+   "Sem velocidade/zoom/cor aplicados."
+  ],
+  "checklist_extra": [
+   [
+    "00:00:00:00 → 00:00:02:26",
+    "Título (cena 1)",
+    "Ferramenta Texto: 'Lendo avaliações do meu / consultório no Google', branco, negrito, centralizado no terço superior (veja preview). Duração = plano T1."
+   ],
+   [
+    "00:00:02:26 → 00:00:34:14",
+    "Legendas da locução",
+    "Arquivo → Importar → legendas.srt → arraste para a trilha de legendas (ou use Texto → Legendas). Estilo: branco, negrito, contorno preto, parte de baixo (veja preview)."
+   ],
+   [
+    "00:00:35:24 → 00:00:38:14",
+    "Print (V2)",
+    "Clique no PRINT_AVALIACAO_placeholder.png na V2 → botão direito → 'Substituir pelo clipe' → imagem real do print. Escala ~85% da largura; fade de 8 quadros na entrada e saída (como na prévia)."
+   ],
+   [
+    "todos",
+    "Rotação/escala",
+    "Os clipes Sony devem aparecer em pé e preenchendo o quadro (Escala 50). Se algum vier deitado, Movimento → Rotação 90 (ou −90)."
+   ],
+   [
+    "todos",
+    "Fps misto",
+    "Clipes 23,976 numa sequência 29,97: o Premiere faz a conversão sozinho; confira o 1º quadro de 2–3 planos contra a prévia."
+   ],
+   [
+    "00:00:02:26 → 00:00:34:14",
+    "Música abaixo da voz",
+    "O XML corta a música em 3 trechos (0 dB / −14 dB / 0 dB) com cross-fade. Se preferir, junte e use keyframes de volume ou 'Essential Sound → Ducking'."
+   ]
+  ]
+ }
+}

@@ -2,7 +2,7 @@
 
 ## Importar
 
-1. Ponha numa pasta os originais: `MVI_9068.MP4`, `MVI_9069.MP4`, `MVI_9072.MP4`, `MVI_9074.MP4`, `MVI_9081.MP4`, `MVI_9086.MP4`, `MVI_9087.MP4`, `MVI_9088.MP4`, `MVI_9152.MP4`, `MVI_9153.MP4`, `MVI_9161.MP4`, `MVI_9162.MP4`, `MVI_9209.MP4`, `Quanta Saudade (Feels Like Heaven) (Instrumental) (1).mp4`.
+1. Ponha TODOS numa mesma pasta (mesmo que no Drive estejam em pastas diferentes): `MVI_9068.MP4`, `MVI_9069.MP4`, `MVI_9072.MP4`, `MVI_9074.MP4`, `MVI_9081.MP4`, `MVI_9086.MP4`, `MVI_9087.MP4`, `MVI_9088.MP4`, `MVI_9152.MP4`, `MVI_9153.MP4`, `MVI_9161.MP4`, `MVI_9162.MP4`, `MVI_9209.MP4`, `Quanta Saudade (Feels Like Heaven) (Instrumental) (1).mp4`.
 2. Arquivo → Importar → `sequencia.xml`. Na janela “Link Media”, aponte para essa pasta (os demais são achados pelo nome).
 3. Confira a sequência `Terral_almoco_executivo_9x16_30s`: 1080×1920, 23.976 fps, 00:00:29:23.
 
@@ -21,4 +21,4 @@
 
 ## Trocas
 
-Edite `projeto.json` (entrada_s/batidas/clipe de um plano) e rode `bash ../ferramentas/rodar_projeto.sh .`. Para ajuste fino sem perder o resto, edite `plano.json` e rode com `--recalcular`.
+Edite `projeto.json` (entrada_s/batidas/clipe de um plano) e rode o script do projeto (`rodar.sh` na pasta, ou `bash ../ferramentas/rodar_projeto.sh .`). Para ajuste fino sem perder o resto, edite `plano.json` e rode com `--recalcular`.

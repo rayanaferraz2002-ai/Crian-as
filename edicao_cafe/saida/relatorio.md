@@ -15,6 +15,9 @@ Estrutura do Drive diferente da esperada (arquivos soltos). Interpretação:
 | MVI_9117.MP4 | clipes/ | Prato de frutas/queijo/presunto/pão + mel escorrendo. 11,1 s |
 | MVI_9111.MP4 | clipes/ | Bolo de fubá com goiabada; mão desfocada até 4,5 s; fatia levantada em 6,1 s. 7,5 s |
 | MVI_9187.MP4 | clipes/ | Mesa posta; foco passa da mesa para as pessoas ao fundo. 6,0 s |
+| MVI_9115.MP4 | clipes/ (novo) | Pegador tirando melancia da travessa de frutas. 7,9 s |
+| MVI_9099.MP4 | clipes/ (novo) | Queijos com rosa de tomate, close. 3,1 s |
+| MVI_9120.MP4 | clipes/ (novo) | Jarra de suco → pratos (câmera descendo). 9,6 s |
 | — | roteiro/ | Ausente; usado o roteiro da conversa (1 frase) |
 | — | locucao/ | Ausente |
 
@@ -51,16 +54,14 @@ Clipes 1920×1080 23,976 fps gravados com câmera deitada (conteúdo vertical): 
 | 04 | Detalhes (intro) | MVI_9167.MP4 | 0.30 → 2.17 s | 00:00:05:14 → 00:00:07:11 | 4 | Café com leite visto de cima, espuma em movimento. | 120.9/5.39/114.3 |
 | 05 | Detalhes (subida) | MVI_9117.MP4 | 3.60 → 5.46 s | 00:00:07:11 → 00:00:09:08 | 4 | Pegador de mel entra e escorre sobre o prato de frutas e queijo. | 141.3/4.18/135.4 |
 | 06 | Detalhes (subida) | MVI_9111.MP4 | 4.55 → 6.42 s | 00:00:09:08 → 00:00:11:05 | 4 | Bolo de fubá com goiabada: câmera passa pelo bolo e a fatia é levantada no fim (ação de servir, como o corte do prato na referência). Antes de 4,5 s há mão desfocada no primeiro plano. | 104.9/6.47/122.0 |
-| 07 | Detalhes (clímax) | MVI_9164.MP4 | 4.20 → 5.63 s | 00:00:11:05 → 00:00:12:15 | 3 | Corte no drop: travelling chega ao suco de laranja e ao café com leite. | 107.4/6.61/143.4 |
-| 08 | Detalhes (clímax) | MVI_9117.MP4 | 8.00 → 8.97 s | 00:00:12:15 → 00:00:13:14 | 2 | Take curto: fio de mel em close. | 109.1/2.65/138.7 |
-| 09 | Detalhes (clímax) | MVI_9167.MP4 | 2.60 → 3.96 s | 00:00:13:14 → 00:00:14:23 | 3 | Take curto do café com leite (trecho diferente do plano 04); sem outro trecho bom do bolo. | 164.9/5.34/113.8 |
-| 10 | Detalhes (clímax) | MVI_9149.MP4 | 7.00 → 8.34 s | 00:00:14:23 → 00:00:16:07 | 3 | Xícara cheia com crema, foco nítido. | 433.8/3.29/50.0 |
-| 11 | Detalhes (clímax) | MVI_9205.MP4 | 3.05 → 4.50 s | 00:00:16:07 → 00:00:17:18 | 3 | Lousa já escrita ('Café Colonial' legível) antes do plano final. | 994.9/6.09/77.7 |
-| 12 | Fechamento | MVI_9187.MP4 | 3.55 → 5.88 s | 00:00:17:18 → 00:00:20:02 | 5 | Mesa posta com o foco passando para as pessoas tomando café ao fundo: plano aberto final, como na referência. | 144.0/3.94/133.1 |
+| 07 | Detalhes (clímax) | MVI_9115.MP4 | 1.40 → 3.34 s | 00:00:11:05 → 00:00:13:03 | 4 | Corte depois do drop: pegador tira a melancia da travessa de frutas (ação de servir, nítido 1,2–3,5 s). | 89.1/9.67/152.1 |
+| 08 | Detalhes (clímax) | MVI_9099.MP4 | 1.50 → 2.88 s | 00:00:13:03 → 00:00:14:12 | 3 | Take curto em close: queijos com rosa de tomate (trecho mais nítido do clipe). | 39.6/3.01/103.6 |
+| 09 | Detalhes (clímax) | MVI_9120.MP4 | 5.00 → 6.80 s | 00:00:14:12 → 00:00:16:07 | 4 | Câmera desce da jarra de suco para os pratos (pão, frios, melancia): prepara o plano aberto final. | 32.3/6.42/136.5 |
+| 10 | Fechamento | MVI_9187.MP4 | 2.15 → 5.96 s | 00:00:16:07 → 00:00:20:02 | 8 | Mesa posta nítida e o foco passa para as pessoas tomando café ao fundo: plano aberto final com fade, como na referência. | 151.7/4.06/129.4 |
 
-Duração 20.103 s (482 quadros), 12 planos, média 1.68 s (mín 0.96, máx 2.34).
-Intro: planos de 4 batidas (1,86 s). Subida: 4 batidas. Após o drop: 2–3 batidas alternando (0,93–1,39 s), como o longo-curto da referência. Final: 5 batidas com fade.
-Transições: corte seco na batida; 12: Fade to Black 12 quadros. Fade-out da música 1.5 s.
+Duração 20.103 s (482 quadros), 10 planos, média 2.01 s (mín 1.38, máx 3.80).
+10 planos, 1 por clipe (sem repetição). Intro: 4 batidas (1,86 s) por plano. Depois do drop: 3–4 batidas, com take curto de 3 batidas no meio. Final: 8 batidas (mesa + passagem de foco) com fade.
+Transições: corte seco na batida; 10: Fade to Black 12 quadros. Fade-out da música 1.5 s.
 
 ## Descartados
 
@@ -72,13 +73,17 @@ Transições: corte seco na batida; 12: Fade to Black 12 quadros. Fade-out da m�
 | MVI_9205 0–0,9 s | Câmera ajustando, quadro instável. |
 | MVI_9187 0–3,5 s | Mesa nítida mas sem a passagem de foco; o trecho escolhido contém a mesa e termina nas pessoas. |
 | MVI_9117 0–3,5 s | Prato parado, sem mel (menos ação). |
+| MVI_9115 4,0 s → fim | Melancia já saiu do quadro; travessa parada e desfocada no fim. |
+| MVI_9120 0–4,5 s | Jarra parada; o trecho com movimento para os pratos é mais forte. |
+| MVI_9099 0–1,5 s | Menos nítido que o fim do clipe. |
+| Versão anterior (v1) | Repetia 5 clipes (9164, 9117, 9167, 9149, 9205). Substituídos pelos 3 novos + plano final mais longo. v1 salva em projeto_v1.json do trabalho. |
 
 ## Premissas
 
 1. Duração ~20 s, sem texto, abertura com a lousa e fechamento com a mesa posta: decisões suas.
 2. Formato: a regra pede a resolução/fps da referência (720×1280, 30 fps). Usei 9:16 (mesma proporção) em 1080×1920 e 23,976 fps, porque a referência é um download do Pinterest em baixa resolução, e passar os clipes de 23,976 para 30 fps faria a imagem trepidar. Para seguir a referência à risca, troque fps_num/fps_den/largura/altura no projeto.json e rode de novo.
-3. Repetições (com ~20 s e 7 clipes): 9205, 9164, 9149, 9117 e 9167 aparecem 2x, sempre em trechos diferentes e nunca seguidos.
-4. Trecho da música: 1,625 s → 21,73 s (começa num tempo forte). O drop (12,84 s) cai no plano 07, logo depois da fatia de bolo subindo; os takes mais curtos ficam na parte de maior energia.
+3. Sem repetição de clipe (seu pedido). Com 10 clipes para 20 s, os planos ficaram um pouco mais longos (média 2 s) que os da referência (1,46 s); o plano final tem 3,7 s para caber a passagem de foco inteira.
+4. Trecho da música: 1,625 s → 21,73 s (começa num tempo forte). O drop (12,84 s) cai no corte bolo → melancia: a fatia sobe no fim do plano 06 e o pegador entra no 07; os takes mais curtos ficam na parte de maior energia.
 5. Duração final 20,10 s = 43 batidas (o mais perto de 20 s na grade de batidas).
 6. Sem velocidade, zoom ou cor aplicados no XML; sugestões no checklist.
 7. Originais intocados (somente leitura); trabalho em cópias/proxies 720p.

@@ -87,7 +87,7 @@ for i, p in enumerate(ps):
     sub(ci, "start", p["timeline_in_f"]); sub(ci, "end", p["timeline_out_f"])
     sub(ci, "in", p["fonte_in_f"]); sub(ci, "out", p["fonte_out_f"])
     file_el(ci, p["clipe"])
-    motion_filter(ci, cfg["rotacao_fonte_graus"])
+    motion_filter(ci, p.get("rotacao_graus", cfg["rotacao_fonte_graus"]))
     st = sub(ci, "sourcetrack"); sub(st, "mediatype", "video"); sub(st, "trackindex", 1)
     sub(ci, "comments")
     mk = sub(ci, "marker"); sub(mk, "name", f"Cena {p['cena']}"); sub(mk, "comment", p["motivo"])

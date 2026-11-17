@@ -1,0 +1,331 @@
+{
+ "config": {
+  "nome_sequencia": "Terral_almoco_executivo_9x16_30s",
+  "fps_num": 24000,
+  "fps_den": 1001,
+  "largura": 1080,
+  "altura": 1920,
+  "duracao_alvo_s": 30.0,
+  "rotacao_fonte_graus": -90,
+  "girar_horario": [
+   "MVI_9209"
+  ],
+  "musica": {
+   "arquivo": "Quanta Saudade (Feels Like Heaven) (Instrumental) (1).mp4",
+   "inicio_s": 9.033,
+   "fade_out_s": 1.5,
+   "fade_video_frames": 12
+  },
+  "originais_dir": "/home/user/material_almoco"
+ },
+ "planos": [
+  {
+   "id": "01",
+   "cena": "Ambiente",
+   "clipe": "MVI_9209.MP4",
+   "entrada_s": 1.0,
+   "batidas": 3,
+   "motivo": "Salão do Terral com a adega iluminada: abre apresentando a casa.",
+   "rotacao_graus": 90
+  },
+  {
+   "id": "02",
+   "cena": "Prato",
+   "clipe": "MVI_9068.MP4",
+   "entrada_s": 1.5,
+   "batidas": 2,
+   "motivo": "Prato executivo (bife, fritas, arroz, salada) com o feijão sendo servido."
+  },
+  {
+   "id": "03",
+   "cena": "Prato",
+   "clipe": "MVI_9072.MP4",
+   "entrada_s": 0.3,
+   "batidas": 2,
+   "motivo": "Salada com frango vista de cima, muito nítida."
+  },
+  {
+   "id": "04",
+   "cena": "Ambiente",
+   "clipe": "MVI_9152.MP4",
+   "entrada_s": 0.5,
+   "batidas": 3,
+   "motivo": "Mesa cheia de clientes almoçando e conversando."
+  },
+  {
+   "id": "05",
+   "cena": "Prato",
+   "clipe": "MVI_9069.MP4",
+   "entrada_s": 0.5,
+   "batidas": 2,
+   "motivo": "Vinagrete sendo colocado ao lado do bife."
+  },
+  {
+   "id": "06",
+   "cena": "Prato",
+   "clipe": "MVI_9086.MP4",
+   "entrada_s": 1.0,
+   "batidas": 2,
+   "motivo": "Faca e garfo cortando o bife acebolado com fritas."
+  },
+  {
+   "id": "07",
+   "cena": "Ambiente",
+   "clipe": "MVI_9153.MP4",
+   "entrada_s": 0.0,
+   "batidas": 3,
+   "motivo": "Garçom atendendo uma mesa: movimento do serviço."
+  },
+  {
+   "id": "08",
+   "cena": "Prato",
+   "clipe": "MVI_9074.MP4",
+   "entrada_s": 1.5,
+   "batidas": 2,
+   "motivo": "Garfo pegando a salada."
+  },
+  {
+   "id": "09",
+   "cena": "Prato",
+   "clipe": "MVI_9081.MP4",
+   "entrada_s": 0.9,
+   "batidas": 2,
+   "motivo": "Corte em sequência: a salada chega à boca."
+  },
+  {
+   "id": "10",
+   "cena": "Ambiente",
+   "clipe": "MVI_9161.MP4",
+   "entrada_s": 5.6,
+   "batidas": 3,
+   "motivo": "Casal almoçando à mesa."
+  },
+  {
+   "id": "11",
+   "cena": "Prato",
+   "clipe": "MVI_9069.MP4",
+   "entrada_s": 11.8,
+   "batidas": 2,
+   "motivo": "Farofa sendo servida sobre o arroz."
+  },
+  {
+   "id": "12",
+   "cena": "Prato",
+   "clipe": "MVI_9088.MP4",
+   "entrada_s": 0.3,
+   "batidas": 2,
+   "motivo": "Mão pegando batata frita do prato executivo."
+  },
+  {
+   "id": "13",
+   "cena": "Ambiente",
+   "clipe": "MVI_9162.MP4",
+   "entrada_s": 0.0,
+   "batidas": 3,
+   "motivo": "Plantas pendentes no teto de madeira: respiro de ambiente (sem pessoas, autorizado por você)."
+  },
+  {
+   "id": "14",
+   "cena": "Prato",
+   "clipe": "MVI_9069.MP4",
+   "entrada_s": 28.8,
+   "batidas": 2,
+   "motivo": "Garfo e faca cortando o bife, com vinagrete e farofa."
+  },
+  {
+   "id": "15",
+   "cena": "Prato",
+   "clipe": "MVI_9074.MP4",
+   "entrada_s": 4.0,
+   "batidas": 2,
+   "motivo": "Garfo levando a salada (trecho diferente do plano 08)."
+  },
+  {
+   "id": "16",
+   "cena": "Ambiente",
+   "clipe": "MVI_9152.MP4",
+   "entrada_s": 4.3,
+   "batidas": 3,
+   "motivo": "Garçom passando entre as mesas cheias (trecho diferente do plano 04)."
+  },
+  {
+   "id": "17",
+   "cena": "Prato",
+   "clipe": "MVI_9072.MP4",
+   "entrada_s": 2.0,
+   "batidas": 2,
+   "motivo": "Salada com frango de cima (trecho diferente do plano 03): contraste de cor antes do bife final."
+  },
+  {
+   "id": "18",
+   "cena": "Prato",
+   "clipe": "MVI_9087.MP4",
+   "entrada_s": 1.9,
+   "batidas": 4,
+   "motivo": "Bife acebolado com fritas de cima, o plano mais nítido: fecha com fade.",
+   "transicao_saida": {
+    "tipo": "Fade to Black",
+    "frames": 12
+   }
+  }
+ ],
+ "relatorio": {
+  "titulo": "Terral — almoço executivo (ambiente + pratos)",
+  "material": [
+   [
+    "Quanta Saudade (Feels Like Heaven) (Instrumental) (1).mp4",
+    "musica/",
+    "Só áudio, 227,9 s"
+   ],
+   [
+    "cantinaclasse_pindown.io_1794929150.mp4",
+    "referencia/",
+    "Vídeo do Pinterest, 720×1280, 60 fps, 10,7 s"
+   ],
+   [
+    "MVI_9152.MP4",
+    "clipes/ ambiente",
+    "Mesa cheia; garçom passa (4–6 s)"
+   ],
+   [
+    "MVI_9153.MP4",
+    "clipes/ ambiente",
+    "Garçom atendendo (0–2,5 s); clientes comendo (4–7 s)"
+   ],
+   [
+    "MVI_9161.MP4",
+    "clipes/ ambiente",
+    "Panorâmica: adega → homem → casal à mesa (5–7,7 s); borrado em ~4 s"
+   ],
+   [
+    "MVI_9162.MP4",
+    "clipes/ ambiente",
+    "Plantas no teto (sem pessoas)"
+   ],
+   [
+    "MVI_9209.MP4",
+    "clipes/ ambiente",
+    "Salão vazio com adega; gravado invertido em relação aos outros (gira +90°)"
+   ],
+   [
+    "MVI_9068.MP4",
+    "clipes/ prato",
+    "Prato executivo; feijão servido (1–4 s); guardanapo (5–9 s)"
+   ],
+   [
+    "MVI_9069.MP4",
+    "clipes/ prato",
+    "35 s: vinagrete, farofa, garfo, corte do bife"
+   ],
+   [
+    "MVI_9072.MP4",
+    "clipes/ prato",
+    "Salada com frango de cima"
+   ],
+   [
+    "MVI_9074.MP4",
+    "clipes/ prato",
+    "Garfo pegando salada"
+   ],
+   [
+    "MVI_9081.MP4",
+    "clipes/ prato",
+    "Boca comendo salada (close)"
+   ],
+   [
+    "MVI_9086.MP4",
+    "clipes/ prato",
+    "Corte do bife acebolado com fritas"
+   ],
+   [
+    "MVI_9087.MP4",
+    "clipes/ prato",
+    "Bife acebolado com fritas de cima"
+   ],
+   [
+    "MVI_9088.MP4",
+    "clipes/ prato",
+    "Mão pegando batata frita"
+   ],
+   [
+    "—",
+    "roteiro/",
+    "Ausente; usado o roteiro da conversa"
+   ],
+   [
+    "—",
+    "locucao/",
+    "Ausente"
+   ]
+  ],
+  "nota_material": "Clipes 1920×1080 23,976 fps gravados na vertical: −90° em todos, exceto MVI_9209 (+90°).",
+  "roteiro_cab": [
+   "Cena",
+   "Direção de imagem",
+   "Direção de edição",
+   "Duração",
+   "Áudio/fala"
+  ],
+  "roteiro": [
+   [
+    "Ciclo ×6",
+    "1 take de ambiente (movimento da casa no almoço executivo) + 2 takes de pratos",
+    "Alternância fixa A-P-P; cortes secos na batida",
+    "Até 30 s (sua decisão) → 29,6 s",
+    "Só música"
+   ]
+  ],
+  "referencia": [
+   "10,7 s, 9:16 (720×1280), 60 fps, 8 planos de ambiente/pessoas, só cortes secos, tons quentes.",
+   "Cortes em 2,10 / 3,57 / 4,57 / 5,72 / 7,15 / 8,12 / 9,70 s → planos de 0,97–2,10 s (média 1,34 s).",
+   "Música da referência ~152 BPM: corte a cada ~3 batidas; ritmo constante, primeiro plano mais longo."
+  ],
+  "ritmo": "6 ciclos: ambiente 3 batidas (2,02 s) + 2 pratos de 2 batidas (1,35 s, igual à média da referência). Último prato 4 batidas com fade.",
+  "descartados": [
+   [
+    "MVI_9161 0–5,5 s",
+    "Panorâmica rápida (movimento alto) e borrada em ~4 s; usado só o casal."
+   ],
+   [
+    "MVI_9068 5–7 s",
+    "Mão com guardanapo cobrindo o prato."
+   ],
+   [
+    "MVI_9069 1,5–10 s / 15–25 s",
+    "Repetitivo; ficaram os três momentos mais claros (vinagrete, farofa, corte)."
+   ],
+   [
+    "MVI_9081 2,5 s → fim",
+    "Boca fechada, sem ação."
+   ],
+   [
+    "MVI_9153 3,5–7 s",
+    "Bom, mas o 9153 já entra com o garçom; evitado repetir."
+   ],
+   [
+    "MVI_9068 7–9,7 s",
+    "Testado no plano 17: potinho de feijão em quadro, repetia o plano 02."
+   ]
+  ],
+  "premissas": [
+   "Duração até 30 s e uso de ambientes sem pessoas (9162, 9209): decisões suas.",
+   "Formato: 9:16 em 1080×1920, 23,976 fps (fps dos clipes). A referência é 720×1280, 60 fps (download do Pinterest); converter para 60 fps não traz ganho e faria a imagem trepidar. Para seguir à risca, troque fps/resolução no projeto.json.",
+   "Trecho da música 9,033 → 38,66 s: começa no primeiro tempo forte da parte com energia alta (a introdução de 0–9 s fica de fora). Há uma queda de energia em 30,8–36,3 s da faixa (21,8–27,2 s da timeline), suavizada pelo plano de respiro (plantas) e pelo fim.",
+   "Repetições (18 planos, 13 clipes): 9152, 9069 (3 momentos), 9072 e 9074 aparecem mais de uma vez, sempre em trechos diferentes e nunca seguidos.",
+   "Sem velocidade, zoom, texto ou cor aplicados. Sugestões no checklist.",
+   "Originais intocados (somente leitura); trabalho em cópias/proxies 720p."
+  ],
+  "checklist_extra": [
+   [
+    "todos",
+    "Cor",
+    "A referência tem tom quente/âmbar. Sugestão: camada de ajuste com Lumetri (temperatura +10, saturação +5) para unificar ambientes (claros) e pratos (mais quentes)."
+   ],
+   [
+    "00:00:00:00 → 00:00:02:01",
+    "Rotação 9209",
+    "MVI_9209 usa +90° (os demais −90°). Confira se o salão está de pé."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,409 @@
+{
+ "config": {
+  "nome_sequencia": "Terral_almoco_executivo_9x16_30s",
+  "fps_num": 24000,
+  "fps_den": 1001,
+  "largura": 1080,
+  "altura": 1920,
+  "duracao_alvo_s": 30.0,
+  "rotacao_fonte_graus": -90,
+  "girar_horario": [
+   "MVI_9209"
+  ],
+  "musica": {
+   "arquivo": "Quanta Saudade (Feels Like Heaven) (Instrumental) (1).mp4",
+   "inicio_s": 9.033,
+   "fade_out_s": 1.5,
+   "fade_video_frames": 12
+  },
+  "originais_dir": "/home/user/material_almoco",
+  "duracao_final_f": 719,
+  "duracao_final_s": 29.988,
+  "bpm": 89.1
+ },
+ "planos": [
+  {
+   "id": "01",
+   "cena": "Ambiente",
+   "clipe": "MVI_9209.MP4",
+   "entrada_s": 1.0,
+   "batidas": 3,
+   "motivo": "Salão do Terral com a adega iluminada: abre apresentando a casa.",
+   "rotacao_graus": 90,
+   "timeline_in_f": 0,
+   "timeline_out_f": 49,
+   "fonte_in_f": 24,
+   "fonte_out_f": 73,
+   "fonte_saida_s": 3.045,
+   "timeline_in_tc": "00:00:00:00",
+   "timeline_out_tc": "00:00:02:01",
+   "batida_musica_s": 9.033,
+   "qualidade": {
+    "nitidez_laplaciano": 617.1,
+    "movimento_medio": 3.89,
+    "luminancia_media": 108.0
+   }
+  },
+  {
+   "id": "02",
+   "cena": "Prato",
+   "clipe": "MVI_9068.MP4",
+   "entrada_s": 1.5,
+   "batidas": 2,
+   "motivo": "Prato executivo (bife, fritas, arroz, salada) com o feijão sendo servido.",
+   "timeline_in_f": 49,
+   "timeline_out_f": 82,
+   "fonte_in_f": 36,
+   "fonte_out_f": 69,
+   "fonte_saida_s": 2.878,
+   "timeline_in_tc": "00:00:02:01",
+   "timeline_out_tc": "00:00:03:10",
+   "batida_musica_s": 11.076,
+   "qualidade": {
+    "nitidez_laplaciano": 131.1,
+    "movimento_medio": 11.59,
+    "luminancia_media": 132.8
+   }
+  },
+  {
+   "id": "03",
+   "cena": "Prato",
+   "clipe": "MVI_9072.MP4",
+   "entrada_s": 0.3,
+   "batidas": 2,
+   "motivo": "Salada com frango vista de cima, muito nítida.",
+   "timeline_in_f": 82,
+   "timeline_out_f": 114,
+   "fonte_in_f": 7,
+   "fonte_out_f": 39,
+   "fonte_saida_s": 1.627,
+   "timeline_in_tc": "00:00:03:10",
+   "timeline_out_tc": "00:00:04:18",
+   "batida_musica_s": 12.446,
+   "qualidade": {
+    "nitidez_laplaciano": 789.2,
+    "movimento_medio": 6.08,
+    "luminancia_media": 112.4
+   }
+  },
+  {
+   "id": "04",
+   "cena": "Ambiente",
+   "clipe": "MVI_9152.MP4",
+   "entrada_s": 0.5,
+   "batidas": 3,
+   "motivo": "Mesa cheia de clientes almoçando e conversando.",
+   "timeline_in_f": 114,
+   "timeline_out_f": 164,
+   "fonte_in_f": 12,
+   "fonte_out_f": 62,
+   "fonte_saida_s": 2.586,
+   "timeline_in_tc": "00:00:04:18",
+   "timeline_out_tc": "00:00:06:20",
+   "batida_musica_s": 13.793,
+   "qualidade": {
+    "nitidez_laplaciano": 515.1,
+    "movimento_medio": 8.22,
+    "luminancia_media": 145.8
+   }
+  },
+  {
+   "id": "05",
+   "cena": "Prato",
+   "clipe": "MVI_9069.MP4",
+   "entrada_s": 0.5,
+   "batidas": 2,
+   "motivo": "Vinagrete sendo colocado ao lado do bife.",
+   "timeline_in_f": 164,
+   "timeline_out_f": 197,
+   "fonte_in_f": 12,
+   "fonte_out_f": 45,
+   "fonte_saida_s": 1.877,
+   "timeline_in_tc": "00:00:06:20",
+   "timeline_out_tc": "00:00:08:05",
+   "batida_musica_s": 15.859,
+   "qualidade": {
+    "nitidez_laplaciano": 73.5,
+    "movimento_medio": 7.66,
+    "luminancia_media": 101.7
+   }
+  },
+  {
+   "id": "06",
+   "cena": "Prato",
+   "clipe": "MVI_9086.MP4",
+   "entrada_s": 1.0,
+   "batidas": 2,
+   "motivo": "Faca e garfo cortando o bife acebolado com fritas.",
+   "timeline_in_f": 197,
+   "timeline_out_f": 229,
+   "fonte_in_f": 24,
+   "fonte_out_f": 56,
+   "fonte_saida_s": 2.336,
+   "timeline_in_tc": "00:00:08:05",
+   "timeline_out_tc": "00:00:09:13",
+   "batida_musica_s": 17.229,
+   "qualidade": {
+    "nitidez_laplaciano": 151.1,
+    "movimento_medio": 4.93,
+    "luminancia_media": 91.2
+   }
+  },
+  {
+   "id": "07",
+   "cena": "Ambiente",
+   "clipe": "MVI_9153.MP4",
+   "entrada_s": 0.0,
+   "batidas": 3,
+   "motivo": "Garçom atendendo uma mesa: movimento do serviço.",
+   "timeline_in_f": 229,
+   "timeline_out_f": 278,
+   "fonte_in_f": 0,
+   "fonte_out_f": 49,
+   "fonte_saida_s": 2.044,
+   "timeline_in_tc": "00:00:09:13",
+   "timeline_out_tc": "00:00:11:14",
+   "batida_musica_s": 18.576,
+   "qualidade": {
+    "nitidez_laplaciano": 494.0,
+    "movimento_medio": 7.98,
+    "luminancia_media": 123.3
+   }
+  },
+  {
+   "id": "08",
+   "cena": "Prato",
+   "clipe": "MVI_9074.MP4",
+   "entrada_s": 1.5,
+   "batidas": 2,
+   "motivo": "Garfo pegando a salada.",
+   "timeline_in_f": 278,
+   "timeline_out_f": 311,
+   "fonte_in_f": 36,
+   "fonte_out_f": 69,
+   "fonte_saida_s": 2.878,
+   "timeline_in_tc": "00:00:11:14",
+   "timeline_out_tc": "00:00:12:23",
+   "batida_musica_s": 20.619,
+   "qualidade": {
+    "nitidez_laplaciano": 165.9,
+    "movimento_medio": 10.59,
+    "luminancia_media": 154.2
+   }
+  },
+  {
+   "id": "09",
+   "cena": "Prato",
+   "clipe": "MVI_9081.MP4",
+   "entrada_s": 0.9,
+   "batidas": 2,
+   "motivo": "Corte em sequência: a salada chega à boca.",
+   "timeline_in_f": 311,
+   "timeline_out_f": 343,
+   "fonte_in_f": 22,
+   "fonte_out_f": 54,
+   "fonte_saida_s": 2.252,
+   "timeline_in_tc": "00:00:12:23",
+   "timeline_out_tc": "00:00:14:07",
+   "batida_musica_s": 21.989,
+   "qualidade": {
+    "nitidez_laplaciano": 20.4,
+    "movimento_medio": 7.52,
+    "luminancia_media": 150.5
+   }
+  },
+  {
+   "id": "10",
+   "cena": "Ambiente",
+   "clipe": "MVI_9161.MP4",
+   "entrada_s": 5.6,
+   "batidas": 3,
+   "motivo": "Casal almoçando à mesa.",
+   "timeline_in_f": 343,
+   "timeline_out_f": 392,
+   "fonte_in_f": 134,
+   "fonte_out_f": 183,
+   "fonte_saida_s": 7.633,
+   "timeline_in_tc": "00:00:14:07",
+   "timeline_out_tc": "00:00:16:08",
+   "batida_musica_s": 23.359,
+   "qualidade": {
+    "nitidez_laplaciano": 379.6,
+    "movimento_medio": 8.08,
+    "luminancia_media": 135.2
+   }
+  },
+  {
+   "id": "11",
+   "cena": "Prato",
+   "clipe": "MVI_9069.MP4",
+   "entrada_s": 11.8,
+   "batidas": 2,
+   "motivo": "Farofa sendo servida sobre o arroz.",
+   "timeline_in_f": 392,
+   "timeline_out_f": 425,
+   "fonte_in_f": 283,
+   "fonte_out_f": 316,
+   "fonte_saida_s": 13.18,
+   "timeline_in_tc": "00:00:16:08",
+   "timeline_out_tc": "00:00:17:17",
+   "batida_musica_s": 25.403,
+   "qualidade": {
+    "nitidez_laplaciano": 282.7,
+    "movimento_medio": 8.91,
+    "luminancia_media": 100.7
+   }
+  },
+  {
+   "id": "12",
+   "cena": "Prato",
+   "clipe": "MVI_9088.MP4",
+   "entrada_s": 0.3,
+   "batidas": 2,
+   "motivo": "Mão pegando batata frita do prato executivo.",
+   "timeline_in_f": 425,
+   "timeline_out_f": 458,
+   "fonte_in_f": 7,
+   "fonte_out_f": 40,
+   "fonte_saida_s": 1.668,
+   "timeline_in_tc": "00:00:17:17",
+   "timeline_out_tc": "00:00:19:02",
+   "batida_musica_s": 26.773,
+   "qualidade": {
+    "nitidez_laplaciano": 65.2,
+    "movimento_medio": 7.55,
+    "luminancia_media": 161.6
+   }
+  },
+  {
+   "id": "13",
+   "cena": "Ambiente",
+   "clipe": "MVI_9162.MP4",
+   "entrada_s": 0.0,
+   "batidas": 3,
+   "motivo": "Plantas pendentes no teto de madeira: respiro de ambiente (sem pessoas, autorizado por você).",
+   "timeline_in_f": 458,
+   "timeline_out_f": 507,
+   "fonte_in_f": 0,
+   "fonte_out_f": 49,
+   "fonte_saida_s": 2.044,
+   "timeline_in_tc": "00:00:19:02",
+   "timeline_out_tc": "00:00:21:03",
+   "batida_musica_s": 28.119,
+   "qualidade": {
+    "nitidez_laplaciano": 205.3,
+    "movimento_medio": 10.65,
+    "luminancia_media": 95.3
+   }
+  },
+  {
+   "id": "14",
+   "cena": "Prato",
+   "clipe": "MVI_9069.MP4",
+   "entrada_s": 28.8,
+   "batidas": 2,
+   "motivo": "Garfo e faca cortando o bife, com vinagrete e farofa.",
+   "timeline_in_f": 507,
+   "timeline_out_f": 539,
+   "fonte_in_f": 691,
+   "fonte_out_f": 723,
+   "fonte_saida_s": 30.155,
+   "timeline_in_tc": "00:00:21:03",
+   "timeline_out_tc": "00:00:22:11",
+   "batida_musica_s": 30.163,
+   "qualidade": {
+    "nitidez_laplaciano": 255.1,
+    "movimento_medio": 5.02,
+    "luminancia_media": 120.5
+   }
+  },
+  {
+   "id": "15",
+   "cena": "Prato",
+   "clipe": "MVI_9074.MP4",
+   "entrada_s": 4.0,
+   "batidas": 2,
+   "motivo": "Garfo levando a salada (trecho diferente do plano 08).",
+   "timeline_in_f": 539,
+   "timeline_out_f": 572,
+   "fonte_in_f": 96,
+   "fonte_out_f": 129,
+   "fonte_saida_s": 5.38,
+   "timeline_in_tc": "00:00:22:11",
+   "timeline_out_tc": "00:00:23:20",
+   "batida_musica_s": 31.533,
+   "qualidade": {
+    "nitidez_laplaciano": 163.3,
+    "movimento_medio": 8.57,
+    "luminancia_media": 159.1
+   }
+  },
+  {
+   "id": "16",
+   "cena": "Ambiente",
+   "clipe": "MVI_9152.MP4",
+   "entrada_s": 4.3,
+   "batidas": 3,
+   "motivo": "Garçom passando entre as mesas cheias (trecho diferente do plano 04).",
+   "timeline_in_f": 572,
+   "timeline_out_f": 621,
+   "fonte_in_f": 103,
+   "fonte_out_f": 152,
+   "fonte_saida_s": 6.34,
+   "timeline_in_tc": "00:00:23:20",
+   "timeline_out_tc": "00:00:25:21",
+   "batida_musica_s": 32.903,
+   "qualidade": {
+    "nitidez_laplaciano": 526.7,
+    "movimento_medio": 10.38,
+    "luminancia_media": 134.2
+   }
+  },
+  {
+   "id": "17",
+   "cena": "Prato",
+   "clipe": "MVI_9072.MP4",
+   "entrada_s": 2.0,
+   "batidas": 2,
+   "motivo": "Salada com frango de cima (trecho diferente do plano 03): contraste de cor antes do bife final.",
+   "timeline_in_f": 621,
+   "timeline_out_f": 654,
+   "fonte_in_f": 48,
+   "fonte_out_f": 81,
+   "fonte_saida_s": 3.378,
+   "timeline_in_tc": "00:00:25:21",
+   "timeline_out_tc": "00:00:27:06",
+   "batida_musica_s": 34.946,
+   "qualidade": {
+    "nitidez_laplaciano": 960.9,
+    "movimento_medio": 9.11,
+    "luminancia_media": 120.6
+   }
+  },
+  {
+   "id": "18",
+   "cena": "Prato",
+   "clipe": "MVI_9087.MP4",
+   "entrada_s": 1.9,
+   "batidas": 4,
+   "motivo": "Bife acebolado com fritas de cima, o plano mais nítido: fecha com fade.",
+   "transicao_saida": {
+    "tipo": "Fade to Black",
+    "frames": 12
+   },
+   "timeline_in_f": 654,
+   "timeline_out_f": 719,
+   "fonte_in_f": 46,
+   "fonte_out_f": 111,
+   "fonte_saida_s": 4.63,
+   "timeline_in_tc": "00:00:27:06",
+   "timeline_out_tc": "00:00:29:23",
+   "batida_musica_s": 36.293,
+   "qualidade": {
+    "nitidez_laplaciano": 337.1,
+    "movimento_medio": 8.08,
+    "luminancia_media": 120.4
+   }
+  }
+ ]
+}

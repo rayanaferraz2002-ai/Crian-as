@@ -9,7 +9,7 @@ TRAB=${TRAB:-/home/user/trabalho_$(basename "$PWD")}; BASE=${BASE:-/Terral_mater
 mkdir -p "$TRAB" analise saida
 [ -f "$TRAB/musica.wav" ] || ffmpeg -v error -y -i "$ORIG/$MUS" -ac 2 -ar 48000 "$TRAB/musica.wav"
 [ -f analise/musica.json ] || python3 -I "$F/analisar_musica.py" "$TRAB/musica.wav" analise/musica.json
-bash "$F/gerar_proxies.sh" "$ORIG" "$TRAB/proxies" "$TRAB/folhas" 4
+GIRAR_HORARIO=$(python3 -I -c "import json;print(' '.join(json.load(open('projeto.json'))['config'].get('girar_horario',[])))") bash "$F/gerar_proxies.sh" "$ORIG" "$TRAB/proxies" "$TRAB/folhas" 4
 python3 -I "$F/montar_plano.py" projeto.json analise/musica.json plano.json "$TRAB/proxies" ${1:-}
 python3 -I "$F/render_preview.py" plano.json "$TRAB/proxies" "$TRAB/musica.wav" saida/preview.mp4
 python3 -I "$F/gerar_xml.py" plano.json saida/sequencia.xml --base "$BASE"

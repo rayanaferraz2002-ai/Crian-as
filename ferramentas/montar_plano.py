@@ -59,7 +59,7 @@ if __name__ == "__main__":
     musica = json.load(open(mus))
     if "--recalcular" in sys.argv and os.path.exists(dst):
         old = json.load(open(dst)); cfg = old["config"]
-        planos = [{k: v for k, v in p.items() if k in ("id","cena","clipe","entrada_s","batidas","transicao_saida","motivo")} for p in old["planos"]]
+        planos = [{k: v for k, v in p.items() if k in ("id","cena","clipe","entrada_s","batidas","transicao_saida","motivo","rotacao_graus")} for p in old["planos"]]
     else:
         cfg, planos = proj["config"], proj["planos"]
     plano = resolver(cfg, planos, musica, proxies)

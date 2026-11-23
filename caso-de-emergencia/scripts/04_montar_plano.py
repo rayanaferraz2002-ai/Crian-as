@@ -5,8 +5,19 @@ from comum import PROJ, ANALISE, FPS, SEQ_W, SEQ_H, MUSICA, s2f, f2s, tc, ler_js
 
 D = ler_json(PROJ / "decisoes.json")
 M = ler_json(ANALISE / "mapa_batidas.json")
-m0 = D["musica"]["entrada_s"]
-batidas = [b - m0 for b in M["batidas"] if b >= m0 - 1e-3]
+ab, mu = D["abertura"], D["musica"]
+pre, folga = D["pre_rolagem_fala_s"], D["folga_min_pos_fala_s"]
+B = M["batidas"]; drop = mu["virada_drop_s"]
+i_drop = min(range(len(B)), key=lambda i: abs(B[i] - drop))
+if "fala_inicio" in ab:
+    # abertura COM fala: menor nº de batidas que cabe [respiro do título/telefone + fala + folga];
+    # a música entra essas batidas antes do drop, e a fala termina logo antes da virada.
+    precisa = ab["respiro_inicial_min_s"] + (ab["fala_fim"] - ab["fala_inicio"]) + folga
+    k = next(k for k in range(1, i_drop + 1) if drop - B[i_drop - k] >= precisa)
+    m0 = B[i_drop - k]
+else:
+    k, m0 = None, mu["entrada_s"]
+batidas = [b - m0 for b in B if b >= m0 - 1e-3]
 grade = sorted({s2f(b) for b in batidas})                      # batidas em quadros da sequência
 fortes = {s2f(b - m0) for b in M["tempos_fortes"] if b >= m0 - 1e-3}
 
@@ -22,23 +33,36 @@ def mapear(ancoras, t):
 
 
 avisos, video, audio, textos, marcadores = [], [], [], [], []
-virada = s2f(D["musica"]["virada_drop_s"] - m0)
+virada = s2f(drop - m0)
 assert virada in grade, "virada fora da grade de batidas"
 
-# ---------- cena 1: abertura de tensão (render próprio) ----------
-ab = D["abertura"]
-src_q = s2f(ab["src_out"]) - s2f(ab["src_in"])
+# ---------- cena 1: abertura de tensão (render próprio, abertura_tensao.mov) ----------
+if "fala_inicio" in ab:
+    o_in = s2f(ab["fala_fim"] + folga) - virada               # 1º quadro da origem usado
+    assert o_in >= 0, "clipe curto demais para a abertura"
+    ab["src_in"], ab["src_out"] = round(f2s(o_in), 4), round(f2s(o_in + virada), 4)
+    vel = 1.0
+    a_in = s2f(ab["fala_inicio"] - pre)
+    audio.append({"id": "A01", "cena": 1, "papel": "locucao", "clipe": ab["clipe"],
+                  "tl_in": a_in - o_in, "tl_out": virada, "src_in": a_in, "src_out": a_in + virada - (a_in - o_in)})
+    inicio_fala_abertura = a_in - o_in
+    for w0, w1, txt in ab["legendas"]:
+        r0, r1 = mapear(ab["ancoras_whisper"], w0), mapear(ab["ancoras_whisper"], w1)
+        textos.append({"tipo": "legenda", "texto": txt, "tl_in": max(0, s2f(r0) - o_in), "tl_out": min(virada, s2f(r1) - o_in + 3)})
+else:
+    vel = round((s2f(ab["src_out"]) - s2f(ab["src_in"])) / virada, 4)
+    inicio_fala_abertura = None
 video.append({"id": "V01", "cena": 1, "papel": "abertura", "clipe": "abertura_tensao.mov", "origem": ab["clipe"],
               "tl_in": 0, "tl_out": virada, "src_in": 0, "src_out": virada,
               "origem_in_s": ab["src_in"], "origem_out_s": ab["src_out"],
-              "velocidade": round(src_q / virada, 4), "escala": 1.0, "ancora_y": 0.5, "motivo": ab["motivo"]})
+              "velocidade": vel, "escala": 1.0, "ancora_y": 0.5, "motivo": ab["motivo"]})
 t_txt = grade[ab["texto_desde_batida"]]
-textos.append({"tipo": "titulo", "texto": ab["texto"], "tl_in": t_txt, "tl_out": virada})
+textos.insert(0, {"tipo": "titulo", "texto": ab["texto"], "tl_in": t_txt, "tl_out": virada})
 marcadores.append({"quadro": 0, "nome": "SFX telefone", "nota": ab["sfx"]})
 marcadores.append({"quadro": virada, "nome": "VIRADA (drop)", "nota": "P&B -> cor no tempo forte (drop da música)"})
 
 # ---------- blocos de fala ----------
-cursor, pre, folga = virada, D["pre_rolagem_fala_s"], D["folga_min_pos_fala_s"]
+cursor = virada
 n = 1
 for b in D["blocos"]:
     tl0 = cursor
@@ -95,12 +119,17 @@ for a_, b_ in zip(leg, leg[1:]):
     a_["tl_out"] = min(a_["tl_out"], b_["tl_in"])
 
 # ---------- música: níveis (ganho linear, 1.0 = 0 dB) ----------
-mu = D["musica"]
 ultima_fala = max(t["tl_out"] for t in leg)
 fade_q = int(round(mu["fade_saida_batidas"] * M["periodo_batida"] * float(FPS)))
 sobe = min(ultima_fala + 6, total - 12)                      # respiro: música sobe quando a fala acaba
 fim_fade = max(sobe, total - fade_q)
-niveis = [(0, mu["ganho_abertura"]), (virada + 3, mu["ganho_abertura"]), (virada + 12, mu["ganho_sob_fala"]),
+if inicio_fala_abertura is not None:      # música cheia no telefone/título, abaixa quando ela começa a falar
+    niveis = [(0, mu["ganho_abertura"]), (max(1, inicio_fala_abertura - 4), mu["ganho_abertura"]),
+              (inicio_fala_abertura + 6, mu["ganho_sob_fala_abertura"]), (virada, mu["ganho_sob_fala_abertura"]),
+              (virada + 6, mu["ganho_sob_fala"]),
+              (ultima_fala, mu["ganho_sob_fala"]), (sobe, mu["ganho_final"])]
+else:
+    niveis = [(0, mu["ganho_abertura"]), (virada + 3, mu["ganho_abertura"]), (virada + 12, mu["ganho_sob_fala"]),
           (ultima_fala, mu["ganho_sob_fala"]), (sobe, mu["ganho_final"])]
 if fim_fade > sobe:
     niveis.append((fim_fade, mu["ganho_final"]))
@@ -108,7 +137,7 @@ niveis.append((total, 0.0))                                   # fade-out até o 
 assert all(a[0] < b[0] for a, b in zip(niveis, niveis[1:])), niveis
 musica = {"arquivo": MUSICA, "entrada_s": m0, "src_in": s2f(m0), "src_out": s2f(m0) + total,
           "tl_in": 0, "tl_out": total, "niveis": [{"quadro": q, "ganho": g} for q, g in niveis],
-          "bpm": M["bpm"], "drop_s": mu["virada_drop_s"]}
+          "bpm": M["bpm"], "drop_s": drop, "batidas_abertura": k}
 marcadores.append({"quadro": fim_fade, "nome": "Fade-out música", "nota": f"{total-fim_fade} quadros até silêncio"})
 
 # checagens
@@ -120,8 +149,8 @@ plano = {
     "_leia": "Gerado por scripts/04_montar_plano.py a partir de decisoes.json. Quadros a 23,976 fps (tl_* = sequência, src_* = origem).",
     "sequencia": {"fps": "24000/1001", "largura": SEQ_W, "altura": SEQ_H, "duracao_quadros": total,
                   "duracao_s": round(f2s(total), 3), "duracao_tc": tc(total)},
-    "virada": {"quadro": virada, "tc": tc(virada), "musica_s": mu["virada_drop_s"], "tempo_forte": virada in fortes},
-    "abertura": {**D["abertura"], "quadros": virada, "velocidade": video[0]["velocidade"]},
+    "virada": {"quadro": virada, "tc": tc(virada), "musica_s": drop, "tempo_forte": virada in fortes},
+    "abertura": {**ab, "quadros": virada, "velocidade": vel},
     "video": video, "audio": audio, "musica": musica, "textos": textos, "marcadores": marcadores,
     "fusoes": D["fusoes"], "descartes": D["descartes"], "avisos": avisos,
     "cortes_fora_da_batida": cortes_fora}

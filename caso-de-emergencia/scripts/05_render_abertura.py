@@ -1,4 +1,4 @@
-"""Renderiza abertura_tensao.mov (cena 1): P&B + câmera lenta + zoom crescente + contraste/vinheta crescentes + grão.
+"""Renderiza abertura_tensao.mov (cena 1): P&B + (câmera lenta se não houver fala) + zoom crescente + contraste/vinheta crescentes + grão.
 Lê os parâmetros de plano.json. Uso: python3 05_render_abertura.py --src PASTA [--perfil 3]  (ProRes: 0 proxy,1 LT,2 422,3 HQ)"""
 import argparse, subprocess
 from comum import PROJ, FPS, SEQ_W, SEQ_H, midia_dir, ler_json, f2s
@@ -13,8 +13,8 @@ dz = e["zoom_fim"] - e["zoom_ini"]
 vf = ",".join([
     f"trim=start={ab['src_in']}:end={ab['src_out']}", "setpts=PTS-STARTPTS",
     f"scale={W}:{H}:flags=lanczos",
-    f"setpts=PTS/{vel}",                                                    # câmera lenta
-    f"minterpolate=fps={FPS.numerator}/{FPS.denominator}:mi_mode=mci:mc_mode=aobmc:vsbmc=1",
+    *([f"setpts=PTS/{vel}",                                                 # câmera lenta (só sem fala)
+       f"minterpolate=fps={FPS.numerator}/{FPS.denominator}:mi_mode=mci:mc_mode=aobmc:vsbmc=1"] if abs(vel - 1) > 1e-3 else []),
     "tpad=stop_mode=clone:stop_duration=0.5",                                # garante o nº exato de quadros
     f"zoompan=z='{e['zoom_ini']}+{dz}*pow(on/{n-1},2)':x='(iw-iw/zoom)*{ax}':y='(ih-ih/zoom)*{ay}'"
     f":d=1:s={SEQ_W}x{SEQ_H}:fps={FPS.numerator}/{FPS.denominator}",

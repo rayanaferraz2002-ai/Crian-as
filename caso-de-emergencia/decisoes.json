@@ -1,88 +1,75 @@
 {
   "_leia": "Decisões de edição em tempo de ORIGEM (segundos). O montar_plano.py encaixa cada corte na batida mais próxima e gera plano.json. Para trocar um plano, edite aqui e rode scripts/rodar_tudo.sh.",
   "musica": {
-    "entrada_s": 104.234,
     "virada_drop_s": 112.501,
     "ganho_abertura": 1.0,
     "ganho_sob_fala": 0.15,
     "ganho_final": 0.45,
-    "fade_saida_batidas": 2
+    "fade_saida_batidas": 2,
+    "_entrada": "calculada: a música entra N batidas antes do drop, o menor N que cabe a fala da abertura",
+    "ganho_sob_fala_abertura": 0.2
   },
   "abertura": {
     "cena": 1,
-    "clipe": "C0120.MP4",
-    "src_in": 0.0,
-    "src_out": 5.505,
-    "motivo": "Atendimento com luz lateral dura: teto claro contra sombras e silhuetas; textura e contraste fortes em P&B; o gesto lento do instrumento indo para a boca da paciente gera expectativa.",
+    "clipe": "C0216.MP4",
+    "fala_inicio": 2.28,
+    "fala_fim": 8.7,
+    "respiro_inicial_min_s": 1.0,
+    "motivo": "A doutora conta a urgência (a paciente pediu consulta o mais rápido possível, a coroa está mole): é o 'telefonema' do roteiro e o mesmo gancho em P&B da referência. Antes da fala ela está em silêncio, olhando de lado: bom para o título e o telefone.",
     "efeito": {
       "saturacao": 0.0,
       "contraste_ini": 1.25,
       "contraste_fim": 1.55,
       "brilho": 0.0,
       "zoom_ini": 1.0,
-      "zoom_fim": 1.2,
+      "zoom_fim": 1.3,
       "zoom_curva": "ease-in (quadrática)",
       "ancora": [
         0.5,
-        0.62
+        0.28
       ],
       "vinheta_ini": 0.55,
       "vinheta_fim": 0.95,
       "grao": 12,
-      "interpolacao": "minterpolate mci"
+      "interpolacao": "nenhuma (velocidade 100%: há fala, câmera lenta quebraria a sincronia labial)"
     },
     "texto": "E AGORA DOUTORA?",
     "texto_desde_batida": 1,
-    "sfx": "Efeito sonoro de telefone (fornecido pelo usuário) no início da sequência"
+    "sfx": "Efeito sonoro de telefone (fornecido pelo usuário) no início da sequência",
+    "ancoras_whisper": [
+      [
+        1.38,
+        2.28
+      ],
+      [
+        8.44,
+        8.7
+      ]
+    ],
+    "legendas": [
+      [
+        1.38,
+        3.26,
+        "A paciente me procurou"
+      ],
+      [
+        3.26,
+        5.44,
+        "pedindo uma consulta mais rápido possível,"
+      ],
+      [
+        5.86,
+        6.98,
+        "porque o dente dela da frente,"
+      ],
+      [
+        6.98,
+        8.44,
+        "que é uma coroa, está mole."
+      ]
+    ]
   },
   "blocos": [
-    {
-      "cena": 1,
-      "clipe": "C0216.MP4",
-      "fala_inicio": 2.28,
-      "fala_fim": 8.7,
-      "max_out": 10.9,
-      "planos": [
-        {
-          "ate": null,
-          "enq": "aberto",
-          "motivo": "Abre o caso logo após a virada: a urgência contada pela paciente."
-        }
-      ],
-      "ancoras_whisper": [
-        [
-          1.38,
-          2.28
-        ],
-        [
-          8.44,
-          8.7
-        ]
-      ],
-      "legendas": [
-        [
-          1.38,
-          3.26,
-          "A paciente me procurou"
-        ],
-        [
-          3.26,
-          5.44,
-          "pedindo uma consulta mais rápido possível,"
-        ],
-        [
-          5.86,
-          6.98,
-          "porque o dente dela da frente,"
-        ],
-        [
-          6.98,
-          8.44,
-          "que é uma coroa, está mole."
-        ]
-      ],
-      "pre_max": 0.65
-    },
     {
       "cena": "1-2",
       "clipe": "C0221.MP4",
@@ -92,29 +79,26 @@
       "planos": [
         {
           "ate": 4.88,
-          "enq": "fechado",
-          "motivo": "Desfecho do caso (perdeu o dente) em plano fechado, quebra a repetição do plano aberto anterior."
+          "enq": "aberto",
+          "motivo": "Virada para a cor: começa o caso ('Quando eu fui atendê-la, ela perdeu o dente'), no drop da música."
         },
         {
           "ate": 13.08,
-          "enq": "aberto",
+          "enq": "fechado",
           "cena": 2,
-          "motivo": "Cena 2 começa na pergunta 'Por que isso aconteceu?'."
+          "motivo": "Cena 2 começa na pergunta 'Por que isso aconteceu?' e segue com a causa (bruxismo)."
         },
         {
           "ate": 17.22,
-          "broll": {
-            "clipe": "C0150.MP4",
-            "src_in": 2.0
-          },
+          "enq": "close",
           "cena": 2,
-          "motivo": "Inserção de B-roll sobre a explicação (padrão da referência): mãos e sonda em foco raso ilustram a mordida/raiz."
+          "motivo": "Substitui o B-roll removido: close em 'a mordida apertou tanto' — mesmo pulso de inserção da referência, sem sair da doutora."
         },
         {
           "ate": 22.2,
-          "enq": "fechado",
+          "enq": "aberto",
           "cena": 2,
-          "motivo": "Volta à doutora para concluir a causa."
+          "motivo": "Abre para respirar: 'quebrasse uma parte da raiz, onde a coroa é fixada'."
         },
         {
           "ate": null,
@@ -355,7 +339,11 @@
   },
   "descartes": [
     [
-      "C0216.MP4 0,00-2,2 s",
+      "C0120.MP4 e C0150.MP4",
+      "removidos da pasta pelo usuário: a doutora não fala para a câmera (atendimento / mãos)"
+    ],
+    [
+      "C0216.MP4 0,00-1,1 s",
       "contagem da equipe ('2, 1, foi')"
     ],
     [
@@ -377,14 +365,6 @@
     [
       "C0225.MP4 0,0-1,6 s e 5,7-7,0 s",
       "'Fui.' e 'Tchau.' fora do roteiro"
-    ],
-    [
-      "C0120.MP4 / C0150.MP4 (áudio)",
-      "som ambiente com conversa ininteligível; B-roll entra mudo"
-    ],
-    [
-      "C0150.MP4 0,0-2,0 s",
-      "foco ainda buscando; trecho 2,0-6,2 s tem a sonda nítida"
     ]
   ],
   "_pre": "pre_rolagem_fala_s = mínimo de silêncio antes da fala; pre_max = silêncio disponível. O montador escolhe a pré-rolagem que faz o fim do bloco cair numa batida com menos tempo morto."

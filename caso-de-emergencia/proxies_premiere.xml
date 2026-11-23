@@ -4,176 +4,6 @@
   <bin>
     <name>PROXIES - CASO DE EMERGENCIA</name>
     <children>
-      <clip id="masterclip-C0120">
-        <name>C0120.mov</name>
-        <duration>132</duration>
-        <rate>
-          <timebase>24</timebase>
-          <ntsc>TRUE</ntsc>
-        </rate>
-        <media>
-          <video>
-            <track>
-              <clipitem id="clipitem-1">
-                <name>C0120.mov</name>
-                <duration>132</duration>
-                <rate>
-                  <timebase>24</timebase>
-                  <ntsc>TRUE</ntsc>
-                </rate>
-                <file id="file-C0120">
-                  <name>C0120.mov</name>
-                  <pathurl>file://localhost/MIDIA/05.%20CASO%20DE%20EMERG%C3%8ANCIA/proxies/C0120.mov</pathurl>
-                  <rate>
-                    <timebase>24</timebase>
-                    <ntsc>TRUE</ntsc>
-                  </rate>
-                  <duration>132</duration>
-                  <media>
-                    <video>
-                      <samplecharacteristics>
-                        <rate>
-                          <timebase>24</timebase>
-                          <ntsc>TRUE</ntsc>
-                        </rate>
-                        <width>720</width>
-                        <height>1280</height>
-                        <anamorphic>FALSE</anamorphic>
-                        <pixelaspectratio>square</pixelaspectratio>
-                        <fielddominance>none</fielddominance>
-                      </samplecharacteristics>
-                    </video>
-                    <audio>
-                      <samplecharacteristics>
-                        <depth>16</depth>
-                        <samplerate>48000</samplerate>
-                      </samplecharacteristics>
-                      <channelcount>2</channelcount>
-                    </audio>
-                  </media>
-                </file>
-              </clipitem>
-            </track>
-          </video>
-          <audio>
-            <track>
-              <clipitem id="clipitem-2">
-                <name>C0120.mov</name>
-                <duration>132</duration>
-                <rate>
-                  <timebase>24</timebase>
-                  <ntsc>TRUE</ntsc>
-                </rate>
-                <file id="file-C0120" />
-                <sourcetrack>
-                  <mediatype>audio</mediatype>
-                  <trackindex>1</trackindex>
-                </sourcetrack>
-              </clipitem>
-            </track>
-            <track>
-              <clipitem id="clipitem-3">
-                <name>C0120.mov</name>
-                <duration>132</duration>
-                <rate>
-                  <timebase>24</timebase>
-                  <ntsc>TRUE</ntsc>
-                </rate>
-                <file id="file-C0120" />
-                <sourcetrack>
-                  <mediatype>audio</mediatype>
-                  <trackindex>2</trackindex>
-                </sourcetrack>
-              </clipitem>
-            </track>
-          </audio>
-        </media>
-      </clip>
-      <clip id="masterclip-C0150">
-        <name>C0150.mov</name>
-        <duration>156</duration>
-        <rate>
-          <timebase>24</timebase>
-          <ntsc>TRUE</ntsc>
-        </rate>
-        <media>
-          <video>
-            <track>
-              <clipitem id="clipitem-4">
-                <name>C0150.mov</name>
-                <duration>156</duration>
-                <rate>
-                  <timebase>24</timebase>
-                  <ntsc>TRUE</ntsc>
-                </rate>
-                <file id="file-C0150">
-                  <name>C0150.mov</name>
-                  <pathurl>file://localhost/MIDIA/05.%20CASO%20DE%20EMERG%C3%8ANCIA/proxies/C0150.mov</pathurl>
-                  <rate>
-                    <timebase>24</timebase>
-                    <ntsc>TRUE</ntsc>
-                  </rate>
-                  <duration>156</duration>
-                  <media>
-                    <video>
-                      <samplecharacteristics>
-                        <rate>
-                          <timebase>24</timebase>
-                          <ntsc>TRUE</ntsc>
-                        </rate>
-                        <width>720</width>
-                        <height>1280</height>
-                        <anamorphic>FALSE</anamorphic>
-                        <pixelaspectratio>square</pixelaspectratio>
-                        <fielddominance>none</fielddominance>
-                      </samplecharacteristics>
-                    </video>
-                    <audio>
-                      <samplecharacteristics>
-                        <depth>16</depth>
-                        <samplerate>48000</samplerate>
-                      </samplecharacteristics>
-                      <channelcount>2</channelcount>
-                    </audio>
-                  </media>
-                </file>
-              </clipitem>
-            </track>
-          </video>
-          <audio>
-            <track>
-              <clipitem id="clipitem-5">
-                <name>C0150.mov</name>
-                <duration>156</duration>
-                <rate>
-                  <timebase>24</timebase>
-                  <ntsc>TRUE</ntsc>
-                </rate>
-                <file id="file-C0150" />
-                <sourcetrack>
-                  <mediatype>audio</mediatype>
-                  <trackindex>1</trackindex>
-                </sourcetrack>
-              </clipitem>
-            </track>
-            <track>
-              <clipitem id="clipitem-6">
-                <name>C0150.mov</name>
-                <duration>156</duration>
-                <rate>
-                  <timebase>24</timebase>
-                  <ntsc>TRUE</ntsc>
-                </rate>
-                <file id="file-C0150" />
-                <sourcetrack>
-                  <mediatype>audio</mediatype>
-                  <trackindex>2</trackindex>
-                </sourcetrack>
-              </clipitem>
-            </track>
-          </audio>
-        </media>
-      </clip>
       <clip id="masterclip-C0216">
         <name>C0216.mov</name>
         <duration>264</duration>
@@ -184,7 +14,7 @@
         <media>
           <video>
             <track>
-              <clipitem id="clipitem-7">
+              <clipitem id="clipitem-1">
                 <name>C0216.mov</name>
                 <duration>264</duration>
                 <rate>
@@ -227,7 +57,7 @@
           </video>
           <audio>
             <track>
-              <clipitem id="clipitem-8">
+              <clipitem id="clipitem-2">
                 <name>C0216.mov</name>
                 <duration>264</duration>
                 <rate>
@@ -242,7 +72,7 @@
               </clipitem>
             </track>
             <track>
-              <clipitem id="clipitem-9">
+              <clipitem id="clipitem-3">
                 <name>C0216.mov</name>
                 <duration>264</duration>
                 <rate>
@@ -269,7 +99,7 @@
         <media>
           <video>
             <track>
-              <clipitem id="clipitem-10">
+              <clipitem id="clipitem-4">
                 <name>C0221.mov</name>
                 <duration>648</duration>
                 <rate>
@@ -312,7 +142,7 @@
           </video>
           <audio>
             <track>
-              <clipitem id="clipitem-11">
+              <clipitem id="clipitem-5">
                 <name>C0221.mov</name>
                 <duration>648</duration>
                 <rate>
@@ -327,7 +157,7 @@
               </clipitem>
             </track>
             <track>
-              <clipitem id="clipitem-12">
+              <clipitem id="clipitem-6">
                 <name>C0221.mov</name>
                 <duration>648</duration>
                 <rate>
@@ -354,7 +184,7 @@
         <media>
           <video>
             <track>
-              <clipitem id="clipitem-13">
+              <clipitem id="clipitem-7">
                 <name>C0222.mov</name>
                 <duration>288</duration>
                 <rate>
@@ -397,7 +227,7 @@
           </video>
           <audio>
             <track>
-              <clipitem id="clipitem-14">
+              <clipitem id="clipitem-8">
                 <name>C0222.mov</name>
                 <duration>288</duration>
                 <rate>
@@ -412,7 +242,7 @@
               </clipitem>
             </track>
             <track>
-              <clipitem id="clipitem-15">
+              <clipitem id="clipitem-9">
                 <name>C0222.mov</name>
                 <duration>288</duration>
                 <rate>
@@ -439,7 +269,7 @@
         <media>
           <video>
             <track>
-              <clipitem id="clipitem-16">
+              <clipitem id="clipitem-10">
                 <name>C0225.mov</name>
                 <duration>168</duration>
                 <rate>
@@ -482,7 +312,7 @@
           </video>
           <audio>
             <track>
-              <clipitem id="clipitem-17">
+              <clipitem id="clipitem-11">
                 <name>C0225.mov</name>
                 <duration>168</duration>
                 <rate>
@@ -497,7 +327,7 @@
               </clipitem>
             </track>
             <track>
-              <clipitem id="clipitem-18">
+              <clipitem id="clipitem-12">
                 <name>C0225.mov</name>
                 <duration>168</duration>
                 <rate>

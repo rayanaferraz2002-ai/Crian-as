@@ -24,11 +24,11 @@
     ]
   },
   "V04": {
-    "escala_pct": 50.0,
-    "deslocamento_y_px": 0.0,
+    "escala_pct": 67.5,
+    "deslocamento_y_px": 134.4,
     "posicao_premiere": [
       540.0,
-      960.0
+      1094.4
     ]
   },
   "V05": {
@@ -40,14 +40,6 @@
     ]
   },
   "V06": {
-    "escala_pct": 60.0,
-    "deslocamento_y_px": 57.6,
-    "posicao_premiere": [
-      540.0,
-      1017.6
-    ]
-  },
-  "V07": {
     "escala_pct": 67.5,
     "deslocamento_y_px": 134.4,
     "posicao_premiere": [
@@ -55,7 +47,7 @@
       1094.4
     ]
   },
-  "V08": {
+  "V07": {
     "escala_pct": 50.0,
     "deslocamento_y_px": 0.0,
     "posicao_premiere": [
@@ -63,7 +55,7 @@
       960.0
     ]
   },
-  "V09": {
+  "V08": {
     "escala_pct": 60.0,
     "deslocamento_y_px": 57.6,
     "posicao_premiere": [
@@ -71,7 +63,7 @@
       1017.6
     ]
   },
-  "V10": {
+  "V09": {
     "escala_pct": 50.0,
     "deslocamento_y_px": 0.0,
     "posicao_premiere": [

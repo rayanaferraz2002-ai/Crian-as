@@ -29,22 +29,23 @@ L = ["# Checklist — aplicar no Premiere", "",
      "## 1. Cena 1 — abertura (00:00:00:00 → " + tc(n) + ")",
      f"- [ ] **SFX de telefone** na trilha A5 em 00:00:00:00 (marcador \"SFX telefone\"). Não havia esse som no Drive.",
      f"- [ ] **Texto \"{tit['texto']}\"** de {tc(tit['tl_in'])} até {tc(tit['tl_out']-1)}: Gráficos essenciais, fonte sem serifa extra-negrito, branco, terço superior (Y ≈ 25%). Ou importe `texto_na_tela.srt`.",
-     "- [ ] O visual P&B + efeito já está **renderizado** em `abertura_tensao.mov` — nada a aplicar. Se quiser refazer no Premiere sobre o `C0120.MP4` original:", "",
+     f"- [ ] O visual P&B + efeito já está **renderizado** em `abertura_tensao.mov` (só imagem; a fala vem do `{ab['clipe']}` nas trilhas A1/A2). Se quiser refazer no Premiere sobre o `{ab['clipe']}` original:", "",
      "| Parâmetro | Início (00:00:00:00) | Fim (" + tc(n-1) + ") | Onde |", "|---|---|---|---|",
-     f"| Velocidade | {ab['velocidade']*100:.1f}% (Interpolação: Fluxo óptico) | — | Clique direito > Velocidade/Duração |",
+     (f"| Velocidade | {ab['velocidade']*100:.1f}% (Interpolação: Fluxo óptico) | — | Clique direito > Velocidade/Duração |"
+      if abs(ab['velocidade'] - 1) > 1e-3 else f"| Trecho de origem | {ab['clipe']} {ab['src_in']:.2f}s → {ab['src_out']:.2f}s, velocidade 100% (há fala) | — | — |"),
      f"| Saturação | 0 | 0 | Lumetri > Correção básica |",
      f"| Contraste | +{round((e['contraste_ini']-1)*100)} | +{round((e['contraste_fim']-1)*100)} (keyframe linear) | Lumetri > Correção básica |",
      f"| Vinheta (Quantidade) | -1,5 | -3,0 (keyframe linear); Ponto médio 40, Difusão 50 | Lumetri > Vinheta |",
      f"| Grão | Ruído 8% (desmarcar ruído colorido) | igual | Efeitos > Ruído e granulação > Ruído |",
      f"| Escala | 50% | {50*e['zoom_fim']:.0f}% (Bezier, **aceleração no fim** = ease-in) | Movimento |",
-     f"| Posição | 540 × 960 | 540 × {pos_y_fim:.0f} (acompanha o zoom em direção às mãos) | Movimento |", "",
+     f"| Posição | 540 × 960 | 540 × {pos_y_fim:.0f} (zoom ancorado no rosto) | Movimento |", "",
      f"- [ ] Virada P&B → cor em **{tc(n)}** = drop da música ({P['virada']['musica_s']:.3f} s da faixa, tempo forte). Não mover.", "",
      "## 2. Enquadramentos (zoom digital nos originais 4K) — o XML já leva, só conferir", "",
      "| Plano | Entrada | Saída | Clipe | Escala | Posição (X × Y) |", "|---|---|---|---|---|---|"]
 for v in P["video"][1:]:
     s, d = pos[v["id"]]["escala_pct"], pos[v["id"]]["deslocamento_y_px"]
     L.append(f"| {v['id']} {v.get('enquadramento', v['papel'])} | {tc(v['tl_in'])} | {tc(v['tl_out'])} | {v['clipe']} | {s:g}% | 540 × {960+d:.0f} |")
-L += ["", "- [ ] B-roll `C0150.MP4` entra **sem áudio** (o som ambiente tem conversa). Se o Premiere trouxer áudio vinculado, apague.", "",
+L += ["",
       "## 3. Textos e legendas",
       "- [ ] Arquivo > Importar `legendas.srt` → arrastar para a linha do tempo (cria trilha de legendas). Revisar grafia: a transcrição é automática e foi corrigida à mão.",
       "- [ ] Estilo sugerido (como na referência): branco, contorno preto fino, centralizado a ~65% da altura.", "",

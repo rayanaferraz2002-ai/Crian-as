@@ -9,7 +9,7 @@ cd "$(dirname "$0")"
 for a in "$@"; do
   case "$a" in
     --analisar) python3 01_analisar_musica.py; python3 02_analisar_referencia.py
-                python3 03_transcrever.py C0216 C0221 C0222 C0225 C0120 C0150 ;;
+                python3 03_transcrever.py C0216 C0221 C0222 C0225 ;;
   esac
 done
 python3 04_montar_plano.py

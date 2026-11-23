@@ -53,7 +53,7 @@ python3 scripts/07_gerar_xml.py --media-dir "/Users/SEU_USUARIO/Videos/05. CASO 
 3. Confira: clipes 4K vêm com Escala 50% e de pé (se algum vier deitado, veja o checklist, item 0).
 
 ## 5. Anexar os proxies
-1. No painel Projeto, selecione os clipes (C0120, C0150, C0216, C0221, C0222, C0225).
+1. No painel Projeto, selecione os clipes (C0216, C0221, C0222, C0225).
 2. Clique direito > **Proxy > Anexar proxies…**
 3. Aponte cada um para o arquivo de mesmo nome em `proxies/` (pelo nome).
    - Não anexe proxy à música nem ao `abertura_tensao.mov` (já são leves).
@@ -71,9 +71,9 @@ MIDIA="/caminho/dos/originais" bash scripts/rodar_tudo.sh
 (precisa de `pip install -r scripts/requirements.txt`; `--abertura` re-renderiza a cena 1).
 
 ## 8. Só os proxies, sem edição (`proxies_premiere.xml`)
-Os 6 proxies prontos estão em `proxies/` (ProRes Proxy, 720×1280, 23,976 fps, áudio PCM 2 canais, mesma duração dos originais).
+Os 4 proxies prontos estão em `proxies/` (ProRes Proxy, 720×1280, 23,976 fps, áudio PCM 2 canais, mesma duração dos originais).
 1. Deixe a pasta `proxies/` junto do `proxies_premiere.xml` (ou em qualquer lugar).
-2. Premiere: **Arquivo > Importar** → `proxies_premiere.xml`. Entra só uma pasta **PROXIES - CASO DE EMERGENCIA** com os 6 clipes, sem sequência.
+2. Premiere: **Arquivo > Importar** → `proxies_premiere.xml`. Entra só uma pasta **PROXIES - CASO DE EMERGENCIA** com os 4 clipes, sem sequência.
 3. Se ficarem offline: clique direito > **Vincular mídia…** > **Localizar** → pasta `proxies/` → escolha o 1º arquivo (os outros vinculam sozinhos pelo nome).
 Para gravar o caminho certo do seu Mac direto no XML:
 ```bash

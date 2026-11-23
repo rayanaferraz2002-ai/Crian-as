@@ -1,0 +1,455 @@
+{
+  "_leia": "Gerado por scripts/04_montar_plano.py a partir de decisoes.json. Quadros a 23,976 fps (tl_* = sequência, src_* = origem).",
+  "sequencia": {
+    "fps": "24000/1001",
+    "largura": 1080,
+    "altura": 1920,
+    "duracao_quadros": 1240,
+    "duracao_s": 51.718,
+    "duracao_tc": "00:00:51:16"
+  },
+  "virada": {
+    "quadro": 198,
+    "tc": "00:00:08:06",
+    "musica_s": 112.501,
+    "tempo_forte": true
+  },
+  "abertura": {
+    "cena": 1,
+    "clipe": "C0120.MP4",
+    "src_in": 0.0,
+    "src_out": 5.505,
+    "motivo": "Atendimento com luz lateral dura: teto claro contra sombras e silhuetas; textura e contraste fortes em P&B; o gesto lento do instrumento indo para a boca da paciente gera expectativa.",
+    "efeito": {
+      "saturacao": 0.0,
+      "contraste_ini": 1.25,
+      "contraste_fim": 1.55,
+      "brilho": 0.0,
+      "zoom_ini": 1.0,
+      "zoom_fim": 1.2,
+      "zoom_curva": "ease-in (quadrática)",
+      "ancora": [
+        0.5,
+        0.62
+      ],
+      "vinheta_ini": 0.55,
+      "vinheta_fim": 0.95,
+      "grao": 12,
+      "interpolacao": "minterpolate mci"
+    },
+    "texto": "E AGORA DOUTORA?",
+    "texto_desde_batida": 1,
+    "sfx": "Efeito sonoro de telefone (fornecido pelo usuário) no início da sequência",
+    "quadros": 198,
+    "velocidade": 0.6667
+  },
+  "video": [
+    {
+      "id": "V01",
+      "cena": 1,
+      "papel": "abertura",
+      "clipe": "abertura_tensao.mov",
+      "origem": "C0120.MP4",
+      "tl_in": 0,
+      "tl_out": 198,
+      "src_in": 0,
+      "src_out": 198,
+      "origem_in_s": 0.0,
+      "origem_out_s": 5.505,
+      "velocidade": 0.6667,
+      "escala": 1.0,
+      "ancora_y": 0.5,
+      "motivo": "Atendimento com luz lateral dura: teto claro contra sombras e silhuetas; textura e contraste fortes em P&B; o gesto lento do instrumento indo para a boca da paciente gera expectativa."
+    },
+    {
+      "id": "V02",
+      "cena": 1,
+      "papel": "fala",
+      "clipe": "C0216.MP4",
+      "tl_in": 198,
+      "tl_out": 364,
+      "src_in": 53,
+      "src_out": 219,
+      "enquadramento": "aberto",
+      "escala": 1.0,
+      "ancora_y": 0.5,
+      "motivo": "Abre o caso logo após a virada: a urgência contada pela paciente."
+    },
+    {
+      "id": "V03",
+      "cena": "1-2",
+      "papel": "fala",
+      "clipe": "C0221.MP4",
+      "tl_in": 364,
+      "tl_out": 447,
+      "src_in": 33,
+      "src_out": 116,
+      "enquadramento": "fechado",
+      "escala": 1.2,
+      "ancora_y": 0.35,
+      "motivo": "Desfecho do caso (perdeu o dente) em plano fechado, quebra a repetição do plano aberto anterior."
+    },
+    {
+      "id": "V04",
+      "cena": 2,
+      "papel": "fala",
+      "clipe": "C0221.MP4",
+      "tl_in": 447,
+      "tl_out": 645,
+      "src_in": 116,
+      "src_out": 314,
+      "enquadramento": "aberto",
+      "escala": 1.0,
+      "ancora_y": 0.5,
+      "motivo": "Cena 2 começa na pergunta 'Por que isso aconteceu?'."
+    },
+    {
+      "id": "V05",
+      "cena": 2,
+      "papel": "broll",
+      "clipe": "C0150.MP4",
+      "tl_in": 645,
+      "tl_out": 744,
+      "src_in": 48,
+      "src_out": 147,
+      "escala": 1.0,
+      "ancora_y": 0.5,
+      "mudo": true,
+      "motivo": "Inserção de B-roll sobre a explicação (padrão da referência): mãos e sonda em foco raso ilustram a mordida/raiz."
+    },
+    {
+      "id": "V06",
+      "cena": 2,
+      "papel": "fala",
+      "clipe": "C0221.MP4",
+      "tl_in": 744,
+      "tl_out": 860,
+      "src_in": 413,
+      "src_out": 529,
+      "enquadramento": "fechado",
+      "escala": 1.2,
+      "ancora_y": 0.35,
+      "motivo": "Volta à doutora para concluir a causa."
+    },
+    {
+      "id": "V07",
+      "cena": 2,
+      "papel": "fala",
+      "clipe": "C0221.MP4",
+      "tl_in": 860,
+      "tl_out": 926,
+      "src_in": 529,
+      "src_out": 595,
+      "enquadramento": "close",
+      "escala": 1.35,
+      "ancora_y": 0.3,
+      "motivo": "Impacto: 'Ela precisou fazer o implante' em close, sobre a música em energia alta."
+    },
+    {
+      "id": "V08",
+      "cena": 3,
+      "papel": "fala",
+      "clipe": "C0222.MP4",
+      "tl_in": 926,
+      "tl_out": 1008,
+      "src_in": 24,
+      "src_out": 106,
+      "enquadramento": "aberto",
+      "escala": 1.0,
+      "ancora_y": 0.5,
+      "motivo": "Cena 3: a pergunta da prevenção em plano aberto."
+    },
+    {
+      "id": "V09",
+      "cena": 3,
+      "papel": "fala",
+      "clipe": "C0222.MP4",
+      "tl_in": 1008,
+      "tl_out": 1141,
+      "src_in": 106,
+      "src_out": 239,
+      "enquadramento": "fechado",
+      "escala": 1.2,
+      "ancora_y": 0.35,
+      "motivo": "Resposta (placa de bruxismo / corrigir a mordida) em plano fechado."
+    },
+    {
+      "id": "V10",
+      "cena": 4,
+      "papel": "fala",
+      "clipe": "C0225.MP4",
+      "tl_in": 1141,
+      "tl_out": 1240,
+      "src_in": 38,
+      "src_out": 137,
+      "enquadramento": "aberto",
+      "escala": 1.0,
+      "ancora_y": 0.5,
+      "motivo": "CTA olhando para a câmera (plano já é médio-fechado)."
+    }
+  ],
+  "audio": [
+    {
+      "id": "A01",
+      "cena": 1,
+      "papel": "locucao",
+      "clipe": "C0216.MP4",
+      "tl_in": 198,
+      "tl_out": 364,
+      "src_in": 53,
+      "src_out": 219
+    },
+    {
+      "id": "A02",
+      "cena": "1-2",
+      "papel": "locucao",
+      "clipe": "C0221.MP4",
+      "tl_in": 364,
+      "tl_out": 926,
+      "src_in": 33,
+      "src_out": 595
+    },
+    {
+      "id": "A03",
+      "cena": 3,
+      "papel": "locucao",
+      "clipe": "C0222.MP4",
+      "tl_in": 926,
+      "tl_out": 1141,
+      "src_in": 24,
+      "src_out": 239
+    },
+    {
+      "id": "A04",
+      "cena": 4,
+      "papel": "locucao",
+      "clipe": "C0225.MP4",
+      "tl_in": 1141,
+      "tl_out": 1240,
+      "src_in": 38,
+      "src_out": 137
+    }
+  ],
+  "musica": {
+    "arquivo": "Hit Me Back (feat. Phury) (Instrumental).mp4",
+    "entrada_s": 104.234,
+    "src_in": 2499,
+    "src_out": 3739,
+    "tl_in": 0,
+    "tl_out": 1240,
+    "niveis": [
+      {
+        "quadro": 0,
+        "ganho": 1.0
+      },
+      {
+        "quadro": 201,
+        "ganho": 1.0
+      },
+      {
+        "quadro": 210,
+        "ganho": 0.15
+      },
+      {
+        "quadro": 1216,
+        "ganho": 0.15
+      },
+      {
+        "quadro": 1222,
+        "ganho": 0.45
+      },
+      {
+        "quadro": 1240,
+        "ganho": 0.0
+      }
+    ],
+    "bpm": 86.13,
+    "drop_s": 112.501
+  },
+  "textos": [
+    {
+      "tipo": "titulo",
+      "texto": "E AGORA DOUTORA?",
+      "tl_in": 17,
+      "tl_out": 198
+    },
+    {
+      "tipo": "legenda",
+      "texto": "A paciente me procurou",
+      "tl_in": 200,
+      "tl_out": 241
+    },
+    {
+      "tipo": "legenda",
+      "texto": "pedindo uma consulta mais rápido possível,",
+      "tl_in": 241,
+      "tl_out": 291
+    },
+    {
+      "tipo": "legenda",
+      "texto": "porque o dente dela da frente,",
+      "tl_in": 297,
+      "tl_out": 322
+    },
+    {
+      "tipo": "legenda",
+      "texto": "que é uma coroa, está mole.",
+      "tl_in": 322,
+      "tl_out": 357
+    },
+    {
+      "tipo": "legenda",
+      "texto": "Quando eu fui atendê-la,",
+      "tl_in": 366,
+      "tl_out": 404
+    },
+    {
+      "tipo": "legenda",
+      "texto": "ela perdeu o dente.",
+      "tl_in": 404,
+      "tl_out": 445
+    },
+    {
+      "tipo": "legenda",
+      "texto": "Por que isso aconteceu?",
+      "tl_in": 453,
+      "tl_out": 490
+    },
+    {
+      "tipo": "legenda",
+      "texto": "Porque ela tem um bruxismo severo,",
+      "tl_in": 494,
+      "tl_out": 537
+    },
+    {
+      "tipo": "legenda",
+      "texto": "não estava cuidando do bruxismo,",
+      "tl_in": 537,
+      "tl_out": 573
+    },
+    {
+      "tipo": "legenda",
+      "texto": "não estava usando a placa de bruxismo.",
+      "tl_in": 573,
+      "tl_out": 641
+    },
+    {
+      "tipo": "legenda",
+      "texto": "Isso fez com que a mordida",
+      "tl_in": 651,
+      "tl_out": 700
+    },
+    {
+      "tipo": "legenda",
+      "texto": "apertou tanto,",
+      "tl_in": 700,
+      "tl_out": 740
+    },
+    {
+      "tipo": "legenda",
+      "texto": "que quebrasse uma parte da raiz,",
+      "tl_in": 751,
+      "tl_out": 823
+    },
+    {
+      "tipo": "legenda",
+      "texto": "onde a coroa é fixada.",
+      "tl_in": 823,
+      "tl_out": 863
+    },
+    {
+      "tipo": "legenda",
+      "texto": "Ela precisou fazer o implante.",
+      "tl_in": 867,
+      "tl_out": 924
+    },
+    {
+      "tipo": "legenda",
+      "texto": "O que pode ser feito para isso não acontecer?",
+      "tl_in": 932,
+      "tl_out": 1000
+    },
+    {
+      "tipo": "legenda",
+      "texto": "Paciente, usar uma placa de bruxismo",
+      "tl_in": 1007,
+      "tl_out": 1075
+    },
+    {
+      "tipo": "legenda",
+      "texto": "ou corrigir a mordida também.",
+      "tl_in": 1081,
+      "tl_out": 1135
+    },
+    {
+      "tipo": "legenda",
+      "texto": "Manda esse vídeo",
+      "tl_in": 1145,
+      "tl_out": 1170
+    },
+    {
+      "tipo": "legenda",
+      "texto": "para quem já passou por isso.",
+      "tl_in": 1170,
+      "tl_out": 1216
+    }
+  ],
+  "marcadores": [
+    {
+      "quadro": 0,
+      "nome": "SFX telefone",
+      "nota": "Efeito sonoro de telefone (fornecido pelo usuário) no início da sequência"
+    },
+    {
+      "quadro": 198,
+      "nome": "VIRADA (drop)",
+      "nota": "P&B -> cor no tempo forte (drop da música)"
+    },
+    {
+      "quadro": 1222,
+      "nome": "Fade-out música",
+      "nota": "18 quadros até silêncio"
+    }
+  ],
+  "fusoes": {
+    "fim_para_preto_quadros": 12
+  },
+  "descartes": [
+    [
+      "C0216.MP4 0,00-2,2 s",
+      "contagem da equipe ('2, 1, foi')"
+    ],
+    [
+      "C0221.MP4 0,00-1,3 s",
+      "ruído/fala antes da tomada"
+    ],
+    [
+      "C0221.MP4 25,4-27,0 s",
+      "'O que é melhor?' — fala fora do roteiro (bastidor)"
+    ],
+    [
+      "C0222.MP4 0,00-1,2 s",
+      "fala da equipe antes da tomada"
+    ],
+    [
+      "C0222.MP4 9,95-12,0 s",
+      "'Não, não gostaria' — bastidor"
+    ],
+    [
+      "C0225.MP4 0,0-1,6 s e 5,7-7,0 s",
+      "'Fui.' e 'Tchau.' fora do roteiro"
+    ],
+    [
+      "C0120.MP4 / C0150.MP4 (áudio)",
+      "som ambiente com conversa ininteligível; B-roll entra mudo"
+    ],
+    [
+      "C0150.MP4 0,0-2,0 s",
+      "foco ainda buscando; trecho 2,0-6,2 s tem a sonda nítida"
+    ]
+  ],
+  "avisos": [
+    "C0222.MP4: corte interno em 4.18s deslocado +6 quadros p/ batida"
+  ],
+  "cortes_fora_da_batida": []
+}

@@ -1,0 +1,7 @@
+librosa
+scenedetect[opencv-headless]
+faster-whisper
+soundfile
+numpy
+opentimelineio
+otio-fcp-adapter

@@ -1,0 +1,65 @@
+{
+  "C0150.MP4": {
+    "dur_q": 156,
+    "dur_s": 6.5065,
+    "w": 2160,
+    "h": 3840,
+    "video": true,
+    "canais": 2,
+    "sr": 48000
+  },
+  "C0216.MP4": {
+    "dur_q": 264,
+    "dur_s": 11.011,
+    "w": 2160,
+    "h": 3840,
+    "video": true,
+    "canais": 2,
+    "sr": 48000
+  },
+  "C0221.MP4": {
+    "dur_q": 648,
+    "dur_s": 27.027,
+    "w": 2160,
+    "h": 3840,
+    "video": true,
+    "canais": 2,
+    "sr": 48000
+  },
+  "C0222.MP4": {
+    "dur_q": 288,
+    "dur_s": 12.012,
+    "w": 2160,
+    "h": 3840,
+    "video": true,
+    "canais": 2,
+    "sr": 48000
+  },
+  "C0225.MP4": {
+    "dur_q": 168,
+    "dur_s": 7.007,
+    "w": 2160,
+    "h": 3840,
+    "video": true,
+    "canais": 2,
+    "sr": 48000
+  },
+  "Hit Me Back (feat. Phury) (Instrumental).mp4": {
+    "dur_q": 4763,
+    "dur_s": 198.671,
+    "w": 0,
+    "h": 0,
+    "video": false,
+    "canais": 2,
+    "sr": 48000
+  },
+  "abertura_tensao.mov": {
+    "dur_q": 198,
+    "dur_s": 8.25825,
+    "w": 1080,
+    "h": 1920,
+    "video": true,
+    "canais": 0,
+    "sr": 0
+  }
+}

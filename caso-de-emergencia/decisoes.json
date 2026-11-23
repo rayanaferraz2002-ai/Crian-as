@@ -1,0 +1,391 @@
+{
+  "_leia": "Decisões de edição em tempo de ORIGEM (segundos). O montar_plano.py encaixa cada corte na batida mais próxima e gera plano.json. Para trocar um plano, edite aqui e rode scripts/rodar_tudo.sh.",
+  "musica": {
+    "entrada_s": 104.234,
+    "virada_drop_s": 112.501,
+    "ganho_abertura": 1.0,
+    "ganho_sob_fala": 0.15,
+    "ganho_final": 0.45,
+    "fade_saida_batidas": 2
+  },
+  "abertura": {
+    "cena": 1,
+    "clipe": "C0120.MP4",
+    "src_in": 0.0,
+    "src_out": 5.505,
+    "motivo": "Atendimento com luz lateral dura: teto claro contra sombras e silhuetas; textura e contraste fortes em P&B; o gesto lento do instrumento indo para a boca da paciente gera expectativa.",
+    "efeito": {
+      "saturacao": 0.0,
+      "contraste_ini": 1.25,
+      "contraste_fim": 1.55,
+      "brilho": 0.0,
+      "zoom_ini": 1.0,
+      "zoom_fim": 1.2,
+      "zoom_curva": "ease-in (quadrática)",
+      "ancora": [
+        0.5,
+        0.62
+      ],
+      "vinheta_ini": 0.55,
+      "vinheta_fim": 0.95,
+      "grao": 12,
+      "interpolacao": "minterpolate mci"
+    },
+    "texto": "E AGORA DOUTORA?",
+    "texto_desde_batida": 1,
+    "sfx": "Efeito sonoro de telefone (fornecido pelo usuário) no início da sequência"
+  },
+  "blocos": [
+    {
+      "cena": 1,
+      "clipe": "C0216.MP4",
+      "fala_inicio": 2.28,
+      "fala_fim": 8.7,
+      "max_out": 10.9,
+      "planos": [
+        {
+          "ate": null,
+          "enq": "aberto",
+          "motivo": "Abre o caso logo após a virada: a urgência contada pela paciente."
+        }
+      ],
+      "ancoras_whisper": [
+        [
+          1.38,
+          2.28
+        ],
+        [
+          8.44,
+          8.7
+        ]
+      ],
+      "legendas": [
+        [
+          1.38,
+          3.26,
+          "A paciente me procurou"
+        ],
+        [
+          3.26,
+          5.44,
+          "pedindo uma consulta mais rápido possível,"
+        ],
+        [
+          5.86,
+          6.98,
+          "porque o dente dela da frente,"
+        ],
+        [
+          6.98,
+          8.44,
+          "que é uma coroa, está mole."
+        ]
+      ],
+      "pre_max": 0.65
+    },
+    {
+      "cena": "1-2",
+      "clipe": "C0221.MP4",
+      "fala_inicio": 1.44,
+      "fala_fim": 24.6,
+      "max_out": 25.4,
+      "planos": [
+        {
+          "ate": 4.88,
+          "enq": "fechado",
+          "motivo": "Desfecho do caso (perdeu o dente) em plano fechado, quebra a repetição do plano aberto anterior."
+        },
+        {
+          "ate": 13.08,
+          "enq": "aberto",
+          "cena": 2,
+          "motivo": "Cena 2 começa na pergunta 'Por que isso aconteceu?'."
+        },
+        {
+          "ate": 17.22,
+          "broll": {
+            "clipe": "C0150.MP4",
+            "src_in": 2.0
+          },
+          "cena": 2,
+          "motivo": "Inserção de B-roll sobre a explicação (padrão da referência): mãos e sonda em foco raso ilustram a mordida/raiz."
+        },
+        {
+          "ate": 22.2,
+          "enq": "fechado",
+          "cena": 2,
+          "motivo": "Volta à doutora para concluir a causa."
+        },
+        {
+          "ate": null,
+          "enq": "close",
+          "cena": 2,
+          "motivo": "Impacto: 'Ela precisou fazer o implante' em close, sobre a música em energia alta."
+        }
+      ],
+      "ancoras_whisper": [
+        [
+          0.92,
+          1.44
+        ],
+        [
+          4.6,
+          4.65
+        ],
+        [
+          4.94,
+          5.1
+        ],
+        [
+          6.28,
+          6.5
+        ],
+        [
+          6.66,
+          6.8
+        ],
+        [
+          12.6,
+          12.8
+        ],
+        [
+          13.32,
+          13.35
+        ],
+        [
+          16.58,
+          16.95
+        ],
+        [
+          17.34,
+          17.5
+        ],
+        [
+          21.92,
+          22.05
+        ],
+        [
+          22.34,
+          22.35
+        ],
+        [
+          24.3,
+          24.6
+        ]
+      ],
+      "legendas": [
+        [
+          0.92,
+          2.62,
+          "Quando eu fui atendê-la,"
+        ],
+        [
+          2.76,
+          4.6,
+          "ela perdeu o dente."
+        ],
+        [
+          4.94,
+          6.28,
+          "Por que isso aconteceu?"
+        ],
+        [
+          6.66,
+          8.36,
+          "Porque ela tem um bruxismo severo,"
+        ],
+        [
+          8.44,
+          9.88,
+          "não estava cuidando do bruxismo,"
+        ],
+        [
+          9.92,
+          12.6,
+          "não estava usando a placa de bruxismo."
+        ],
+        [
+          13.32,
+          15.18,
+          "Isso fez com que a mordida"
+        ],
+        [
+          15.18,
+          16.58,
+          "apertou tanto,"
+        ],
+        [
+          17.34,
+          20.26,
+          "que quebrasse uma parte da raiz,"
+        ],
+        [
+          20.4,
+          21.92,
+          "onde a coroa é fixada."
+        ],
+        [
+          22.34,
+          24.3,
+          "Ela precisou fazer o implante."
+        ]
+      ],
+      "pre_max": 0.12
+    },
+    {
+      "cena": 3,
+      "clipe": "C0222.MP4",
+      "fala_inicio": 1.26,
+      "fala_fim": 9.6,
+      "max_out": 9.95,
+      "planos": [
+        {
+          "ate": 4.18,
+          "enq": "aberto",
+          "motivo": "Cena 3: a pergunta da prevenção em plano aberto."
+        },
+        {
+          "ate": null,
+          "enq": "fechado",
+          "motivo": "Resposta (placa de bruxismo / corrigir a mordida) em plano fechado."
+        }
+      ],
+      "ancoras_whisper": [
+        [
+          1.3,
+          1.26
+        ],
+        [
+          3.68,
+          3.95
+        ],
+        [
+          4.3,
+          4.4
+        ],
+        [
+          6.98,
+          7.1
+        ],
+        [
+          7.66,
+          7.45
+        ],
+        [
+          9.34,
+          9.6
+        ]
+      ],
+      "legendas": [
+        [
+          1.3,
+          3.68,
+          "O que pode ser feito para isso não acontecer?"
+        ],
+        [
+          4.3,
+          6.98,
+          "Paciente, usar uma placa de bruxismo"
+        ],
+        [
+          7.66,
+          9.34,
+          "ou corrigir a mordida também."
+        ]
+      ],
+      "pre_max": 0.5
+    },
+    {
+      "cena": 4,
+      "clipe": "C0225.MP4",
+      "fala_inicio": 1.75,
+      "fala_fim": 4.6,
+      "max_out": 5.7,
+      "planos": [
+        {
+          "ate": null,
+          "enq": "aberto",
+          "motivo": "CTA olhando para a câmera (plano já é médio-fechado)."
+        }
+      ],
+      "ancoras_whisper": [
+        [
+          1.58,
+          1.75
+        ],
+        [
+          4.34,
+          4.6
+        ]
+      ],
+      "legendas": [
+        [
+          1.58,
+          2.58,
+          "Manda esse vídeo"
+        ],
+        [
+          2.58,
+          4.34,
+          "para quem já passou por isso."
+        ]
+      ],
+      "pre_max": 0.5,
+      "folga_pos_fala": 0.6
+    }
+  ],
+  "enquadramentos": {
+    "aberto": {
+      "zoom": 1.0,
+      "ancora_y": 0.5
+    },
+    "fechado": {
+      "zoom": 1.2,
+      "ancora_y": 0.35
+    },
+    "close": {
+      "zoom": 1.35,
+      "ancora_y": 0.3
+    }
+  },
+  "pre_rolagem_fala_s": 0.08,
+  "folga_min_pos_fala_s": 0.12,
+  "fusoes": {
+    "fim_para_preto_quadros": 12
+  },
+  "descartes": [
+    [
+      "C0216.MP4 0,00-2,2 s",
+      "contagem da equipe ('2, 1, foi')"
+    ],
+    [
+      "C0221.MP4 0,00-1,3 s",
+      "ruído/fala antes da tomada"
+    ],
+    [
+      "C0221.MP4 25,4-27,0 s",
+      "'O que é melhor?' — fala fora do roteiro (bastidor)"
+    ],
+    [
+      "C0222.MP4 0,00-1,2 s",
+      "fala da equipe antes da tomada"
+    ],
+    [
+      "C0222.MP4 9,95-12,0 s",
+      "'Não, não gostaria' — bastidor"
+    ],
+    [
+      "C0225.MP4 0,0-1,6 s e 5,7-7,0 s",
+      "'Fui.' e 'Tchau.' fora do roteiro"
+    ],
+    [
+      "C0120.MP4 / C0150.MP4 (áudio)",
+      "som ambiente com conversa ininteligível; B-roll entra mudo"
+    ],
+    [
+      "C0150.MP4 0,0-2,0 s",
+      "foco ainda buscando; trecho 2,0-6,2 s tem a sonda nítida"
+    ]
+  ],
+  "_pre": "pre_rolagem_fala_s = mínimo de silêncio antes da fala; pre_max = silêncio disponível. O montador escolhe a pré-rolagem que faz o fim do bloco cair numa batida com menos tempo morto."
+}

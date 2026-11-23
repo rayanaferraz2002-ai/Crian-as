@@ -1,0 +1,139 @@
+{
+  "arquivo": "snapinsta-1795455482487.mp4",
+  "duracao": 111.73,
+  "largura": 720,
+  "altura": 1280,
+  "fps": 30.0,
+  "n_planos": 16,
+  "media_plano": 6.98,
+  "media_por_terco": [
+    5.48,
+    7.26,
+    9.25
+  ],
+  "planos": [
+    {
+      "n": 1,
+      "inicio": 0.0,
+      "fim": 8.567,
+      "dur": 8.567,
+      "batidas_86bpm": 12.3
+    },
+    {
+      "n": 2,
+      "inicio": 8.567,
+      "fim": 16.9,
+      "dur": 8.333,
+      "batidas_86bpm": 12.0
+    },
+    {
+      "n": 3,
+      "inicio": 16.9,
+      "fim": 24.1,
+      "dur": 7.2,
+      "batidas_86bpm": 10.3
+    },
+    {
+      "n": 4,
+      "inicio": 24.1,
+      "fim": 26.0,
+      "dur": 1.9,
+      "batidas_86bpm": 2.7
+    },
+    {
+      "n": 5,
+      "inicio": 26.0,
+      "fim": 27.633,
+      "dur": 1.633,
+      "batidas_86bpm": 2.3
+    },
+    {
+      "n": 6,
+      "inicio": 27.633,
+      "fim": 29.0,
+      "dur": 1.367,
+      "batidas_86bpm": 2.0
+    },
+    {
+      "n": 7,
+      "inicio": 29.0,
+      "fim": 38.333,
+      "dur": 9.333,
+      "batidas_86bpm": 13.4
+    },
+    {
+      "n": 8,
+      "inicio": 38.333,
+      "fim": 47.667,
+      "dur": 9.333,
+      "batidas_86bpm": 13.4
+    },
+    {
+      "n": 9,
+      "inicio": 47.667,
+      "fim": 51.567,
+      "dur": 3.9,
+      "batidas_86bpm": 5.6
+    },
+    {
+      "n": 10,
+      "inicio": 51.567,
+      "fim": 54.167,
+      "dur": 2.6,
+      "batidas_86bpm": 3.7
+    },
+    {
+      "n": 11,
+      "inicio": 54.167,
+      "fim": 61.967,
+      "dur": 7.8,
+      "batidas_86bpm": 11.2
+    },
+    {
+      "n": 12,
+      "inicio": 61.967,
+      "fim": 74.633,
+      "dur": 12.667,
+      "batidas_86bpm": 18.2
+    },
+    {
+      "n": 13,
+      "inicio": 74.633,
+      "fim": 80.0,
+      "dur": 5.367,
+      "batidas_86bpm": 7.7
+    },
+    {
+      "n": 14,
+      "inicio": 80.0,
+      "fim": 85.067,
+      "dur": 5.067,
+      "batidas_86bpm": 7.3
+    },
+    {
+      "n": 15,
+      "inicio": 85.067,
+      "fim": 108.633,
+      "dur": 23.567,
+      "batidas_86bpm": 33.8
+    },
+    {
+      "n": 16,
+      "inicio": 108.633,
+      "fim": 111.633,
+      "dur": 3.0,
+      "batidas_86bpm": 4.3
+    }
+  ],
+  "observado_manualmente": {
+    "transicoes": "somente cortes secos",
+    "abertura_pb": "0,00-8,57 s em preto e branco (telefonema/urgencia), virada para cor no inicio do caso",
+    "padrao": "cabeca falante longa + insercoes curtas de B-roll (1,4-3,9 s) sobre a fala; legenda o tempo todo",
+    "estrutura": {
+      "gancho": "0-8,6 s",
+      "caso": "8,6-26 s",
+      "desenvolvimento/explicacao": "27-85 s",
+      "conclusao": "85-111,7 s"
+    }
+  }
+}

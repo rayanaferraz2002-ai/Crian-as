@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="4">
+  <sequence id="sequence-1">
+    <name>CASO DE EMERGENCIA</name>
+    <duration>1240</duration>
+    <rate>
+      <timebase>24</timebase>
+      <ntsc>TRUE</ntsc>
+    </rate>
+    <timecode>
+      <rate>
+        <timebase>24</timebase>
+        <ntsc>TRUE</ntsc>
+      </rate>
+      <string>00:00:00:00</string>
+      <frame>0</frame>
+      <displayformat>NDF</displayformat>
+    </timecode>
+    <media>
+      <video>
+        <format>
+          <samplecharacteristics>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <width>1080</width>
+            <height>1920</height>
+            <anamorphic>FALSE</anamorphic>
+            <pixelaspectratio>square</pixelaspectratio>
+            <fielddominance>none</fielddominance>
+          </samplecharacteristics>
+        </format>
+        <track>
+          <clipitem id="clipitem-1">
+            <name>V01 cena 1 - abertura_tensao.mov</name>
+            <enabled>TRUE</enabled>
+            <duration>198</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>198</end>
+            <in>0</in>
+            <out>198</out>
+            <file id="file-abertura_tensao">
+              <name>abertura_tensao.mov</name>
+              <pathurl>file://localhost/MIDIA/05.%20CASO%20DE%20EMERG%C3%8ANCIA/abertura_tensao.mov</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>198</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>1080</width>
+                    <height>1920</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>100.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-2">
+            <name>V02 cena 1 - C0216.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>264</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>198</start>
+            <end>364</end>
+            <in>53</in>
+            <out>219</out>
+            <file id="file-C0216">
+              <name>C0216.MP4</name>
+              <pathurl>file://localhost/MIDIA/05.%20CASO%20DE%20EMERG%C3%8ANCIA/C0216.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>264</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>2160</width>
+                    <height>3840</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>50.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-3">
+            <name>V03 cena 1-2 - C0221.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>648</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>364</start>
+            <end>447</end>
+            <in>33</in>
+            <out>116</out>
+            <file id="file-C0221">
+              <name>C0221.MP4</name>
+              <pathurl>file://localhost/MIDIA/05.%20CASO%20DE%20EMERG%C3%8ANCIA/C0221.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>648</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>2160</width>
+                    <height>3840</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>60.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.03</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-4">
+            <name>V04 cena 2 - C0221.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>648</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>447</start>
+            <end>645</end>
+            <in>116</in>
+            <out>314</out>
+            <file id="file-C0221" />
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>50.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-5">
+            <name>V05 cena 2 - C0150.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>156</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>645</start>
+            <end>744</end>
+            <in>48</in>
+            <out>147</out>
+            <file id="file-C0150">
+              <name>C0150.MP4</name>
+              <pathurl>file://localhost/MIDIA/05.%20CASO%20DE%20EMERG%C3%8ANCIA/C0150.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>156</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>2160</width>
+                    <height>3840</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>50.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-6">
+            <name>V06 cena 2 - C0221.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>648</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>744</start>
+            <end>860</end>
+            <in>413</in>
+            <out>529</out>
+            <file id="file-C0221" />
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>60.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.03</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-7">
+            <name>V07 cena 2 - C0221.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>648</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>860</start>
+            <end>926</end>
+            <in>529</in>
+            <out>595</out>
+            <file id="file-C0221" />
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>67.5</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.07</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-8">
+            <name>V08 cena 3 - C0222.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>288</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>926</start>
+            <end>1008</end>
+            <in>24</in>
+            <out>106</out>
+            <file id="file-C0222">
+              <name>C0222.MP4</name>
+              <pathurl>file://localhost/MIDIA/05.%20CASO%20DE%20EMERG%C3%8ANCIA/C0222.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>288</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>2160</width>
+                    <height>3840</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>50.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-9">
+            <name>V09 cena 3 - C0222.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>288</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1008</start>
+            <end>1141</end>
+            <in>106</in>
+            <out>239</out>
+            <file id="file-C0222" />
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>60.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.03</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <clipitem id="clipitem-10">
+            <name>V10 cena 4 - C0225.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>168</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1141</start>
+            <end>1240</end>
+            <in>38</in>
+            <out>137</out>
+            <file id="file-C0225">
+              <name>C0225.MP4</name>
+              <pathurl>file://localhost/MIDIA/05.%20CASO%20DE%20EMERG%C3%8ANCIA/C0225.MP4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>168</duration>
+              <media>
+                <video>
+                  <samplecharacteristics>
+                    <rate>
+                      <timebase>24</timebase>
+                      <ntsc>TRUE</ntsc>
+                    </rate>
+                    <width>2160</width>
+                    <height>3840</height>
+                    <anamorphic>FALSE</anamorphic>
+                    <pixelaspectratio>square</pixelaspectratio>
+                    <fielddominance>none</fielddominance>
+                  </samplecharacteristics>
+                </video>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <filter>
+              <effect>
+                <name>Basic Motion</name>
+                <effectid>basic</effectid>
+                <effectcategory>motion</effectcategory>
+                <effecttype>motion</effecttype>
+                <mediatype>video</mediatype>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>scale</parameterid>
+                  <name>Scale</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>1000</valuemax>
+                  <value>50.0</value>
+                </parameter>
+                <parameter authoringApp="PremierePro">
+                  <parameterid>center</parameterid>
+                  <name>Center</name>
+                  <value>
+                    <horiz>0</horiz>
+                    <vert>0.0</vert>
+                  </value>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <transitionitem>
+            <start>1228</start>
+            <end>1240</end>
+            <alignment>end-black</alignment>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <effect>
+              <name>Cross Dissolve</name>
+              <effectid>Cross Dissolve</effectid>
+              <effectcategory>Dissolve</effectcategory>
+              <effecttype>transition</effecttype>
+              <mediatype>video</mediatype>
+              <wipecode>0</wipecode>
+              <wipeaccuracy>100</wipeaccuracy>
+              <startratio>0</startratio>
+              <endratio>1</endratio>
+              <reverse>FALSE</reverse>
+            </effect>
+          </transitionitem>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+        </track>
+      </video>
+      <audio>
+        <numOutputChannels>2</numOutputChannels>
+        <format>
+          <samplecharacteristics>
+            <depth>16</depth>
+            <samplerate>48000</samplerate>
+          </samplecharacteristics>
+        </format>
+        <track>
+          <clipitem id="clipitem-11">
+            <name>LOCUCAO L - C0216.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>264</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>198</start>
+            <end>364</end>
+            <in>53</in>
+            <out>219</out>
+            <file id="file-C0216" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+          </clipitem>
+          <clipitem id="clipitem-12">
+            <name>LOCUCAO L - C0221.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>648</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>364</start>
+            <end>926</end>
+            <in>33</in>
+            <out>595</out>
+            <file id="file-C0221" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+          </clipitem>
+          <clipitem id="clipitem-13">
+            <name>LOCUCAO L - C0222.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>288</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>926</start>
+            <end>1141</end>
+            <in>24</in>
+            <out>239</out>
+            <file id="file-C0222" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+          </clipitem>
+          <clipitem id="clipitem-14">
+            <name>LOCUCAO L - C0225.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>168</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1141</start>
+            <end>1240</end>
+            <in>38</in>
+            <out>137</out>
+            <file id="file-C0225" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+          </clipitem>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+        </track>
+        <track>
+          <clipitem id="clipitem-15">
+            <name>LOCUCAO R - C0216.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>264</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>198</start>
+            <end>364</end>
+            <in>53</in>
+            <out>219</out>
+            <file id="file-C0216" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+          </clipitem>
+          <clipitem id="clipitem-16">
+            <name>LOCUCAO R - C0221.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>648</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>364</start>
+            <end>926</end>
+            <in>33</in>
+            <out>595</out>
+            <file id="file-C0221" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+          </clipitem>
+          <clipitem id="clipitem-17">
+            <name>LOCUCAO R - C0222.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>288</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>926</start>
+            <end>1141</end>
+            <in>24</in>
+            <out>239</out>
+            <file id="file-C0222" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+          </clipitem>
+          <clipitem id="clipitem-18">
+            <name>LOCUCAO R - C0225.MP4</name>
+            <enabled>TRUE</enabled>
+            <duration>168</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1141</start>
+            <end>1240</end>
+            <in>38</in>
+            <out>137</out>
+            <file id="file-C0225" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+          </clipitem>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+        </track>
+        <track>
+          <clipitem id="clipitem-19">
+            <name>MUSICA L - Hit Me Back (feat. Phury) (Instrumental).mp4</name>
+            <enabled>TRUE</enabled>
+            <duration>4763</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>1240</end>
+            <in>2499</in>
+            <out>3739</out>
+            <file id="file-Hit_Me_Back_feat._Phury_Instrumental">
+              <name>Hit Me Back (feat. Phury) (Instrumental).mp4</name>
+              <pathurl>file://localhost/MIDIA/05.%20CASO%20DE%20EMERG%C3%8ANCIA/Hit%20Me%20Back%20%28feat.%20Phury%29%20%28Instrumental%29.mp4</pathurl>
+              <rate>
+                <timebase>24</timebase>
+                <ntsc>TRUE</ntsc>
+              </rate>
+              <duration>4763</duration>
+              <media>
+                <audio>
+                  <samplecharacteristics>
+                    <depth>16</depth>
+                    <samplerate>48000</samplerate>
+                  </samplecharacteristics>
+                  <channelcount>2</channelcount>
+                </audio>
+              </media>
+            </file>
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>1</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter>
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>1.0</value>
+                  <keyframe>
+                    <when>2499</when>
+                    <value>1.0</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>2700</when>
+                    <value>1.0</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>2709</when>
+                    <value>0.15</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>3715</when>
+                    <value>0.15</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>3721</when>
+                    <value>0.45</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>3739</when>
+                    <value>0.0</value>
+                  </keyframe>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+        </track>
+        <track>
+          <clipitem id="clipitem-20">
+            <name>MUSICA R - Hit Me Back (feat. Phury) (Instrumental).mp4</name>
+            <enabled>TRUE</enabled>
+            <duration>4763</duration>
+            <rate>
+              <timebase>24</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>1240</end>
+            <in>2499</in>
+            <out>3739</out>
+            <file id="file-Hit_Me_Back_feat._Phury_Instrumental" />
+            <sourcetrack>
+              <mediatype>audio</mediatype>
+              <trackindex>2</trackindex>
+            </sourcetrack>
+            <filter>
+              <effect>
+                <name>Audio Levels</name>
+                <effectid>audiolevels</effectid>
+                <effectcategory>audiolevels</effectcategory>
+                <effecttype>audiolevels</effecttype>
+                <mediatype>audio</mediatype>
+                <parameter>
+                  <parameterid>level</parameterid>
+                  <name>Level</name>
+                  <valuemin>0</valuemin>
+                  <valuemax>3.98109</valuemax>
+                  <value>1.0</value>
+                  <keyframe>
+                    <when>2499</when>
+                    <value>1.0</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>2700</when>
+                    <value>1.0</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>2709</when>
+                    <value>0.15</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>3715</when>
+                    <value>0.15</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>3721</when>
+                    <value>0.45</value>
+                  </keyframe>
+                  <keyframe>
+                    <when>3739</when>
+                    <value>0.0</value>
+                  </keyframe>
+                </parameter>
+              </effect>
+            </filter>
+          </clipitem>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+        </track>
+        <track>
+          <enabled>TRUE</enabled>
+          <locked>FALSE</locked>
+        </track>
+      </audio>
+    </media>
+    <marker>
+      <name>SFX telefone</name>
+      <comment>Efeito sonoro de telefone (fornecido pelo usuário) no início da sequência</comment>
+      <in>0</in>
+      <out>-1</out>
+    </marker>
+    <marker>
+      <name>VIRADA (drop)</name>
+      <comment>P&amp;B -&gt; cor no tempo forte (drop da música)</comment>
+      <in>198</in>
+      <out>-1</out>
+    </marker>
+    <marker>
+      <name>Fade-out música</name>
+      <comment>18 quadros até silêncio</comment>
+      <in>1222</in>
+      <out>-1</out>
+    </marker>
+  </sequence>
+</xmeml>

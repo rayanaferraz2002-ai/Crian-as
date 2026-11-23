@@ -69,3 +69,13 @@ Edite `decisoes.json` (trocar trecho, enquadramento, níveis) ou peça a troca. 
 MIDIA="/caminho/dos/originais" bash scripts/rodar_tudo.sh
 ```
 (precisa de `pip install -r scripts/requirements.txt`; `--abertura` re-renderiza a cena 1).
+
+## 8. Só os proxies, sem edição (`proxies_premiere.xml`)
+Os 6 proxies prontos estão em `proxies/` (ProRes Proxy, 720×1280, 23,976 fps, áudio PCM 2 canais, mesma duração dos originais).
+1. Deixe a pasta `proxies/` junto do `proxies_premiere.xml` (ou em qualquer lugar).
+2. Premiere: **Arquivo > Importar** → `proxies_premiere.xml`. Entra só uma pasta **PROXIES - CASO DE EMERGENCIA** com os 6 clipes, sem sequência.
+3. Se ficarem offline: clique direito > **Vincular mídia…** > **Localizar** → pasta `proxies/` → escolha o 1º arquivo (os outros vinculam sozinhos pelo nome).
+Para gravar o caminho certo do seu Mac direto no XML:
+```bash
+python3 scripts/10_gerar_xml_proxies.py --media-dir "/Users/SEU_USUARIO/caminho/proxies"
+```
